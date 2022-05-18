@@ -1,10 +1,7 @@
 ﻿---
-layout: splash
-classes:
-  - landing
-  - dark-theme
+layout: post
 title:  "Welcome to Jekyll!"
-taxonomy: foo bar
+category: Powershell
 ---
 
 # Welcome
