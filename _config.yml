@@ -146,7 +146,7 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/roymickael/"
     - label: "Viadeo"
-      icon: "fab fa-fw fa-viadeo"
+      icon: "fab fa-fw fa-viadeo-square"
       url: "https://viadeo.journaldunet.com/p/mickael-roy-1486230"
     - label: "Website"
     - label: "Facebook"
