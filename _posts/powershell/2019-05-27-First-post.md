@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 category: Powershell
+tags: Powershell Test
 ---
 
 # Welcome
