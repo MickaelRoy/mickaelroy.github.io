@@ -139,9 +139,16 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       #url:
+    - label: "Email"
+      icon: "fa-solid fa-fw fa-envelope"
+      url: "mailto:mickael.roy@live.fr"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/roymickael/"
+    - label: "Viadeo"
+      icon: "fab fa-fw fa-viadeo"
+      url: "https://viadeo.journaldunet.com/p/mickael-roy-1486230"
+    - label: "Website"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
