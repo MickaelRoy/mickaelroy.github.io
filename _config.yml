@@ -140,10 +140,10 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       #url:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-square-envelope"
       url: "mailto:mickael.roy@live.fr"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/roymickael/"
     - label: "Viadeo"
       icon: "fab fa-fw fa-viadeo"
