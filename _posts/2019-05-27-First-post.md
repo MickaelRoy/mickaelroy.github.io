@@ -1,5 +1,8 @@
 ﻿---
-layout: post
+layout: splash
+classes:
+  - landing
+  - dark-theme
 title:  "Welcome to Jekyll!"
 ---
 
