@@ -4,6 +4,7 @@ classes:
   - landing
   - dark-theme
 title:  "Welcome to Jekyll!"
+taxonomy: foo bar
 ---
 
 # Welcome
