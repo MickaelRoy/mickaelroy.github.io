@@ -140,7 +140,7 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       #url:
     - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:mickael.roy@live.fr"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
