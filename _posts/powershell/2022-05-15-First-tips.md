@@ -8,7 +8,7 @@ tags:
 
 # Tips de bienvenue
 
-**Bonjour tout le monde !**, ceci est mon premier post avec un vrai contenu.
+**Bonjour tout le monde !** ceci est mon premier post avec un vrai contenu.
 
 ```powershell
 If ($null -ne "String") {
@@ -29,4 +29,4 @@ Essayons ceci:
 On vient de diviser par 4 le nombre de ligne de code.
 de quoi alléger la lecture, et épater les copains !
 
-Ca, c'est cadeau, A plus !
+Ca, c'est cadeau, a plus !
