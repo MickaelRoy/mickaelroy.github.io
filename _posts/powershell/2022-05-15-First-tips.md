@@ -6,16 +6,15 @@ tags:
   - Tips
 ---
 
-# Welcome
+# Tips de bienvenue
 
-**Bonjour tout le monde !**, Ceci est mon premier post avec un vrai contenu.
+**Bonjour tout le monde !**, ceci est mon premier post avec un vrai contenu.
 
 ```powershell
 If ($null -ne "String") {
   $result = $True
 } 
 ELse { $result = $false }
-
 ```
 
 C'est une syntaxe que j'ai lu dans le code d'un collegue...
@@ -25,5 +24,9 @@ Essayons ceci:
 
 ```powershell
   $result = ($null -ne "String")
-
 ```
+
+On vient de diviser par 4 le nombre de ligne de code.
+de quoi alléger la lecture, et épater les copains !
+
+Ca, c'est cadeau, A plus !
