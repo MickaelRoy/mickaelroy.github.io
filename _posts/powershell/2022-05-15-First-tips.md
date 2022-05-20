@@ -11,9 +11,9 @@ tags:
 **Bonjour tout le monde !** ceci est mon premier post avec un vrai contenu.
 
 ```powershell
-If ($null -ne "String") {
+If ($Null -ne "String") {
   $result = $True
-} ELse { 
+} Else { 
   $result = $False
 }
 ```
