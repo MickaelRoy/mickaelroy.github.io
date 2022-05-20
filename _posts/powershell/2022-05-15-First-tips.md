@@ -14,7 +14,7 @@ tags:
 If ($null -ne "String") {
   $result = $True
 } ELse { 
-  $result = $false
+  $result = $False
 }
 ```
 
@@ -25,7 +25,7 @@ Ma foi, voila qui est un peu lourd...
 Essayons ceci:
 
 ```powershell
-  $result = ($null -ne "String")
+  $result = ($Null -ne "String")
 ```
 
 On vient de diviser par 4 le nombre de ligne de code.
