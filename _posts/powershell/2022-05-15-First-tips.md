@@ -18,6 +18,7 @@ ELse { $result = $false }
 ```
 
 C'est une syntaxe que j'ai lu dans le code d'un collegue...
+
 Ma foi, voila qui est un peu lourd...
 
 Essayons ceci:
@@ -27,6 +28,7 @@ Essayons ceci:
 ```
 
 On vient de diviser par 4 le nombre de ligne de code.
-de quoi alléger la lecture, et épater les copains !
+
+De quoi alléger la lecture, et épater les copains !
 
 Ca, c'est cadeau, a plus !
