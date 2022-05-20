@@ -13,8 +13,9 @@ tags:
 ```powershell
 If ($null -ne "String") {
   $result = $True
-} 
-ELse { $result = $false }
+} ELse { 
+  $result = $false
+}
 ```
 
 C'est une syntaxe que j'ai lu dans le code d'un collegue...
