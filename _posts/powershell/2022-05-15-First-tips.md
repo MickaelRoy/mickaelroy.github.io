@@ -34,4 +34,4 @@ De quoi alléger la lecture, et épater les copains !
 
 Ca, c'est cadeau, a plus !
 
-![404 image]({{ site.url }}{{ site.baseurl }}/_posts/powershell/2022-05-15-First-tips.gif)
+![First tips image]({{ site.url }}{{ site.baseurl }}/_posts/powershell/2022-05-15-First-tips.gif)
