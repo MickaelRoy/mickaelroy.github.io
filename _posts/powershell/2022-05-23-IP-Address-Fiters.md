@@ -30,7 +30,7 @@ PS C:\> "255.255.255.0" | ConvertTo-LengthFromIPMask
 24
 ```
 
-## travailler avec les decimaux
+## Travailler avec les decimaux
 
 ```
 PS C:\> $Interface = [System.Net.NetworkInformation.NetworkInterface]::GetAllNetworkInterfaces()[3]
