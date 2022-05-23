@@ -139,10 +139,7 @@
     border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
     transform: rotate(2deg);
 
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
+
   }
 }
 
