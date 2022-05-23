@@ -4,6 +4,7 @@ category: Powershell
 tags: 
   - Powershell
   - Tips
+toc: true
 ---
 
 # Intro
@@ -84,6 +85,11 @@ PS C:\> "192.168.1.145" | ConvertTo-BinaryFromIP
 
 ```powershell
 Filter Global:ConvertTo-IPFromBinary { ([System.Net.IPAddress]"$([System.Convert]::ToInt64($_,2))").IPAddressToString }
+```
+
+```
+PS C:\> '11000000101010000000000110010001' | ConvertTo-IPFromBinary
+192.168.1.145
 ```
 
 ### Convertir un binaire en une longueur de sous-réseau
