@@ -9,24 +9,23 @@ toc: true
 
 # Intro
 
-Voici une liste de filtre (ce ne sont pas vraiment des fonctions) qui permettent de manipuler les informations réseau; Addresse IP et masque de sous reseau.
+Voici une liste de filtres (ce ne sont pas vraiment des fonctions) qui permettent de manipuler les informations réseau; addresse IP et masque de sous reseau.
 
 ## Le plus utile tout de suite
 
 On ne va pas se mentir, les autres filtres ne m'ont servi qu'une fois en 7 ans.
-Je vous le donne tout de suite, ne perdons pas de temps.
+Je vous donne la plus utile tout de suite, ne perdons pas de temps.
 
 ### Convertir une longueur de sous-réseau en masque.
 
 ```powershell
-Filter Global:ConvertTo-LengthFromIPMask { ([Convert]::ToString(([IPAddress][String]([IPAddress]$_).Address).Address,2) -replace '[\s0]' ).Length }
+Filter ConvertTo-LengthFromIPMask { ([Convert]::ToString(([IPAddress][String]([IPAddress]$_).Address).Address,2) -replace '[\s0]' ).Length }
 ```
 
 ```
 PS C:\> "255.255.255.0" | ConvertTo-LengthFromIPMask
 24
 ```
-
 
 ## travailler avec les decimaux
 
@@ -35,7 +34,7 @@ PS C:\> $Interface = [System.Net.NetworkInformation.NetworkInterface]::GetAllNet
 PS C:\> $Interface.GetIPProperties().UnicastAddresses[1].Address
 
 
-**Address            : 2432805056**
+Address            : 2432805056
 AddressFamily      : InterNetwork
 ScopeId            :
 IsIPv6Multicast    : False
@@ -48,32 +47,33 @@ IPAddressToString  : 192.168.1.145
 
 ### Convertir une IP en decimal
 ```powershell
-Filter Global:ConvertTo-DecimalFromIP { ([IPAddress][String]([IPAddress]$_)).Address }
+Filter ConvertTo-DecimalFromIP { ([IPAddress][String]([IPAddress]$_)).Address }
 ```
 
 ```
 PS C:\Users\amena> "192.168.1.145" | ConvertTo-DecimalFromIP
 2432805056
 ```
-Il peut paraitre un peu nul a premiere vue, mais on voit par la suite qu'il peut servir de pivot.
 
 ### Convertir un decimal en IP
 
 ```powershell
-Filter Global:ConvertTo-IPFromDecimal { ([System.Net.IPAddress]$_).IPAddressToString }
+Filter ConvertTo-IPFromDecimal { ([System.Net.IPAddress]$_).IPAddressToString }
 ```
 
 La même idée, mais à l'envers.
 
 ## Tavailler avec les binaires
 
-Pour ceux d'entres vous qui n'avez pas seché les cours de reseau, vous le savez: la base de calcul en ipv4 est le binaire.
+Pour ceux d'entres vous qui n'avez pas seché les cours de réseau, vous le savez: la base de calcul en ipv4 est le binaire.
 Cela peut donc avoir un interet de convertir une adresse en serie de 1 et de 0.
+
+Nan, à la relecture du sujet, cela n'a pas d'interet... mais je trouve l'exercice amusant.
 
 ### Convertir une IP en binaire
 
 ```powershell
-Filter Global:ConvertTo-BinaryFromIP { [Convert]::toString(([IPAddress][String]([IPAddress]$_).Address).Address,2) }
+Filter ConvertTo-BinaryFromIP { [Convert]::toString(([IPAddress][String]([IPAddress]$_).Address).Address,2) }
 ```
 
 ```
@@ -84,7 +84,7 @@ PS C:\> "192.168.1.145" | ConvertTo-BinaryFromIP
 ### Convertir un binaire en IP
 
 ```powershell
-Filter Global:ConvertTo-IPFromBinary { ([System.Net.IPAddress]"$([System.Convert]::ToInt64($_,2))").IPAddressToString }
+Filter ConvertTo-IPFromBinary { ([System.Net.IPAddress]"$([System.Convert]::ToInt64($_,2))").IPAddressToString }
 ```
 
 ```
@@ -95,7 +95,7 @@ PS C:\> '11000000101010000000000110010001' | ConvertTo-IPFromBinary
 ### Convertir un binaire en une longueur de sous-réseau
 
 ```powershell
-Filter Global:ConvertTo-BinaryFromLength { ("1" * $_).PadRight(32, "0") }
+Filter ConvertTo-BinaryFromLength { ("1" * $_).PadRight(32, "0") }
 ```
 
 ```
@@ -106,10 +106,25 @@ PS C:\> "255.255.255.0" | ConvertTo-BinaryFromIP
 ### Convertir une longueur de sous-réseau en binaire.
 
 ```powershell
-Filter Global:ConvertTo-LengthFromBinary { [Convert]::ToInt32(($_ -replace('[\s0]')).Length) }
+Filter ConvertTo-LengthFromBinary { [Convert]::ToInt32(($_ -replace('[\s0]')).Length) }
 ```
 
 ```
 PS C:\>  '11111111111111111111111100000000' | ConvertTo-LengthFromBinary 
 24
 ```
+
+## Bonus
+
+Je felicite celui qui est encore là... il ne sera peut être pas venur pour rien.
+
+### Convertir un longueur de sous-réseau en masque.
+
+Parce que, oui, un masque de sous-réseau a le même format qu'une IP. Incroyable!
+
+```powershell
+PS C:\>  24 | ConvertTo-BinaryFromLength | ConvertTo-IPFromBinary 
+255.255.255.0
+```
+
+Celui la, c'est cadeau, à plus !
