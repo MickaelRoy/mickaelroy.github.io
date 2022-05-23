@@ -17,7 +17,7 @@ Voici une liste de filtres (ce ne sont pas vraiment des fonctions) qui permetten
 ## Le plus utile tout de suite
 
 On ne va pas se mentir, les autres filtres ne m'ont servi qu'une fois en 7 ans.
-Je vous donne la plus utile tout de suite, ne perdons pas de temps.
+Je vous donne le plus utile tout de suite, ne perdons pas de temps.
 
 ### Convertir une longueur de sous-réseau en masque.
 
@@ -68,10 +68,10 @@ La même idée, mais à l'envers.
 
 ## Tavailler avec les binaires
 
-Pour ceux d'entres vous qui n'avez pas seché les cours de réseau, vous le savez: la base de calcul en ipv4 est le binaire.
+Pour ceux d'entres vous qui n'ont pas seché les cours de réseau, vous le savez: la base de calcul en ipv4 est le binaire.
 Cela peut donc avoir un interet de convertir une adresse en serie de 1 et de 0.
 
-Nan, à la relecture du sujet, cela n'a pas d'interet... mais je trouve l'exercice amusant.
+Nan, à la relecture du sujet, cela n'a pas d'intérêt... mais je trouve l'exercice amusant.
 
 ### Convertir une IP en binaire
 
@@ -119,7 +119,7 @@ PS C:\>  '11111111111111111111111100000000' | ConvertTo-LengthFromBinary
 
 ## Bonus
 
-Je felicite celui qui est encore là... il ne sera peut être pas venur pour rien.
+Je felicite celui qui est encore là... il ne sera peut être pas venu pour rien.
 
 ### Convertir un longueur de sous-réseau en masque.
 
@@ -130,4 +130,4 @@ PS C:\>  24 | ConvertTo-BinaryFromLength | ConvertTo-IPFromBinary
 255.255.255.0
 ```
 
-Celui la, c'est cadeau, à plus !
+Celui là, c'est cadeau, à plus !
