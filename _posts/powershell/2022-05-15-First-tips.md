@@ -32,6 +32,6 @@ On vient de diviser par 4 le nombre de ligne de code.
 
 De quoi alléger la lecture, et épater les copains !
 
-Ca, c'est cadeau, a plus !
+Ca, c'est cadeau, à plus !
 
 ![First tips image]({{ site.url }}{{ site.baseurl }}/assets/images/2022-05-15-First-tips.gif)
