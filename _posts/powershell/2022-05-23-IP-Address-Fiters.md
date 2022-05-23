@@ -125,7 +125,7 @@ Je felicite celui qui est encore là... il ne sera peut être pas venur pour rie
 
 Parce que, oui, un masque de sous-réseau a le même format qu'une IP. Incroyable!
 
-```powershell
+```
 PS C:\>  24 | ConvertTo-BinaryFromLength | ConvertTo-IPFromBinary 
 255.255.255.0
 ```
