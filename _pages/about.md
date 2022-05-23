@@ -7,8 +7,9 @@ author_profile: true
 
 
 # A propos de moi
-Je suis un passionné d'informatique.
-Une histoire de famille, depuis le plus jeune âge je fais usage du clavier.
+Je suis un passionné d'informatique, une histoire de famille
+
+Depuis le plus jeune âge je fais usage du clavier.
 
 ## Ma première expérience.
 Ma première expérience dans ce domaine remonte à mes années d'adolescent boutonneux.
@@ -17,7 +18,7 @@ A l'époque Internet n'était pas encore démocratisé, les téléphones mobiles
 J'étais un geek avant que le mot ne soit inventé, du moins je le pense. 🤔
 
 A cette époque j'étais une sorte de “Gamer” PC. Malheureusement en ce temps les ordinateurs ne permettaient pas l'exécution de jeux vidéo sans un minimum de préparation, il fallait toujours passer par une phase de paramétrage, et bien souvent, l'éditeur fournissait de quoi faire une disquette amorçable dans l'optique d'exécuter le jeu dans les meilleures conditions.
-En outre, on se retrouvait vite avec une disquette pour jouer à “[Micromachine]”, une pour “[Alone in the dark]”, une autre pour je ne sais quel autre jeu.
+En outre, on se retrouvait vite avec une disquette pour jouer à “[Micromachine]”, une pour “[Alone in the dark]”, et une autre pour je ne sais quel autre jeu.
 
 J’ai 15 ou 16 ans, je n'ai pas le temps de chercher à chaque fois la bonne disquette pour jouer à trois à micromachine (deux sur le clavier et un au Pad...).
 
@@ -35,7 +36,7 @@ Le tout sans disquette, directement sur mon petit disque dur ! (Assez petit pour
 
 Ce site n'a ni pour vocation ni la prétention de former qui que ce soit.
 
-Au mieux vous y trouverez des informations utiles sur des sujets plus ou moins divers.
+Au mieux vous y trouverez des informations utiles sur des sujets susceptibles de vous interesser.
 
 > Ne soyez pas étonnés si vous y trouvez des recettes de macarons... ^^
 
