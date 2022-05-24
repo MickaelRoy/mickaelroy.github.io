@@ -1,8 +1,9 @@
 ﻿---
-title:  "Travailler avec les informations réseau."
-category: Powershell
+title:  "PowerShell: Manupuler les informations réseau."
+excerpt: "Convertion de strings IP, masque en valeur binaire ou decimale et vice et versa."
+category: PowerShell
 tags: 
-  - Powershell
+  - PowerShell
   - Tips
   - Réseau
   - Filtre
