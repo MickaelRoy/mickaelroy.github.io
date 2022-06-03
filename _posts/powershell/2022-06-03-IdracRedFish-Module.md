@@ -14,7 +14,6 @@ link: https://github.com/MickaelRoy/IdracRedFish
 
 # Idrac RedFish Powershell Module
 
-
 ## Description
 Basé sur un travail de DELL, voici quelques cmdlets simplifiées pour des operations administrative courantes.
 
@@ -45,4 +44,4 @@ Remove-RacSession $Session
 ```
 On voit dans cet example que l'authentification ne se fait qu'une fois.
 
-Ca c'est cadeau, a plus !
+Ca c'est cadeau, à plus !
