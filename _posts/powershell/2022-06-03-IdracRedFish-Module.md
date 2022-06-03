@@ -17,9 +17,10 @@ link: https://github.com/MickaelRoy/IdracRedFish
 
 ## Description
 Basé sur un travail de DELL, voici quelques cmdlets simplifiées pour des operations administrative courantes.
--Ajouter/Supprimer un utilisateur IDRAC.
--Modifier des paramètres BIOS.
--Allumer/Eteindre le serveur.
+
+- Ajouter/Supprimer un utilisateur IDRAC.
+- Modifier des paramètres BIOS.
+- Allumer/Eteindre le serveur.
 
 ## Deux methodes d'authentification
 ### utilisateur/mot de passe
