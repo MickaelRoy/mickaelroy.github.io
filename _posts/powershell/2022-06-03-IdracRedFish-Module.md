@@ -32,7 +32,7 @@ Submit-RacPendingBiosSettings -Ip_Idrac 192.168.0.120 -RacUser root -RacPwd *pas
 On voit dans cet exemple que l'authentification se fait deux fois, Ce qui peut être coûteux en temps pour les actions dependants de beaucoups de sous-actions.
 
 ### Session
-Dans ce cas, on creer une session, on la stock dans une variable pour la reutiliser.
+Dans ce cas, on creer une session, on la stock dans une variable pour la réutiliser.
 Attention toutefois, les paramètres IDRAC sont configurés pour purger les sessions inactives depuis trop longtemps.
 Si ce n'est pas le cas, n'oubliez pas de supprimer la session en fin de traitement. Le nombre de session simultané est limité.
 
