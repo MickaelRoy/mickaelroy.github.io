@@ -51,4 +51,4 @@ On voit dans cet example que l'authentification ne se fait qu'une fois.
 
 Ca c'est cadeau, à plus !
 
-[Direct Link](https://github.com/MickaelRoy/IdracRedFish)
+[Lien Direct](https://github.com/MickaelRoy/IdracRedFish){: .btn .btn--info}
