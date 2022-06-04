@@ -6,7 +6,6 @@ tags:
   - Powershell
   - Tips
   - cmdlet
-link: https://github.com/MickaelRoy/Cmdlets/tree/main/Out-Log
 ---
 
 # Out-Log
@@ -42,3 +41,4 @@ foreach ($computer in $computerList) {
 
 Ca, c'est cadeau, à plus !
 
+[Direct Link](https://github.com/MickaelRoy/Cmdlets/tree/main/Out-Log)
