@@ -41,4 +41,4 @@ foreach ($computer in $computerList) {
 
 Ca, c'est cadeau, à plus !
 
-[Direct Link](https://github.com/MickaelRoy/Cmdlets/tree/main/Out-Log)
+[Lien Direct](https://github.com/MickaelRoy/Cmdlets/tree/main/Out-Log){: .btn .btn--info}
