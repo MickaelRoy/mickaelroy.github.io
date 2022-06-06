@@ -39,7 +39,7 @@ $DecodedText = [System.Text.Encoding]::Unicode.GetString([System.Convert]::FromB
 ```
 ## Note
 
-Vous noterez que dans le code que je vous donne, on utilise que des classes dot net : **System.IO.File**, **System.Text.Encoding** ou encore _System.Convert_.
+Vous noterez que dans le code que je vous donne, on utilise que des classes dot net : _System.IO.File_, _System.Text.Encoding_ ou encore _System.Convert_.
 
 Ca claque ou pas ?
 
