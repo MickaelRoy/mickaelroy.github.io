@@ -22,7 +22,7 @@ Je m'en sers parfois pour exporter un fichier entre deux serveurs ou seul winrm 
 ```powershell
 $FilePath = "c:\setup\foo.exe"
 $File = [System.IO.File]::ReadAllBytes($FilePath)
-$Base64String = [System.Convert]::ToBase64String($File);
+$Base64String = [System.Convert]::ToBase64String($File)
 ```
 le contenu du fichier se trouve codé dans la variable Base64String, il peut donc être décodé sur un server distant via un invoke-command.
 
@@ -32,7 +32,7 @@ le contenu du fichier se trouve codé dans la variable Base64String, il peut don
 # Si vous utilisez invoke-command, $Using ne vous est pas inconnu.
 # $Base64String = $Using:Base64String
 $DecodedText = [System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String($Base64String))
-[IO.File]::WriteAllBytes("c:\setup\foo.exe", [System.Convert]::FromBase64String($b))
+[IO.File]::WriteAllBytes("c:\setup\foo.exe", [System.Convert]::FromBase64String($DecodedText))
 ```
 ## Note
 
