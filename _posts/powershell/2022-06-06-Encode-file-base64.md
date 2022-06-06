@@ -1,5 +1,5 @@
 ﻿---
-title:  "Encoder, décoder un fichier."
+title:  "Encoder, décoder un fichier"
 excerpt: "Petite astuce pour consigner un fichier dans une variable par exemple."
 category: PowerShell
 tags: 
