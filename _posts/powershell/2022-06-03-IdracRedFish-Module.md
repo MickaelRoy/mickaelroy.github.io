@@ -1,9 +1,9 @@
 ﻿---
 title:  "Dell/Idrac RedFish powershell module"
 excerpt: "Un module PowerShell à retrouver sur mon GitHub, pour administrer l'IDRAC sans utiliser Racadm."
-category: Powershell
+category: PowerShell
 tags: 
-  - Powershell
+  - PowerShell
   - Module
   - Dell
   - Idrac
