@@ -24,7 +24,7 @@ J’ai 15 ou 16 ans, je n'ai pas le temps de chercher à chaque fois la bonne di
 
 J'ai donc travaillé sur mon premier projet : la disquette à géométrie variable !
 
-En avant ! Editons Config.sys et Autoexec.bat pour y créer un menu au démarrage ([Boot Menu]) du système présentant les divers jeux installés et charger les bons pilotes en mémoire haute.
+En avant ! Editons _Config.sys_ et _Autoexec.bat_ pour y créer un menu au démarrage ([Boot Menu]) du système présentant les divers jeux installés et charger les bons pilotes en mémoire haute.
 
 Le tout sans disquette, directement sur mon petit disque dur ! (Assez petit pour que le Giga Octet fasse rêver).
 
