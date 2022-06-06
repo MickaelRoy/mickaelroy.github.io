@@ -5,6 +5,7 @@ category: PowerShell
 tags: 
   - PowerShell
   - Tips
+  - Base64
 ---
 
 # Get-WsusUpdates
@@ -38,7 +39,7 @@ $DecodedText = [System.Text.Encoding]::Unicode.GetString([System.Convert]::FromB
 ```
 ## Note
 
-Vous noterez que dans le code que je vous donne, on utilise que des classes dot net : **System.IO.File**, **System.Text.Encoding** ou encore **System.Convert**.
+Vous noterez que dans le code que je vous donne, on utilise que des classes dot net : **System.IO.File**, **System.Text.Encoding** ou encore _System.Convert_.
 
 Ca claque ou pas ?
 
