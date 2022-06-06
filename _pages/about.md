@@ -18,9 +18,9 @@ A l'époque Internet n'était pas encore démocratisé, les téléphones mobiles
 J'étais un geek avant que le mot ne soit inventé, du moins je le pense. 🤔
 
 A cette époque j'étais une sorte de “Gamer” PC. Malheureusement en ce temps les ordinateurs ne permettaient pas l'exécution de jeux vidéo sans un minimum de préparation, il fallait toujours passer par une phase de paramétrage, et bien souvent, l'éditeur fournissait de quoi faire une disquette amorçable dans l'optique d'exécuter le jeu dans les meilleures conditions.
-En outre, on se retrouvait vite avec une disquette pour jouer à “[Micromachine]”, une pour “[Alone in the dark]”, et une autre pour je ne sais quel autre jeu.
+En outre, on se retrouvait vite avec une disquette pour jouer à “[Micro machines]”, une pour “[Alone in the dark]”, et une autre pour je ne sais quel autre jeu.
 
-J’ai 15 ou 16 ans, je n'ai pas le temps de chercher à chaque fois la bonne disquette pour jouer à trois à micromachine (deux sur le clavier et un au Pad...).
+J’ai 15 ou 16 ans, je n'ai pas le temps de chercher à chaque fois la bonne disquette pour jouer à trois à micro machines (deux sur le clavier et un au Pad...).
 
 J'ai donc travaillé sur mon premier projet : la disquette à géométrie variable !
 
