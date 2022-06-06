@@ -17,6 +17,8 @@ Ce n'est en aucun cas du chiffrement, soyons bien clair.
 
 Je m'en sers parfois pour exporter un fichier entre deux serveurs ou seul winrm est ouvert.
 
+Un petit fichier... moins de 1Mo... n'allez essayer avec un ISO.
+
 ## Encode
  
 ```powershell
@@ -24,7 +26,7 @@ $FilePath = "c:\setup\foo.exe"
 $File = [System.IO.File]::ReadAllBytes($FilePath)
 $Base64String = [System.Convert]::ToBase64String($File)
 ```
-le contenu du fichier se trouve codé dans la variable Base64String, il peut donc être décodé sur un server distant via un invoke-command.
+Le contenu du fichier se trouve codé dans la variable Base64String, il peut donc être décodé sur un server distant via un invoke-command.
 
 ## Decode
 
