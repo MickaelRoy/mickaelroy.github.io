@@ -35,7 +35,7 @@ $Cert = New-SelfSignedCertificate  -DnsName $Subjects -CertStoreLocation cert:\L
 New-WSManInstance  -ResourceURI winrm/config/Listener -SelectorSet @{Address="*";Transport="HTTPS"} -ValueSet @{Hostname="$Subject";CertificateThumbprint="$($Cert.Thumbprint)"}
 
 ```
-Ici le paramètre Address est "*", donc pas de restriction. A vous de gérer vos contrainte et d'en changer la valeur si nécessaire.
+Ici le paramètre Address est "*", donc pas de restriction. A vous de gérer vos contraintes et d'en changer la valeur si nécessaire.
 
 ## Le pare-feu
 
@@ -43,7 +43,7 @@ Il est probable que le port 5986 soit toujours fermé.
 
 Curieux, Microsoft ne semble pas mettre à disposition de règle de pare-feu pour le port securisé.
 
-Tant pis, on va le créer... Il en a une pour le port standard qui se nomme WINRM-HTTP-In-TCP, créons la deuxieme (sur la machine de destination):
+Tant pis, on va la créer... Il y en a une pour le port standard qui se nomme WINRM-HTTP-In-TCP, créons la deuxième (sur la machine de destination):
 
 ```powershell
     New-NetFirewallRule -Name "WINRM-HTTPS-In-TCP" `
@@ -58,11 +58,13 @@ Tant pis, on va le créer... Il en a une pour le port standard qui se nomme WINR
 
 ```
 
-Après ca, la communication doit pouvoir être établie entre votre client (Source) et le server (Destnation)
+Après ca, la communication doit pouvoir être établie entre votre client (Source) et le serveur (Destnation)
 
 # Bonus
 
 Je vous ai décrit une base, pour aller plus loin dans l'automation, il y a une cmdlet sur mon GitHub.
+
+La cmdlet repose sur le module powershell Active-Directory pour recuperer les différents SPN et en déduire les noms d'hôtes alternatifs.
 
 Ca, c'est cadeau, à plus !
 
