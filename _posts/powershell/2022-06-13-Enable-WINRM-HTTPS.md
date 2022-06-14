@@ -1,6 +1,6 @@
 ﻿---
 title:  "Activer WINRM/PSRemoting avec chiffrement"
-excerpt: "Get-WsusUpdates: Ou telecharger les patches directement depuis le wsus."
+excerpt: "Configurez WINRM et faites du PSRemote en SSL."
 category: PowerShell
 tags: 
   - PowerShell
