@@ -120,9 +120,9 @@ PS C:\>  '11111111111111111111111100000000' | ConvertTo-LengthFromBinary
 
 ## Bonus
 
-Je felicite celui qui est encore là... il ne sera peut être pas venu pour rien.
+Je félicite celui qui est encore là... il ne sera peut être pas venu pour rien.
 
-### Convertir un longueur de sous-réseau en masque.
+### Convertir une longueur de sous-réseau en masque.
 
 Parce que, oui, un masque de sous-réseau a le même format qu'une IP. Incroyable!
 
