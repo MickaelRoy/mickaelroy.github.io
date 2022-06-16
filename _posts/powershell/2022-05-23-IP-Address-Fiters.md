@@ -1,6 +1,6 @@
 ﻿---
 title:  "PowerShell: Manupuler les informations réseau."
-excerpt: "Convertion de strings IP, masque en valeur binaire ou decimale et vice et versa."
+excerpt: "Convertion d'IP, masque en valeur binaire ou decimale et vice et versa."
 category: PowerShell
 tags: 
   - PowerShell
