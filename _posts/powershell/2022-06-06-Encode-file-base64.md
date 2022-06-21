@@ -34,8 +34,8 @@ Le contenu du fichier se trouve codé dans la variable Base64String, il peut don
 ```powershell
 # Si vous utilisez invoke-command, $Using ne vous est pas inconnu.
 # $Base64String = $Using:Base64String
-$DecodedText = [System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String($Base64String))
-[IO.File]::WriteAllBytes("c:\setup\foo.exe", [System.Convert]::FromBase64String($DecodedText))
+[Byte[]] $bytes = [System.Convert]::FromBase64String($Base64String);
+[IO.File]::WriteAllBytes("c:\setup\foo.exe",$bytes)
 ```
 ## Note
 
