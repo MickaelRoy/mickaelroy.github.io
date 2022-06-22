@@ -552,6 +552,6 @@ Si ça c'est pas un putain de cadeau ?!
 
 A plus !
 
-[HardWare Requirement]: <hhttps://docs.microsoft.com/fr-fr/windows-server/storage/storage-spaces/storage-spaces-direct-hardware-requirements>
+[HardWare Requirement]: <https://docs.microsoft.com/fr-fr/windows-server/storage/storage-spaces/storage-spaces-direct-hardware-requirements>
 [Trafic RPC]: <https://docs.microsoft.com/fr-fr/troubleshoot/windows-server/identity/restrict-ad-rpc-traffic-to-specific-port>
 [Windows Server 2016 Networking – Part 3- Optimizing Network settings]: <https://www.darrylvanderpeijl.com/windows-server-2016-networking-optimizing-network-settings/>
