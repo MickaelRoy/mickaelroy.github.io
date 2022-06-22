@@ -31,7 +31,7 @@ Dans le cas de iWarp, que je n'aborderai pas ici, qui fonctionne en TCP (avec se
 - Une carte HBA non-RAID, seul le _JBOD_ est supporté.
 - Suivez ce lien pour savoir ce qu'en pense MS: [HardWare Requirement]
 
-> ℹ️ DELL propose des serveur "S2D Ready node"
+> ℹ️ DELL propose des serveurs "S2D Ready node"
 
 ## Prérequis Logiciels
 
