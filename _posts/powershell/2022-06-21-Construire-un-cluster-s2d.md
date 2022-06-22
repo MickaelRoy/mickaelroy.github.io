@@ -26,10 +26,12 @@ Dans le cas de iWarp, que je n'aborderai pas ici, qui fonctionne en TCP (avec se
 
 ## Prérequis Matériels
 
-- Au moins deux serveurs identique tel que [Dell Powerdge r740 xd]
+- Au moins deux serveurs identique tel que _Dell Powerdge r740 xd_
 - Au moins 1 carte dual port 10Gb, 25Gb est fortement conseillé.
-- Une carte HBA non-RAID, seul le [JBOD] est supporté.
+- Une carte HBA non-RAID, seul le _JBOD_ est supporté.
 - Suivez ce lien pour savoir ce qu'en pense MS: [HardWare Requirement]
+
+> ℹ️ DELL propose des serveur "S2D Ready node"
 
 ## Prérequis Logiciels
 
