@@ -70,7 +70,7 @@ Install Windows Features
 
 FS-SMBBW n'est pas obligatoire, mais je le conseille.
 
-En l’état il vous manquera une feature si vous souhaitez faire du réplicat de stockage.
+En l’état il vous manquera une fonctionnalité si vous souhaitez faire du réplicat de stockage.
 
 ## Création du VmSwitch SET.
 
