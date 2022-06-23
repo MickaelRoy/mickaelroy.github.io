@@ -1,6 +1,6 @@
 ---
 title: "Fonctionnalités"
-excerpt: "Les prérequis pour concevoir un cluster S2D."
+excerpt: "Les Windows features pour concevoir un cluster S2D."
 classes: wide
 ---
 
