@@ -1,6 +1,5 @@
 ﻿---
 title: "Construction d'un cluster S2D"
-permalink: /portfolio/Build-S2D-Cluster/
 excerpt: "Toutes les étapes pour concevoir un cluster S2D aka Storage Spaces Direct."
 description: "Toutes les étapes pour concevoir un cluster S2D aka Storage Spaces Direct."
 category: S2D
