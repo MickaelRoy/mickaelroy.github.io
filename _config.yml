@@ -295,6 +295,12 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  S2D:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
