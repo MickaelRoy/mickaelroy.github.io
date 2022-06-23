@@ -25,6 +25,12 @@ S2D:
         url: /docs/03-Fonctionnalites/
       - title: "VmSwitch"
         url: /docs/04-VmSwitch/
+      - title: "VmSwitch"
+        url: /docs/05-VmSwitch/
+      - title: "VmSwitch"
+        url: /docs/06-VmSwitch/
+      - title: "VmSwitch"
+        url: /docs/07-VmSwitch/
   - title: "Congiguration du cluster"
     children:
       - title: "Child Link 1"

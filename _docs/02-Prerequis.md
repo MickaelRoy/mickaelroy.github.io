@@ -1,7 +1,6 @@
 ---
 title: "Prérequis"
 excerpt: "Les prérequis pour concevoir un cluster S2D."
-toc: true
 classes: wide
 ---
 
