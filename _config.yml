@@ -331,5 +331,5 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
+        nav: "S2D"
 
