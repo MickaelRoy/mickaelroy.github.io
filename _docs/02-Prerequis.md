@@ -1,6 +1,6 @@
 ---
-title: "Deployer un cluster S2D"
-excerpt: "Toutes les étapes pour concevoir un cluster S2D aka Storage Spaces Direct."
+title: "Prérequis"
+excerpt: "Les prérequis pour concevoir un cluster S2D."
 toc: true
 classes: wide
 ---

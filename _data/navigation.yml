@@ -20,7 +20,7 @@ S2D:
   - title: "Configuration des Noeuds"
     children:
       - title: "Prérequis"
-        url: /docs/02-prerequis/
+        url: /docs/02-Prerequis/
       - title: "Child Link 2"
         url: /child-2-page-url/
   - title: "Congiguration du cluster"
