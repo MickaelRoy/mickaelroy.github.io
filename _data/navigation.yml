@@ -27,10 +27,10 @@ S2D:
         url: /docs/04-VmSwitch/
       - title: "RoCE"
         url: /docs/05-RoCE/
-      - title: "VmSwitch"
-        url: /docs/06-VmSwitch/
-      - title: "VmSwitch"
-        url: /docs/07-VmSwitch/
+      - title: "Jumbo Frame"
+        url: /docs/06-Jumbo-Frame/
+      - title: "vNics"
+        url: /docs/07-vNics/
   - title: "Congiguration du cluster"
     children:
       - title: "Child Link 1"
