@@ -23,6 +23,8 @@ S2D:
         url: /docs/02-Prerequis/
       - title: "Fonctionnalités"
         url: /docs/03-Fonctionnalites/
+      - title: "VmSwitch"
+        url: /docs/04-VmSwitch/
   - title: "Congiguration du cluster"
     children:
       - title: "Child Link 1"
