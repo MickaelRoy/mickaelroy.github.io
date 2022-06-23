@@ -17,6 +17,8 @@ main:
 S2D:
   - title: "Introduction"
     url: /docs/01-Intro/
+  - title: "Prérequis"
+    url: /docs/01-Prerequis/
   - title: "Parent Link 1"
     url: /parent-1-page-url/
     children:
