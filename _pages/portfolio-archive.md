@@ -1,8 +1,8 @@
 ---
 title: Hyper-Converged Infrastructure
 layout: collection
-permalink: /portfolio/
-collection: portfolio
+permalink: /my_collection/
+collection: my_collection
 entries_layout: grid
 classes: wide
 ---
