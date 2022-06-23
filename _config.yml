@@ -298,9 +298,6 @@ compress_html:
 
 # Collections
 collections:
-  my_collection:
-    output: true
-    permalink: /:collection/:path/
   recipes:
     output: true
     permalink: /:collection/:path/
@@ -327,15 +324,6 @@ defaults:
       type: pages
     values:
       layout: single
-  # _my_collection
-  - scope:
-      path: ""
-      type: my_collection
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
     # _recipes
   - scope:
       path: ""
@@ -355,4 +343,3 @@ defaults:
       share: true
       comment: true
 
-      
