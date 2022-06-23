@@ -1,7 +1,6 @@
 ﻿---
 title: "Construction d'un cluster S2D"
 excerpt: "Toutes les étapes pour concevoir un cluster S2D aka Storage Spaces Direct."
-toc: true
 ---
 
 # Intro
