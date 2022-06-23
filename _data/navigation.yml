@@ -17,17 +17,13 @@ main:
 S2D:
   - title: "Introduction"
     url: /docs/01-Intro/
-  - title: "Prérequis"
-    url: /docs/01-Prerequis/
-  - title: "Parent Link 1"
-    url: /parent-1-page-url/
+  - title: "Configuration des Noeuds"
     children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
+      - title: "Prérequis"
+        url: /docs/02-prerequis/
       - title: "Child Link 2"
         url: /child-2-page-url/
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
+  - title: "Congiguration du cluster"
     children:
       - title: "Child Link 1"
         url: /child-1-page-url/
