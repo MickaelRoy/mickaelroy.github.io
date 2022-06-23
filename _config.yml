@@ -321,7 +321,7 @@ defaults:
       type: pages
     values:
       layout: single
-  # _portfolio
+  # _S2D
   - scope:
       path: ""
       type: S2D
