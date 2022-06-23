@@ -199,8 +199,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -297,7 +295,7 @@ compress_html:
 
 # Collections
 collections:
-  - S2D:
+  - portfolio:
     output: true
     permalink: /:collection/:path/
 
@@ -321,10 +319,10 @@ defaults:
       type: pages
     values:
       layout: single
-  # _S2D
+  # _portfolio
   - scope:
       path: ""
-      type: S2D
+      type: portfolio
     values:
       layout: single
       author_profile: true
