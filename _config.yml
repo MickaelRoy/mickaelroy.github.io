@@ -297,12 +297,9 @@ compress_html:
 
 # Collections
 collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   my_collection:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -323,10 +320,10 @@ defaults:
       type: pages
     values:
       layout: single
-  # _portfolio
+  # _my_collection
   - scope:
       path: ""
-      type: portfolio
+      type: my_collection
     values:
       layout: single
       author_profile: true
