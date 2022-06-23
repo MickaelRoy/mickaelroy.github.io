@@ -25,8 +25,8 @@ S2D:
         url: /docs/03-Fonctionnalites/
       - title: "VmSwitch"
         url: /docs/04-VmSwitch/
-      - title: "VmSwitch"
-        url: /docs/05-VmSwitch/
+      - title: "RoCE"
+        url: /docs/05-RoCE/
       - title: "VmSwitch"
         url: /docs/06-VmSwitch/
       - title: "VmSwitch"
