@@ -1,7 +1,6 @@
 ---
 title: "Introduction"
 excerpt: "Toutes les étapes pour concevoir un cluster S2D aka Storage Spaces Direct."
-toc: true
 classes: wide
 ---
 
