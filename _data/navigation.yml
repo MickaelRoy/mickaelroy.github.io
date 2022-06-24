@@ -39,6 +39,8 @@ S2D:
         url: /docs/10-Live-Migration/
       - title: "Emplacement VM"
         url: /docs/11-Default-VM-Location/
+      - title: "Journaux d'évènement"
+        url: /docs/12-EventLog-Size/
   - title: "Congiguration du cluster"
     children:
       - title: "Child Link 1"
