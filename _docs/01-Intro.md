@@ -3,8 +3,11 @@ title: "Introduction"
 excerpt: "Toutes les étapes pour concevoir un cluster S2D aka Storage Spaces Direct."
 classes: wide
 ---
+<figure style="width: 500px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/converged-full-stack.png" alt="">
+  <figcaption>Storage Spaces Direct illustration</figcaption>
+</figure> 
 
-![Volume layers]({{ site.url }}{{ site.baseurl }}/assets/images/converged-full-stack.png)
 
 Aujourd'hui, ce ne sera pas franchement fun. Aujourd'hui je vous donne toutes les étapes clés pour créer un cluster S2D from scratch.
 
