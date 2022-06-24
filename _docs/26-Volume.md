@@ -38,4 +38,4 @@ Avec ceci, vous allez obtenir:
 - Un Volume Cluster Partagé (CSV) nommé 'Cluster Virtual Disk (CSV01)'
 - Un Volume "classique" dont le label est CSV01
 
-![404 image]({{ site.url }}{{ site.baseurl }}/assets/images/volumes-in-smapi.png)
+![Volume layers]({{ site.url }}{{ site.baseurl }}/assets/images/volumes-in-smapi.png)

@@ -53,7 +53,7 @@ S2D:
         url: /docs/23-Rename-Cluster-Network/
       - title: "Cache CSV"
         url: /docs/24-Block-Cache-Size/
-      - title: "Live-Migration"
+      - title: "Live Migration"
         url: /docs/25-Live-Migration/
   - title: "Extra"
     children:
