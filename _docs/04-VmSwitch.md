@@ -1,10 +1,8 @@
 ---
-title: "VmSwitch SET"
+title: " Création du VmSwitch SET."
 excerpt: "Les prérequis pour concevoir un cluster S2D."
 classes: wide
 ---
-
-## Création du VmSwitch SET.
 
 ```powershell
 Function Invoke-NetConfig {

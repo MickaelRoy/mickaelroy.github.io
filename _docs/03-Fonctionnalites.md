@@ -1,10 +1,8 @@
 ---
-title: "Fonctionnalités"
+title: "Ajout des fonctionnalités Windows"
 excerpt: "Les Windows features pour concevoir un cluster S2D."
 classes: wide
 ---
-
-## Ajout des fonctionnalités Windows
 
 ```powershell
 Install Windows Features  

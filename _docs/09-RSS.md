@@ -4,8 +4,6 @@ excerpt: "Configurer RSS pour concevoir un cluster S2D."
 classes: wide
 ---
 
-## Configuration RSS
-
 Ce code est adapté dans le cas où vous n'avez qu'une seule carte dual port.
 
 C'est une partie alambiquée qui nécessite une certaine expérience pour comprendre les notions de NUMA et de RSS.

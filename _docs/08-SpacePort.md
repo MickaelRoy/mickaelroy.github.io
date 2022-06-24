@@ -1,10 +1,8 @@
 ---
-title: "Time-Out SpacePort"
+title: "Changement du Timeout pour le service SpacePort"
 excerpt: "Optimiser le Timeout du service SpacePort pour concevoir un cluster S2D."
 classes: wide
 ---
-
-## Changement du Timeout pour le service SpacePort
 
 ```powershell
 Set-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Services\spaceport\Parameters -Name HwTimeout -Value 0x00002710

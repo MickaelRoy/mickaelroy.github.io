@@ -1,10 +1,8 @@
 ---
-title: "Ajout des vNics"
+title: "Créez deux cartes pour la réplication SMB"
 excerpt: "Les deux cartes SMB pour concevoir un cluster S2D."
 classes: wide
 ---
-
-## Créez deux cartes pour la réplication SMB
 
 ```powershell
 # n'oubliez pas de renseigner ces variables !!

@@ -4,8 +4,6 @@ excerpt: "Les prérequis pour concevoir un cluster S2D."
 classes: wide
 ---
 
-# Prérequis
-
 ## Prérequis Matériels
 
 - Au moins deux serveurs identique tel que _Dell Powerdge r740 xd_

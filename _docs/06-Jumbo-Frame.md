@@ -1,10 +1,8 @@
 ---
-title: "Jumbo frame"
+title: "Activer le Jumbo frame sur les pNics"
 excerpt: "Activer le jumbo frame pour concevoir un cluster S2D."
 classes: wide
 ---
-
-## Activer le jumbo frame sur les cartes physiques
 
 ```powershell
 # Enable Jumbo
