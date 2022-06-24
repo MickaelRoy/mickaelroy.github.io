@@ -27,3 +27,14 @@ Get-Disk| ? Number -ne $null| ? IsBoot -ne $true |? IsSystem -ne $true |? Partit
 ```
 
 Bref. C’est une RAZ des disques. Ne le faite qu’une fois à la creation du cluster
+
+## Vérification des disques
+
+```powershell
+$nodes  = 'nodea', 'nodeb', 'nodec', 'noded'
+icm $nodes {
+    Get-Disk | ? Number -ne $null | ? IsBoot -ne $true | ? IsSystem -ne $true | ? PartitionStyle -eq RAW | Group -NoElement -Property FriendlyName
+} | Sort -Property PsComputerName, Count
+```
+
+Afin de s'assurer que la préparation a fonctionné.
