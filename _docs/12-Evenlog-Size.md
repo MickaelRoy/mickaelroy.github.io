@@ -1,6 +1,6 @@
 ---
 title: "Augentation de la taille des journmaux"
-excerpt: "Definir l'emplacement des VM par défaut sur un cluster S2D."
+excerpt: "Optimiser la taille des journaux d'évènement par défaut pour un cluster S2D."
 classes: wide
 ---
 
