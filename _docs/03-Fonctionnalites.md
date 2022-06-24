@@ -5,12 +5,12 @@ classes: wide
 ---
 
 ```powershell
-Install Windows Features  
- Install-WindowsFeature -Name 'File-Services'
- Install-WindowsFeature -Name 'Data-Center-Bridging'
- Install-WindowsFeature -Name 'FS-SMBBW'
- Install-WindowsFeature -Name 'Failover-Clustering' -IncludeManagementTools
- Install-WindowsFeature -Name 'Hyper-V' -IncludeManagementTools -Restart
+# Install Windows Features  
+Install-WindowsFeature -Name 'File-Services'
+Install-WindowsFeature -Name 'Data-Center-Bridging'
+Install-WindowsFeature -Name 'FS-SMBBW'
+Install-WindowsFeature -Name 'Failover-Clustering' -IncludeManagementTools
+Install-WindowsFeature -Name 'Hyper-V' -IncludeManagementTools -Restart
 ```
 
 FS-SMBBW n'est pas obligatoire, mais je le conseille.
