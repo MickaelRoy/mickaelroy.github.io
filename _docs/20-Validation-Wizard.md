@@ -16,7 +16,7 @@ Ouvrez une session sur l'un des nœuds,
 
 ```powershell
 $Nodes = 'nodea', 'nodeb', 'nodec', 'noded'
-Test-Cluster -Node $nodes
+Test-Cluster -Node $nodes –Include "Storage Spaces Direct", "Inventory", "Network", "System Configuration"
 ```
 
 Apres quelques minutes, un rapport sera généré et reflètera les déviances et autres anomalies.
