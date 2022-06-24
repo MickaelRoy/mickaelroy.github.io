@@ -36,3 +36,5 @@ If ($Edition.Edition -notlike "ServerDatacenter*") {
 ```
 
 Ce bout de code permet la conversion d'une version __CORE Standard__ à une version __CORE DataCenter__.
+
+[HardWare Requirement]: <https://docs.microsoft.com/fr-fr/windows-server/storage/storage-spaces/storage-spaces-direct-hardware-requirements>

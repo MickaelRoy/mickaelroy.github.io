@@ -11,5 +11,4 @@ Ici on renomme les réseaux pour plus de clareté dans la console failover-clust
 ```powershell
 (Get-ClusterNetwork -Cluster $CNO | ? Role -eq ClusterAndClient).name = "Management"
 (Get-ClusterNetwork -Cluster $CNO | ? Role -ne ClusterAndClient).name = "SMB"
-
 ```
