@@ -10,7 +10,7 @@ Set-VMHost -MaximumVirtualMachineMigrations 2
 
 Mieux vaut 2 machines qui bougent vite, que 10 qui se trainent.
 
-> 💡 On sera amené à rediscuter le point Live Migration [Dans le chapitre Cluster]({{ "/doc/25-Live-Migration/" | relative_url }})
+> 💡 On sera amené à rediscuter le point Live Migration [Dans le chapitre Cluster]({{ "/docs/25-Live-Migration/" | relative_url }})
 
 ```powershell
 If ((Get-NetAdapter -Physical | Group-Object speed | ? Count -eq 2).Name -le 10000000000 ) {
