@@ -51,4 +51,8 @@ S2D:
         url: /docs/21-Join-Nodes/
       - title: "Child Link 3"
         url: /child-3-page-url/
-  - title: "Extra - soon"
+  - title: "Extra"
+      - title: "VMMS - Event ID 14050"
+        url: /30-14050-vmms-event/
+      - title: "Quorum - FSWItness"
+        url: /31-Quorum-FSWitness/
