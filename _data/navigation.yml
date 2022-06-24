@@ -43,7 +43,7 @@ S2D:
         url: /docs/12-EventLog-Size/   
       - title: "Préparation des disques"
         url: /docs/13-PhysicalDisks/
-  - title: "Congiguration du cluster"
+  - title: "Configuration du cluster"
     children:
       - title: "Validation de la configuration"
         url: /docs/20-Validation-Wizard/
