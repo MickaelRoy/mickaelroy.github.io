@@ -45,10 +45,10 @@ S2D:
         url: /docs/13-PhysicalDisks/
   - title: "Congiguration du cluster"
     children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
+      - title: "Validation de la configuration"
+        url: /docs/20-Validation-Wizard/
+      - title: "Jonction des noeuds"
+        url: /docs/21-Join-Nodes/
       - title: "Child Link 3"
         url: /child-3-page-url/
   - title: "Extra - soon"

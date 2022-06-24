@@ -1,6 +1,6 @@
 ---
 title: "Préparation des disques"
-excerpt: "Préparer les disque en vue de les inclure à un cluster S2D."
+excerpt: "Préparer les disques en vue de les inclure à un cluster S2D."
 classes: wide
 ---
 
