@@ -9,7 +9,7 @@ classes: wide
 </figure> 
 
 
-Aujourd'hui, ce ne sera pas franchement fun. Aujourd'hui je vous donne toutes les étapes clés pour créer un cluster S2D from scratch.
+Aujourd'hui je vous donne toutes les étapes clés pour créer un cluster S2D from scratch.
 
 Je vous explique quoi faire et pourquoi.
 
