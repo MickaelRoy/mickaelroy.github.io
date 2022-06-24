@@ -8,10 +8,10 @@ main:
     url: /docs/01-Intro/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "About"
+  - title: "A propos"
     url: /about/
-  - title: "External Link"
-    url: https://google.com
+  #- title: "External Link"
+  #  url: https://google.com
 
   # example navigation
 S2D:
