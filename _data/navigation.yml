@@ -49,8 +49,10 @@ S2D:
         url: /docs/20-Validation-Wizard/
       - title: "Jonction des noeuds"
         url: /docs/21-Join-Nodes/
-      - title: "Child Link 3"
-        url: /child-3-page-url/
+      - title: "Renommer les réseaux de cluster"
+        url: /docs/23-Rename-Cluster-Network/
+      - title: "Cache CSV"
+        url: /docs/24-Block-Cache-Size/
   - title: "Extra"
     children:
       - title: "VMMS - Event ID 14050"
