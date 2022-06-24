@@ -4,8 +4,8 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Posts"
     url: /categories/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Concept S2D"
+    url: /docs/01-Intro/
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "About"
