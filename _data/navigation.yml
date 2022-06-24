@@ -31,6 +31,10 @@ S2D:
         url: /docs/06-Jumbo-Frame/
       - title: "vNics"
         url: /docs/07-vNics/
+      - title: "SpacePort"
+        url: /docs/08-SpacePort/
+      - title: "Optimisation RSS"
+        url: /docs/09-RSS/
   - title: "Congiguration du cluster"
     children:
       - title: "Child Link 1"

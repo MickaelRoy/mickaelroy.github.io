@@ -65,7 +65,7 @@ Set-VMNetworkAdapter -ManagementOS -Name SMB01 -IeeePriorityTag on
 Set-VMNetworkAdapter -ManagementOS -Name SMB02 -IeeePriorityTag on
 ```
 
-Beaucoup de chose dans ce bout de code.
+Beaucoup de choses dans ce bout de code.
 
 Prenez le temps de regarder la partie Ipv6, que je désactive de force, de façon un peu sale.
 
