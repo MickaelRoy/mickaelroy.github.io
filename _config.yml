@@ -332,7 +332,7 @@ defaults:
       comments: false
       sidebar:
       - title: "S2D"
-        text: "Storage Spaces Direct"
-        image: "/assets/images/S2D.png"
+        text: "Storage Spaces Direct."
+        image: "/assets/images/S2D-Logo.png"
         nav: "S2D"
 
