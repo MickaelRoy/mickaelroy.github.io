@@ -52,6 +52,7 @@ S2D:
       - title: "Child Link 3"
         url: /child-3-page-url/
   - title: "Extra"
+    children:
       - title: "VMMS - Event ID 14050"
         url: /30-14050-vmms-event/
       - title: "Quorum - FSWItness"
