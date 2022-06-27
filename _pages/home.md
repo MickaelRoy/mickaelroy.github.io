@@ -1,15 +1,15 @@
 ---
-title: ""
+title: "Bienvenu"
 layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_color: "#1d1f21"
+  overlay_filter: "0.2"
   overlay_image: /assets/images/splashposh.png
-caption: "A franco-francais website for french baguette eater, and PowerShell lover."
+caption: "A franco-francais website for french baguette eaters, and PowerShell lovers."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'La photo a l'origine de ces trois carreaux a été prise depuis les invalides.'
 feature_row:
   - image_path: /assets/images/Tour-Eiffel_04b.png
     alt: "S2D"
@@ -28,7 +28,7 @@ feature_row:
   - image_path: /assets/images/Tour-Eiffel_06b.png
     alt: "About"
     title: "A propos"
-    excerpt: "A propos de ce site et de son auteur, qui est il et pourquoi il fait tout cela."
+    excerpt: "A propos de ce site et de son auteur, qui est-il et pourquoi il fait tout cela."
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Go !"
