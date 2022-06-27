@@ -28,11 +28,12 @@ feature_row:
   - image_path: /assets/images/Tour-Eiffel_06b.png
     alt: "About"
     title: "A propos"
-    excerpt: "A propos de ce site et de son auteur, qui il est et pourquoi il fait tout ca."
+    excerpt: "A propos de ce site et de son auteur, qui est il et pourquoi il fait tout cela."
     url: "/About/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Go !"
 ---
 
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
