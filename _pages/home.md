@@ -11,9 +11,9 @@ caption: "A franco-francais website for french baguette eater, and PowerShell lo
 feature_row:
   - image_path: /assets/images/Tour-Eiffel_04.png
     alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    title: "S2D"
+    excerpt: "Tout au sujet de S2D, Storage Spaces Direct, la solution hyper-convergée on premise de Microsoft."
+    url: "/S2D/01-Intro/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/Tour-Eiffel_05.png
