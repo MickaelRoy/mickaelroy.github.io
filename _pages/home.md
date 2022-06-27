@@ -7,7 +7,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/splashposh.png
-caption: "A franco-francais website for french baguette eater, and PowerShell lover.
+caption: "A franco-francais website for french baguette eater, and PowerShell lover."
 feature_row:
   - image_path: /assets/images/Tour-Eiffel_04.png
     alt: "customizable"
@@ -33,3 +33,4 @@ feature_row:
 ---
 
 
+{% include feature_row %}
