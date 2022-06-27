@@ -29,7 +29,7 @@ feature_row:
     alt: "About"
     title: "A propos"
     excerpt: "A propos de ce site et de son auteur, qui est il et pourquoi il fait tout cela."
-    url: "/About/"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Go !"
 ---
