@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/splashposh.png
 caption: "A franco-francais website for french baguette eaters, and PowerShell lovers."
 intro: 
-  - excerpt: 'La photo a l'origine de ces trois carreaux a été prise depuis les invalides.'
+  - excerpt: "La photo à l'origine de ces trois carreaux a été prise depuis les invalides."
 feature_row:
   - image_path: /assets/images/Tour-Eiffel_04b.png
     alt: "S2D"
