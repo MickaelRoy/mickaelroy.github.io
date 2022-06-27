@@ -297,7 +297,7 @@ compress_html:
 
 # Collections
 collections:
-  docs:
+  S2D:
     output: true
     permalink: /:collection/:path/
 
@@ -320,10 +320,10 @@ defaults:
       type: pages
     values:
       layout: single
-  # _docs
+  # _S2D
   - scope:
       path: ""
-      type: docs
+      type: S2D
     values:
       layout: single
       read_time: false

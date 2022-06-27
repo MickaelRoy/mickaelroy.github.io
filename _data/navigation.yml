@@ -1,11 +1,11 @@
 # main links
 main:
   #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  #  url: https://mmistakes.github.io/minimal-mistakes/S2D/quick-start-guide/
   - title: "Posts"
     url: /categories/
   - title: "Concept S2D"
-    url: /docs/01-Intro/
+    url: /S2D/01-Intro/
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "A propos"
@@ -16,45 +16,45 @@ main:
   # example navigation
 S2D:
   - title: "Introduction"
-    url: /docs/01-Intro/
+    url: /S2D/01-Intro/
   - title: "Configuration des Noeuds"
     children:
       - title: "Prérequis"
-        url: /docs/02-Prerequis/
+        url: /S2D/02-Prerequis/
       - title: "Fonctionnalités"
-        url: /docs/03-Fonctionnalites/
+        url: /S2D/03-Fonctionnalites/
       - title: "VmSwitch"
-        url: /docs/04-VmSwitch/
+        url: /S2D/04-VmSwitch/
       - title: "RoCE"
-        url: /docs/05-RoCE/
+        url: /S2D/05-RoCE/
       - title: "Jumbo Frame"
-        url: /docs/06-Jumbo-Frame/
+        url: /S2D/06-Jumbo-Frame/
       - title: "vNics"
-        url: /docs/07-vNics/
+        url: /S2D/07-vNics/
       - title: "SpacePort"
-        url: /docs/08-SpacePort/
+        url: /S2D/08-SpacePort/
       - title: "Optimisation RSS"
-        url: /docs/09-RSS/
+        url: /S2D/09-RSS/
       - title: "Live Migration"
-        url: /docs/10-Live-Migration/
+        url: /S2D/10-Live-Migration/
       - title: "Emplacement VM"
-        url: /docs/11-Default-VM-Location/
+        url: /S2D/11-Default-VM-Location/
       - title: "Journaux d'évènement"
-        url: /docs/12-EventLog-Size/   
+        url: /S2D/12-EventLog-Size/   
       - title: "Préparation des disques"
-        url: /docs/13-PhysicalDisks/
+        url: /S2D/13-PhysicalDisks/
   - title: "Configuration du cluster"
     children:
       - title: "Validation de la configuration"
-        url: /docs/20-Validation-Wizard/
+        url: /S2D/20-Validation-Wizard/
       - title: "Jonction des noeuds"
-        url: /docs/21-Join-Nodes/
+        url: /S2D/21-Join-Nodes/
       - title: "Renommer les réseaux de cluster"
-        url: /docs/23-Rename-Cluster-Network/
+        url: /S2D/23-Rename-Cluster-Network/
       - title: "Cache CSV"
-        url: /docs/24-Block-Cache-Size/
+        url: /S2D/24-Block-Cache-Size/
       - title: "Live Migration"
-        url: /docs/25-Live-Migration/
+        url: /S2D/25-Live-Migration/
   - title: "Extra"
     children:
       - title: "VMMS - Event ID 14050"
