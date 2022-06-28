@@ -9,10 +9,6 @@ gallery:
     image_path: /assets/images/Mickael_Cravate_th.jpg
     alt: "Photo Mickael Cravate"
     title: "Under dress code ?"
-  - url: /assets/images/Mickael_Travaux.jpg
-    image_path: /assets/images/Mickael_Travaux_th.jpg
-    alt: "Photo Mickael Travaux"
-    title: "Une pose s'impose !"
   - url: /assets/images/Mickael_Masque.jpg
     image_path: /assets/images/Mickael_Masque_th.jpg
     alt: "Photo Mickael Covid"
