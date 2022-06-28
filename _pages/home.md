@@ -4,6 +4,7 @@ layout: home
 permalink: /
 hidden: true
 classes: wide
+author_profile: true
 header:
   overlay_color: "#1d1f21"
   overlay_filter: "0.2"
