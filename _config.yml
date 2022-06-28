@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "mydark" # "air", "aqua", "contrast", "default", "dir
 locale                   : "fr-FR"
 title                    : "Mickael's blog"
 title_separator          : "-"
-subtitle                 : "Basicaly a Powershell exposure, tips and code... mais en francais." # site tagline that appears below site title in masthead
+subtitle                 : "" # site tagline that appears below site title in masthead
 name                     : "Mickael R."
-description              : "Basicaly a Powershell exposure, tips and code."
+description              : "Basicaly a PowerShell exposure, tips and code."
 url                      : "https://mickaelroy.starprince.fr" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "MickaelRoy/Powershell" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

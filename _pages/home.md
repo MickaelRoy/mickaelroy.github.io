@@ -1,5 +1,6 @@
 ---
 title: "Bienvenue"
+excerpt: "Basicaly a PowerShell exposure, tips and code... mais en francais."
 layout: home
 permalink: /
 hidden: true
