@@ -1,5 +1,5 @@
 ---
-title: "Bienvenu"
+title: "Bienvenue"
 layout: home
 permalink: /
 hidden: true
