@@ -29,7 +29,7 @@ Je suis un passionné d'informatique, une histoire de famille.
 
 Depuis le plus jeune âge je fais usage du clavier.
 
-{% include gallery id="gallery" caption="Mickael dans tous ces états." %}
+{% include gallery id="gallery" caption="Mickael dans tous ses états." %}
 
 
 ## Ma première expérience.
