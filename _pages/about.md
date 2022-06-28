@@ -8,7 +8,7 @@ classes: wide
 
 
 # A propos de moi
-Je suis un passionné d'informatique, une histoire de famille
+Je suis un passionné d'informatique, une histoire de famille.
 
 Depuis le plus jeune âge je fais usage du clavier.
 

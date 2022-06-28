@@ -3,6 +3,7 @@ title: "Bienvenu"
 layout: home
 permalink: /
 hidden: true
+classes: wide
 header:
   overlay_color: "#1d1f21"
   overlay_filter: "0.2"
