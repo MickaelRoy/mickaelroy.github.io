@@ -23,7 +23,7 @@ feature_row:
   - image_path: /assets/images/Tour-Eiffel_05b.png
     alt: "fully responsive"
     title: "Blog posts"
-    excerpt: "Les trucs et astuces de scripteur accumulées au fil du temps."
+    excerpt: "Les trucs et astuces de scripteur accumulé.e.s au fil du temps."
     url: "/categories/"
     btn_class: "btn--primary"
     btn_label: "Go !"
