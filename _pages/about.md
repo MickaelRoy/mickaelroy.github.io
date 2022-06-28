@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "A propos de moi"
 layout: single
 author_profile: true
 classes: wide
@@ -23,8 +23,6 @@ gallery:
     title: "Pitié, ne laissez plus vos enfants conduire !"
 ---
 
-
-# A propos de moi
 Je suis un passionné d'informatique, une histoire de famille.
 
 Depuis le plus jeune âge je fais usage du clavier.
