@@ -4,6 +4,23 @@ title: "About"
 layout: single
 author_profile: true
 classes: wide
+gallery:
+  - url: /assets/images/Mickael_Cravate.jpg
+    image_path: /assets/images/Mickael_Cravate_th.jpg
+    alt: "Photo Mickael Cravate"
+    title: "Under dress code ?"
+  - url: /assets/images/Mickael_Travaux.jpg
+    image_path: /assets/images/Mickael_Travaux_th.jpg
+    alt: "Photo Mickael Travaux"
+    title: "Une pose s'impose !"
+  - url: /assets/images/Mickael_Masque.jpg
+    image_path: /assets/images/Mickael_Masque_th.jpg
+    alt: "Photo Mickael Covid"
+    title: "Bad face day."
+  - url: /assets/images/Mickael_Accident.jpg
+    image_path: /assets/images/Mickael_Accident_th.jpg
+    alt: "Photo Mickael Accident"
+    title: "Pitié, ne laissez plus vos enfants conduire !"
 ---
 
 
@@ -11,6 +28,8 @@ classes: wide
 Je suis un passionné d'informatique, une histoire de famille.
 
 Depuis le plus jeune âge je fais usage du clavier.
+
+{% include gallery id="gallery" class="full" caption="Mickael dans tous ces états." %}
 
 ## Ma première expérience.
 Ma première expérience dans ce domaine remonte à mes années d'adolescent boutonneux.
