@@ -9,7 +9,7 @@ author_profile: true
 header:
   overlay_color: "#1d1f21"
   overlay_filter: "0.2"
-  overlay_image: /assets/images/splashposh.png
+  overlay_image: /assets/images/splashposh.webp
 caption: "A franco-francais website for french baguette eaters, and PowerShell lovers."
 intro: 
   - excerpt: "La photo à l'origine de ces trois carreaux a été prise depuis les invalides."
