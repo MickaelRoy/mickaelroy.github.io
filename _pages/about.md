@@ -6,15 +6,15 @@ author_profile: true
 classes: wide
 gallery:
   - url: /assets/images/Mickael_Cravate.jpg
-    image_path: /assets/images/Mickael_Cravate_th.jpg
+    image_path: /assets/images/Mickael_Cravate_th.webp
     alt: "Photo Mickael Cravate"
     title: "Under dress code ?"
   - url: /assets/images/Mickael_Masque.jpg
-    image_path: /assets/images/Mickael_Masque_th.jpg
+    image_path: /assets/images/Mickael_Masque_th.webp
     alt: "Photo Mickael Covid"
     title: "Bad face day."
   - url: /assets/images/Mickael_Accident.jpg
-    image_path: /assets/images/Mickael_Accident_th.jpg
+    image_path: /assets/images/Mickael_Accident_th.webp
     alt: "Photo Mickael Accident"
     title: "Pitié, ne laissez plus vos enfants conduire !"
 ---
