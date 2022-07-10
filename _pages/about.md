@@ -19,11 +19,18 @@ gallery:
     title: "Pitié, ne laissez plus vos enfants conduire !"
 ---
 
+{% include gallery id="gallery" caption="Mickael dans tous ses états." %}
+
 Je suis un passionné d'informatique, une histoire de famille.
+
+Je suis le fils, le neuveu, le cousin et le frere d'informaticien.e.s ; Technico commercial, web designer.. l'informatique est partout autour de moi, depuis que j'ai 4 ans.
 
 Depuis le plus jeune âge je fais usage du clavier.
 
-{% include gallery id="gallery" caption="Mickael dans tous ses états." %}
+A 13 ans, je lisais les principes de base en BASIC. A 14 j'expliquais à des adultes les principes et les avantages du System Boot Menu.
+A 15 ans, je leur expliquais la notion de [mémoire conventionnelle].
+
+Je suis génétiquement _programmé_, c'est bien la preuve que je suis fais pour ce metier.
 
 
 ## Ma première expérience.
@@ -46,6 +53,8 @@ Le tout sans disquette, directement sur mon petit disque dur ! (Assez petit pour
 [Micro Machines]: <https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=635>
 [Alone in the dark]: <https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=735>
 [Boot Menu]: <http://smallvoid.com/article/dos-multiple-configurations.html>
+[mémoire conventionnelle]: <https://fr.wikipedia.org/wiki/M%C3%A9moire_conventionnelle>
+ 
 
 # A propos de ce site
 
