@@ -23,14 +23,14 @@ gallery:
 
 Je suis un passionné d'informatique, une histoire de famille.
 
-Je suis le fils, le neuveu, le cousin et le frere d'informaticien.e.s ; Technico commercial, web designer.. l'informatique est partout autour de moi, depuis que j'ai 4 ans.
+Je suis le fils, le neuveu, le cousin et le frere d'informaticien.e.s ; Technico-commercial, web designer.. l'informatique est partout autour de moi, depuis que j'ai 4 ans.
 
 Depuis le plus jeune âge je fais usage du clavier.
 
 A 13 ans, je lisais les principes de base en BASIC. A 14 j'expliquais à des adultes les principes et les avantages du System Boot Menu.
 A 15 ans, je leur expliquais la notion de [mémoire conventionnelle].
 
-Je suis génétiquement _programmé_, c'est bien la preuve que je suis fais pour ce metier.
+Je suis génétiquement _programmé_, c'est bien la preuve que je suis fait pour ce metier.
 
 
 ## Ma première expérience.
