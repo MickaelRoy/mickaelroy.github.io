@@ -46,9 +46,8 @@ If ($MyIpPage.RawContent -match "(?:[0-9]{1,3}.){3}[0-9]{1,3}")
     $resp = Invoke-WebRequest -Uri $url -Headers $headers
     $resp.Content 
 }
-
 ```
-Les réponses attendues contenues dans $resp.Content sont disponible sur le [Support Google]
+Les réponses attendues dans $resp.Content sont disponibles sur le [Support Google]
 
 [Support Google]: <https://support.google.com/domains/answer/6147083?hl=fr#zippy=%2Cutiliser-lapi-pour-mettre-%C3%A0-jour-votre-enregistrement-dns-dynamique>
 
