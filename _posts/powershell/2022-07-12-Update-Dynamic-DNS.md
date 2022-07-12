@@ -2,6 +2,7 @@
 title: "Mettre à jour votre enregistrement DNS dynamique "
 excerpt: "Voici un script pour mettre en correspondance votre nom de domaine avec votre adresse IP publique."
 category: PowerShell
+classes: wide
 tags: 
   - PowerShell
   - Tips
@@ -52,7 +53,7 @@ Les réponses attendues contenues dans $resp.Content sont disponible sur le [Sup
 
 ## DNS dynamique NoIP
 
-On a à peu près compris le principe avec Google, j'irai plus vite a l'essentiel avec NoIP.com. 
+On a à peu près compris le principe avec Google, j'irai plus vite à l'essentiel avec NoIP.com. 
 
 Notez simplement que NoIP demande un [User Agent] et qu'il doit être formaté comme ceci:
 
