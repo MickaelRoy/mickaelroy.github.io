@@ -34,9 +34,7 @@ If ($MyIpPage.RawContent -match "(?:[0-9]{1,3}.){3}[0-9]{1,3}")
     #encode the username and password for the header
     $bytes = [System.Text.Encoding]::ASCII.GetBytes($pair)
     $base64 = [System.Convert]::ToBase64String($bytes)
-
     $basicAuthValue = "Basic $base64"
-
     $headers = @{ Authorization =  $basicAuthValue }
 
     #Build up the URL
@@ -76,8 +74,8 @@ $myexternalIP = $MyIpPage.Content
 # User agent string to send to DynDNS.
 $UserAgent = "domain.xx/0.1 toto@onthe.net"
 
+#Invoke the URL
 $NoIpResp = Invoke-WebRequest -Credential $Cred -Uri "https://dynupdate.no-ip.com/nic/update?hostname=$myhost&myip=$myexternalIP" -UserAgent $UserAgent
-
 $NoIpResp.Content
 
 ```
