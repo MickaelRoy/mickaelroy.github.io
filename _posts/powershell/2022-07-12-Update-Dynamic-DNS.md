@@ -6,6 +6,7 @@ classes: wide
 tags: 
   - PowerShell
   - Tips
+  - DNS
 ---
 
 ## DNS dynamique Google
