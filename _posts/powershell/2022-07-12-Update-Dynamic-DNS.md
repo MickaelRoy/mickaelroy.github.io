@@ -75,7 +75,7 @@ $MyIpPage = Invoke-WebRequest "https://domains.google.com/checkip"
 $myexternalIP = $MyIpPage.Content
 
 # User agent string to send to DynDNS.
-$UserAgent = "domain.xx/0.1 User@onthenet.fr"
+$UserAgent = "domain.xx/0.1 toto@onthe.net"
 
 $NoIpResp = Invoke-WebRequest -Credential $Cred -Uri "https://dynupdate.no-ip.com/nic/update?hostname=$myhost&myip=$myexternalIP" -UserAgent $UserAgent
 
