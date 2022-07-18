@@ -17,21 +17,21 @@ tags:
 
 ## Outlook n’accepte pas mon mot de passe
 
-Si Outlook n’accepte pas votre mot de passe ou plutôt, il le redemande sans cesse sans même indiquer si celui est bon ou pas, le suject tourne peut etre autour de la methode d'authentification.
+Si Outlook n’accepte pas votre mot de passe ou plutôt, s'il le redemande sans cesse sans même indiquer si celui est bon ou pas, le sujet tourne peut être autour de la methode d'authentification.
 
-A l'heure ou je vous écris chers lecteurs, Microsoft à changer sa politique d'autentification sur leurs services de messagerie. J'entends ici les compte mails ayant pour domaine, hotmail, msn, live, outlook etc...
+A l'heure ou je vous écris chers lecteurs, Microsoft à changé sa politique d'authentification sur leurs services de messagerie. J'entends ici les compte mails ayant pour domaine, hotmail, msn, live, outlook etc...
 
-En effet, Microsoft considerant le mot de passe comme une méthode d'autentification trop faible, nous invite à utiliser une methode dite _moderne_. Il en propose deux:
+En effet, Microsoft considerant le mot de passe comme une méthode d'authentification trop faible, il nous invite à utiliser une métode dite _moderne_. Il en propose deux:
 - Compte sans mot de passe
 - Vérification en deux étapes
 
-> c'est n'importe quoi... un compte sans mot de passe n'est pas plus safe qu'un compte avec un mot de passe fort.
+> c'est n'importe quoi... un compte sans mot de passe n'est pas plus safe qu'un compte avec un mot de passe fort. non ?
 
 En réalité, un compte "sans mot de passe", n'est pas sans mot de passe, ce n'est juste pas le votre.
 
 > Adieu, _coucou123_, _amag0d_, ou encore _123456sept_...
 
-Pour ajouter votre compte e-mail à Outlook, vous aurez donc besoin d’un _mot de passe d’application_ qui sera différent du mot de passe habituel de votre compte de courrier. CElui-ci pourra vous être donné par un _logiciel d'authentification_
+Pour ajouter votre compte e-mail à Outlook, vous aurez donc besoin d’un _mot de passe d’application_ qui sera différent du mot de passe habituel de votre compte de courrier. Celui-ci pourra vous être donné par un _logiciel d'authentification_.
 
 ## Logiciel d'autentification.
 
@@ -39,9 +39,9 @@ Pour ajouter votre compte e-mail à Outlook, vous aurez donc besoin d’un _mot 
 
 Un authentificateur est un moyen utilisé pour confirmer l'identité d'un utilisateur, c'est-à-dire pour effectuer une authentification numérique. Une personne s'authentifie auprès d'un système informatique ou d'une application en démontrant qu'elle possède et contrôle un authentificateur.
 
-Pour utiliser une métode d'authentification moderne, vous devez avoir configuré au préalable un logiciel d'authentification sur votre smartphone.
+Pour utiliser une métode d'authentification moderne, vous devez avoir configuré au préalable un logiciel d'authentification sur votre smartphone par exemple.
 
-Personnellement, j'utilise Microsoft Authenticator, je trouvais ca pertinent dans le mesure ou mes comptes de messageries sont tous chez microsoft, mais rien ne vous y oblige, il en éxite d'autres comme celui de Google.
+Personnellement, j'utilise Microsoft Authenticator, je trouvais ça pertinent dans la mesure où mes comptes de messageries sont tous chez Microsoft, mais rien ne vous y oblige, il en éxite d'autres comme celui de Google.
 
 ### Configuration du logiciel
 
@@ -54,26 +54,29 @@ Non chers lecteurs, je ne vais pas vous expliquer ici comment le comfigurer. Je 
 
 ## Résolution
 
-Maintenant que vous avez le logiciel adéquat, revenons-en a la résolution de notre cas.
+Maintenant que vous avez le logiciel adéquat, revenons-en à la résolution de notre cas.
 
-Le client lourd Outlook ne nous laisse plus accéder a notre messagerie Outlook.com, et c'est un comble !
+Le client lourd Outlook ne nous laisse plus accéder à notre messagerie Outlook.com, et c'est un comble !
 
 Il y a une kyrielle de sources pour résoudre ce symptome.
 - purger les mots de passe dans le gestionaire de mot de passe windows
-- forcer les parametres s'authentification fortes outlook via la base de registre
+- forcer des parametres Outlook pour l'authentification forte via la base de registre
 - ...
 
 Mais avant de vous confronter à du bidouillage qui n'a pas de sens dans la mesure où votre client de messagerie fonctionnait correctement il y a encore quelques semaines/mois, je vous invite à verifier les parametres de sécurité de votre compte Microsoft.
 
 ### Mettre à jour Office
 
+Pour que votre Outlook puisse prendre en charge ce type d'authentification, il a peut etre besoin d'être mis à jour.
+C'est particulièrement vrai pour Outlook 2016 et 2019
+
 > bah il est forcement à jour, windows le fait tout seul... non ?
 
-Non, pour une raison que j'ignore, par defaut il se peut que votre système ne mette à jour que windows. Office ne l'est donc pas.
+Non, pour une raison que j'ignore, par défaut il se peut que votre système ne mette à jour que windows. Office ne l'est donc pas.
 
-Ouvrez le menu Démarrer > Paramètres > Mise à jour et sécurité.
+Ouvrez le menu *Démarrer* > *Paramètres* > *Mise à jour et sécurité*.
 
-Sélectionnez Options avancées.
+Sélectionnez *Options avancées*.
 
 Sous _Choisir le mode d’installation des mises à jour_. Vous devez activer la case à cocher _Me communiquer les mises à jour d’autres produits Microsoft_.
 
