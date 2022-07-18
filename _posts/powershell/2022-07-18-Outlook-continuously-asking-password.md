@@ -1,6 +1,6 @@
 ﻿---
 title: "Outlook ne cesse de demander le mot de passe outlook.com/live.fr"
-excerpt: "Voici un script pour mettre en correspondance votre nom de domaine avec votre adresse IP publique."
+excerpt: "Hors-Série: Continuer à utiliser Outlook pour se connecter à la messagerie Outlook.com."
 category: Hors-Series
 classes: wide
 tags: 
