@@ -84,7 +84,7 @@ Faites les mises-à-jours.
 
 ### Activer une métode d'authentification _moderne_
 
-<figure style="width: 500px" class="align-center">
+<figure style="width: 600px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-07-180-HS-Outlook-02.webp" alt="">
   <figcaption>Illustration choix de métode d'authentificationS</figcaption>
 </figure> 
@@ -99,7 +99,7 @@ Dans l'encart _Sécurité supplémentaire_ l'une des deux options doit être act
 
 ### Mot de passe d'application
 
-<figure style="width: 500px" class="align-center">
+<figure style="width: 700px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-07-180-HS-Outlook-03.webp" alt="">
   <figcaption>Illustration créer mot de passe d'application</figcaption>
 </figure> 
