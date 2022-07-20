@@ -10,6 +10,8 @@ tags:
   - Storage Spaces Direct
   - HCI
 toc: true
+header:
+  teaser: /assets/images/storage-spaces-hyper-converged.png
 ---
 
 # Intro
