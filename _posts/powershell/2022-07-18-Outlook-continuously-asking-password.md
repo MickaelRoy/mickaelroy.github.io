@@ -9,6 +9,8 @@ tags:
   - Mail
   - Athenticator
   - Mot de passe
+header:
+  teaser: /assets/images/2022-07-180-HS-Outlook-teaser.webp
 ---
 
 <figure style="width: 500px" class="align-center">
