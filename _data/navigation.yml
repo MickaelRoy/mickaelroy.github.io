@@ -61,3 +61,5 @@ S2D:
         url: /30-14050-vmms-event/
       - title: "Quorum - FSWItness"
         url: /31-Quorum-FSWitness/
+      - title: "Cache disk binding"
+        url: /32-Chek-cache-disk-bindings/
