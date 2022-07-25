@@ -1,16 +1,7 @@
 ﻿---
 title: "Vérifier les liaisons des disques de cache"
 excerpt: "Verifier les "bindings" des disques de caches S2D."
-category: S2D
 classes: wide
-tags: 
-  - PowerShell
-  - S2D
-  - Support
-  - Cache
-  - Get-StorageBusCacheReport
-header:
-  teaser: /assets/images/2022-07-25-Chek-cache-disk-bindings.webp
 ---
 
 ## Ce que dit Darryl (van der Peijl)
