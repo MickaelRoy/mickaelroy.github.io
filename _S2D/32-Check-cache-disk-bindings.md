@@ -1,6 +1,6 @@
 ﻿---
 title: "Vérifier les liaisons des disques de cache"
-excerpt: "Verifier les "bindings" des disques de caches S2D."
+excerpt: "Verifier les 'bindings' des disques de caches S2D."
 classes: wide
 ---
 
