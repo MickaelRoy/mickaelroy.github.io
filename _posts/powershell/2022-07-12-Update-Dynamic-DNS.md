@@ -7,6 +7,8 @@ tags:
   - PowerShell
   - Tips
   - DNS
+header:
+  teaser: /assets/images/2022-07-12-Update-Dynamic-DNS.webp
 ---
 
 ## DNS dynamique Google
