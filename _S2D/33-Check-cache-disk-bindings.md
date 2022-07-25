@@ -75,3 +75,13 @@ Device counts:
 Binding ratio is even: 1:10
 All disks are in InitializedAndBound
 ```
+
+## Conclusion
+
+Un script qui ne date pas d'hier mais trop méconnu.
+
+[Lien Direct](https://github.com/MickaelRoy/Cmdlets/tree/main/Get-CacheDiskStatus){: .btn .btn--info}
+
+Ca c'est cadeau !
+
+A plus !
