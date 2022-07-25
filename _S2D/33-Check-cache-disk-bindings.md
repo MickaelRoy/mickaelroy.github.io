@@ -3,22 +3,10 @@ title: "Vérifier les liaisons des disques de cache"
 excerpt: "Verifier les 'bindings' des disques de caches S2D."
 classes: wide
 ---
-# Le quorum
+## Ce que dit Darryl (van der Peijl)
 
-Il existe plusieurs facon de gérer le Quorum. Ici je présente le File-Share Witness. (hébergé sur un File-Share Windows qui plus est...)
+Oui, c'est curieux, comme intro...
 
-```powershell
-# don't forget to feed the variables below:
-$CNO = [ClusterName]
-$FsServer = [FileShareServerName]
-$Path = [FileShareLocation]
+> Storage Spaces Direct peut utiliser des disques de cache si vous avez fourni des SSD ou des SSD NVMe dans vos nœuds. Normalement, les disques de capacité sont liés aux disques de cache à tour de rôle, voir la documentation officielle de Microsoft [ici](https://docs.microsoft.com/fr-fr/azure-stack/hci/concepts/cache).
 
-$FsW = icm -Computername $FsServer -scriptblock {
-    $Path = $Using:Path
-    $dir = New-Item -Path $Path -Name $Using:CNO -ItemType Directory
-    New-SmbShare -Name ($Using:CNO + '$') -Path $dir.FullName -FullAccess ($Using:CNO + '$') -ContinuouslyAvailable:$false -Description "File Share Witness Quorum for $Using:CNO"
-    (Get-SmbShare –Name ($Using:CNO + '$')).PresetPathAcl | Set-Acl
-}
-FailoverClusters\Set-ClusterQuorum -NodeAndFileShareMajority "\\$($FsW.ScopeName)\$($FsW.Name)" -Cluster $CNO
-```
-
+> Si vous soupçonnez ou constatez qu'un nœud n'obtient pas les bons chiffres de performance, vous pouvez vous demander si vos périphériques de cache sont utilisés correctement. La bonne façon de vérifier cela est d'exécuter un Get-Clusterlog sur votre nœud qui fournit un journal de tous les composants du cluster, y compris les périphériques de cache. Dans le fichier, faites défiler jusqu'à la section "[=== SBL Disks ===]"
