@@ -33,8 +33,6 @@ Il doit y avoir un ratio, entre le nombre de disques de capacité et le nombre d
 
 De plus il faut s'assurer que les disques sont bien liés, il arrive parfois (souvent) que certains disques perdent cette liaison.
 
-
-
 ## A quoi cela ressemble-t-il ?
 
 Pour être concret, la cmdlet va retourner un resultat semblable a celui-ci pour chaqun des noeuds du cluster.
