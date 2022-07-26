@@ -39,7 +39,7 @@ feature_row:
 Bonjour et bienvenue sur mon blog.
 
 J'espère que vous trouverez ici ce que vous êtes venu chercher; Je fais de mon mieux pour vous proposer un contenu pertinent.
-Voici donc trois carreaux qui parlent d'eux-mêmes, deplus, un outil de recherche est disponible derriere la loupe en haut à droite.
+Voici donc trois carreaux qui parlent d'eux-mêmes, de plus, un outil de recherche est disponible derrière la loupe en haut à droite.
 
 Bonne visite !
 
