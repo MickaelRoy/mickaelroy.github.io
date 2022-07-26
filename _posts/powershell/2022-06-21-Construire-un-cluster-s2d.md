@@ -283,7 +283,7 @@ L’expérience montre qu’en entreprise, il nous arrive de devoir faire face a
 Set-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Services\spaceport\Parameters -Name HwTimeout -Value 0x00002710
 ```
 
-## AD: Traffic RPC limité à un port specifique ?
+## AD: Trafic RPC limité à un port specifique ?
 
 > ℹ️ Si votre configuration AD n'est pas concernée, passez cette étape.
 

@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "A propos de moi"
+title: "A propos"
 layout: single
 author_profile: true
 classes: wide
@@ -19,6 +19,8 @@ gallery:
     title: "Pitié, ne laissez plus vos enfants conduire !"
 ---
 
+## A propos de moi
+
 {% include gallery id="gallery" caption="Mickael dans tous ses états." %}
 
 Je suis un passionné d'informatique, une histoire de famille.
@@ -33,7 +35,7 @@ A 15 ans, je leur expliquais la notion de [mémoire conventionnelle].
 Je suis génétiquement _programmé_, c'est bien la preuve que je suis fait pour ce metier.
 
 
-## Ma première expérience.
+### Ma première expérience.
 Ma première expérience dans ce domaine remonte à mes années d'adolescent boutonneux.
 A l'époque Internet n'était pas encore démocratisé, les téléphones mobiles encore moins, et pour draguer il fallait un minimum de bagou #ExpressionDeVieux.
 
@@ -56,7 +58,7 @@ Le tout sans disquette, directement sur mon petit disque dur ! (Assez petit pour
 [mémoire conventionnelle]: <https://fr.wikipedia.org/wiki/M%C3%A9moire_conventionnelle>
  
 
-# A propos de ce site
+## A propos de ce site
 
 Ce site n'a ni pour vocation ni la prétention de former qui que ce soit.
 
