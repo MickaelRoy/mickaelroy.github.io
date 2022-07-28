@@ -13,17 +13,25 @@ header:
 ---
 
 <figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/S2D-Slabs-re-balance.gif" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/S2D-Slabs-re-balance.gif" alt="Data-Rebalance">
   <figcaption>S2D data re-balance.</figcaption>
 </figure>
 
 @Cosmos Darwin, please considere all my appologies regarding what i'm about to do.
 
+## A quoi ce script sert-il ?
+
+Il arrive parfois, notemment après l'insertion de nouveaux disques au sein d'un cluster, que des disques ne soient pas utilisés pour acceuillir des donnés du StoragepPool à la meme echelle que les autres.
+
+Parfois même, c'est l'ensemble des disques d'un noeud qui sont sous-utilisés.
+
+Nous allons pouvoir voir la répartition des données d'un pool S2D grâce à cette astuce.
+
 ## D'où nous vient ce script ?
 
 Sans plus attendre, j'entre dans le vif du sujet.
 
-L'origine de ce script, je le tiens de [Cosmos Darwin](https://twitter.com/CosmosDarwin), un ingénieur Microsoft confirmé, plus précisément de [cette page](https://techcommunity.microsoft.com/t5/storage-at-microsoft/deep-dive-the-storage-pool-in-storage-spaces-direct/ba-p/425959).
+L'origine de ce script, je le tiens de [Cosmos Darwin](https://twitter.com/CosmosDarwin), un ingénieur confirmé, plus précisément de [cette page](https://techcommunity.microsoft.com/t5/storage-at-microsoft/deep-dive-the-storage-pool-in-storage-spaces-direct/ba-p/425959).
 
 ## Pourquoi j'en parle ?
 
@@ -42,7 +50,7 @@ Je vous invite fermement à visiter [sa page](https://techcommunity.microsoft.co
 A première vue, c'est du lourd, __240 lignes__ pour obtenir un objet PowerShell qui ressemble a ca:
 
 <figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Show-PrettyPoolObject.webp" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Show-PrettyPoolObject.webp" alt="Show-PrettyPool-Result">
   <figcaption>Show-PrettyPool result.</figcaption>
 </figure>
 
