@@ -9,7 +9,7 @@ tags:
   - PowerShell
   - Show-PrettyPool
 header:
-  teaser: /assets/images/2022-07-180-HS-Outlook-teaser.webp
+  teaser: /assets/images/2022-07-28-Show-pool-data-repartition.webp
 ---
 
 <figure style="width: 500px" class="align-center">
