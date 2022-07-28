@@ -39,7 +39,7 @@ D'ordinaire, je poste les sujets autour d'S2D directement dans la collection pr�
 
 > Mais alors pourquoi j'en parle ici ?
 
-J'y viens... c'est un script qu'il met arrivé d'exécuter comme ça, à brule-pourpoint, pour avoir une réponse rapide a une question simple: -"les données du pool sont-elles correctement réparties entre les disques ?"
+J'y viens... c'est un script qu'il met arrivé d'exécuter comme ça, à brule-pourpoint, pour avoir une réponse rapide à une question simple: -"les données du pool sont-elles correctement réparties entre les disques ?"
 
 Le script en soit est fonctionnel, et a son intérêt. Je voulais donc en parler sur un blog en français. J'ai donc entrepris de le nettoyer, et l'améliorer pour pouvoir être exécuté à distance.
 
