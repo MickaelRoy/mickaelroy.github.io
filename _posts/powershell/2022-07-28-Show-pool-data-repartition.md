@@ -1,5 +1,5 @@
 ﻿---
-title: "[BullShit] Voir la répartition des données d'un pool S2D"
+title: "[BullShit] Répartition des données d'un pool S2D"
 excerpt: "La cmdlet de fumiste, gratter du code pour rien."
 category: S2D
 classes: wide
