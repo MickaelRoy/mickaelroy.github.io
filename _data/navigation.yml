@@ -40,7 +40,7 @@ S2D:
       - title: "Emplacement VM"
         url: /S2D/11-Default-VM-Location/
       - title: "Journaux d'évènement"
-        url: /S2D/12-EventLog-Size/   
+        url: /S2D/12-Eventlog-Size/   
       - title: "Préparation des disques"
         url: /S2D/13-PhysicalDisks/
   - title: "Configuration du cluster"
