@@ -59,9 +59,9 @@ S2D:
     children:
       - title: "VMMS - Event ID 14050"
         url: /S2D/30-14050-vmms-event/
-      - title: "Quorum - FSWItness"
-        url: /S2D/31-Quorum-FSWitness/
+      - title: "Quorum - "
+        url: /S2D/31-Quorum-File-Share-Witness/
       - title: "Répartition des données du pool"
         url: /S2D/32-Show-Pretty-Pool/
-      - title: "Cache disk binding"
+      - title: "Liaison des disques de cache"
         url: /S2D/33-Check-cache-disk-bindings/
