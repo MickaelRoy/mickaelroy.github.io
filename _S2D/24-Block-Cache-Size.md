@@ -8,8 +8,8 @@ D'expérience, cela améliore grandement les performances d'écritures sur le CS
 La valeur est purement arbitraire, je vous invite à faire des benches pour connaitre la valeur la plus adéquat.
 
 ```powershell
-Configuring CSV Cache
+#Configuring CSV Cache
 (Get-Cluster).BlockCacheSize = 8192
 ```
 
-SI je ne dis pas de bétise, il est désactivé sur 2016, et à 1024 sur 2019.
+Si je ne dis pas de bétise, il est désactivé sur 2016, et à 1024 sur 2019.
