@@ -1,5 +1,5 @@
 ---
-title: " Création du VmSwitch SET."
+title: "Déploiement du Switch Embedded Teamin (SET)"
 excerpt: "Les prérequis pour concevoir un cluster S2D."
 classes: wide
 ---

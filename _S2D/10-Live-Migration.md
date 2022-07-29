@@ -1,6 +1,6 @@
 ---
-title: "Live Migration"
-excerpt: "Configurer la migration dynamique pour concevoir un cluster S2D."
+title: "Configuration de la migration dynamique"
+excerpt: "Configurer la migration dynamique lors de la conception d'un cluster S2D."
 classes: wide
 ---
 

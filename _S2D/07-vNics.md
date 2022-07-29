@@ -1,6 +1,6 @@
 ---
 title: "Créez deux cartes pour la réplication SMB"
-excerpt: "Les deux cartes SMB pour concevoir un cluster S2D."
+excerpt: "Création et configuration des deux cartes SMB pour concevoir un cluster S2D."
 classes: wide
 ---
 
