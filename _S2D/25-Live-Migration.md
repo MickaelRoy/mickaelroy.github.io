@@ -12,5 +12,5 @@ Get-ClusterResourceType -Cluster $CNO -Name "Virtual Machine" | Set-ClusterParam
 
 Ce bout de code permet de selectionner tous les reseaux possible sauf le Management.
 
-Bien entendu, il faut avoir [renommé les réseaux]({{ "/docs/23-Rename-Cluster-Network/" | relative_url }}) avant.
+Bien entendu, il faut avoir [renommé les réseaux]({{ "/S2D/23-Rename-Cluster-Network/" | relative_url }}) avant.
 
