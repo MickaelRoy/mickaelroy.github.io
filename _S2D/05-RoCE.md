@@ -11,7 +11,7 @@ classes: wide
 > ℹ️ Zappez la partie QOS si vous avez des cartes iWarp.
 
 ```powershell
-$AdapterGroup = Get-NetAdapter -Physical | Where-Object Speed -GE 10000000000 | Sort-Object Name| Group-Object DriverDescription | Where-Object Count -EQ 2
+$AdapterGroup = Get-NetAdapter -Physical | Where-Object Speed -GE 10000000000 | Sort-Object Name | Group-Object DriverDescription | Where-Object Count -EQ 2
  
 $Primary1 = $AdapterGroup.Group[0].Name
 $Primary2 = $AdapterGroup.Group[1].Name
