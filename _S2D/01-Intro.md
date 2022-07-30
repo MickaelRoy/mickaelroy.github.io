@@ -4,7 +4,7 @@ excerpt: "Toutes les étapes pour concevoir un cluster S2D aka Storage Spaces Di
 classes: wide
 ---
 <figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/storage-spaces-hyper-converged.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/storage-spaces-hyper-converged.png" alt="S2D">
   <figcaption>Storage Spaces Direct illustration</figcaption>
 </figure> 
 
