@@ -10,6 +10,7 @@ tags:
   - Show-PrettyPool
 header:
   teaser: /assets/images/2022-07-28-Show-pool-data-repartition.webp
+  image_description: "data repartition"
 ---
 
 <figure style="width: 500px" class="align-center">
