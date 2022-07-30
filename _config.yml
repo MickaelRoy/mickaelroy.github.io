@@ -335,5 +335,6 @@ defaults:
       - title: "S2D"
         text: "Storage Spaces Direct."
         image: "/assets/images/S2D-Logo.png"
+        image_alt: "S2D-Logo"
         nav: "S2D"
 
