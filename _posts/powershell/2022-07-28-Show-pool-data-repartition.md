@@ -32,7 +32,7 @@ Nous allons pouvoir voir la répartition des données d'un pool S2D grâce à ce
 
 Sans plus attendre, j'entre dans le vif du sujet.
 
-L'origine de ce script, je le tiens de [Cosmos Darwin](https://twitter.com/CosmosDarwin), un ingénieur confirmé, plus précisément de [cette page](https://techcommunity.microsoft.com/t5/storage-at-microsoft/deep-dive-the-storage-pool-in-storage-spaces-direct/ba-p/425959).
+L'origine de ce script, je le tiens de [Cosmos Darwin](https://twitter.com/CosmosDarwin), un ingénieur confirmé; Plus précisément de [cette page](https://techcommunity.microsoft.com/t5/storage-at-microsoft/deep-dive-the-storage-pool-in-storage-spaces-direct/ba-p/425959).
 
 ## Pourquoi j'en parle ?
 
@@ -40,15 +40,17 @@ D'ordinaire, je poste les sujets autour d'S2D directement dans la collection pr�
 
 > Mais alors pourquoi j'en parle ici ?
 
-J'y viens... c'est un script qu'il met arrivé d'exécuter comme ça, à brule-pourpoint, pour avoir une réponse rapide à une question simple: -"les données du pool sont-elles correctement réparties entre les disques ?"
+J'y viens... C'est un script qu'il m'est arrivé d'exécuter comme ça, à brule-pourpoint, pour avoir une réponse rapide à une question simple: 
+> -"les données du pool sont-elles correctement réparties entre les disques ?"
 
-Le script en soit est fonctionnel, et a son intérêt. Je voulais donc en parler sur un blog en français. J'ai donc entrepris de le nettoyer, et l'améliorer pour pouvoir être exécuté à distance.
+Le script en soit est fonctionnel et a son intérêt. 
+Je voulais donc en parler sur un blog en français. J'ai donc entrepris de le nettoyer, et l'améliorer pour pouvoir être exécuté à distance.
 
 ## Et le "BullShit" dans tout ça ?🤔
 
 Je vous invite fermement à visiter [sa page](https://techcommunity.microsoft.com/t5/storage-at-microsoft/deep-dive-the-storage-pool-in-storage-spaces-direct/ba-p/425959) pour consulter le contenu du script.
 
-A première vue, c'est du lourd, __240 lignes__ pour obtenir un objet PowerShell qui ressemble a ca:
+A première vue, c'est du lourd, __240 lignes__ pour obtenir un objet PowerShell qui ressemble à ca:
 
 <figure style="width: 500px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Show-PrettyPoolObject.webp" alt="Show-PrettyPool-Result">
@@ -72,9 +74,9 @@ Enfin, le cœur même du sujet réside en une boucle qui récupère une poignée
 
 ## Conclusion
 
-En conclusion, j'ai réduit le script à 65 lignes pour avoir l'essentiel, et ajouté un fichier _format.ps1xml_ à côté pour ceux qui ont besoin d'avoir les valeurs humainement lisibles.
+En conclusion, j'ai réduit le script à 65 lignes pour avoir l'essentiel. J'ai ajouté un fichier _format.ps1xml_ à côté pour ceux qui ont besoin d'avoir des valeurs humainement lisibles.
 
-Cosmos Darwin a eu l'intelligence de faire l'execice de la division _FootPrint/Size_. On l'en remercie. Celon moi, le reste c'est de la fumisterie et je le dis avec toute mon affection 😅.
+Cosmos Darwin a eu l'intelligence de faire l'éxecice de la division _FootPrint/Size_. On l'en remercie. Selon moi, le reste est une fumisterie et je le dis avec toute mon affection 😅.
 
 J'ai mis tout ça sur mon repo Git.
 
