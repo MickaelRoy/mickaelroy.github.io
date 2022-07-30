@@ -9,11 +9,11 @@ tags:
   - Tips
 ---
 
-![First tips image]({{ site.url }}{{ site.baseurl }}/assets/images/hopeless-disappointed.gif)
+![Brian disapointed]({{ site.url }}{{ site.baseurl }}/assets/images/hopeless-disappointed.gif)
 
 > Mais qu'est ce qu'il va nous sortir encore...
 
-# Le mec qui s'ennuit
+## Le mec qui s'ennuit
 
 Bon j'avoue, je suis probablement le seul a m'être éclaté à ce petit jeu, mais le resultat est formateur.
 
@@ -23,7 +23,7 @@ Obsédé par les scripts totalement exempt d'executables (qui ne retournent que 
 
 Pour ceux qui sont pressés, allez sur le lien en bas de page. Les autres peuvent poursuivre la lecture.
 
-# Description
+## Description
 
 Dans le code que je livre ici, il y a des points sur lesquels j'aimerais faire un focus.
 
@@ -49,18 +49,18 @@ Test-Ping dispose aussi de ce tips.
 ❗Cette astuce ne fonctionne pas avec ISE !
 
 
-# Demo
+## Demo
 
-## Test-Ping
+### Test-Ping
 
-![First tips image]({{ site.url }}{{ site.baseurl }}/assets/images/Test-Ping-Demo.gif)
+![Ping Demo]({{ site.url }}{{ site.baseurl }}/assets/images/Test-Ping-Demo.gif)
 
 J'ai poussé le simulacre jusqu'a mettre des sleep en mode verbeux.😅
 
 
-## Trace-Route
+### Trace-Route
 
-![First tips image]({{ site.url }}{{ site.baseurl }}/assets/images/trace-route-demo.gif)
+![Tracert demo]({{ site.url }}{{ site.baseurl }}/assets/images/trace-route-demo.gif)
 
 > Waow, mais c'est bien plus rapide !! Comment ca se fait ?
 
@@ -70,7 +70,7 @@ j'ai le meme comportement avec ping.exe... dans mon code, rien ne me force a att
 
 Du coup, c'est beaucoup plus rapide !
 
-# Conclusion
+## Conclusion
 
 J'ai trouvé l'exercice très exaltant. Parole de geek !
 
