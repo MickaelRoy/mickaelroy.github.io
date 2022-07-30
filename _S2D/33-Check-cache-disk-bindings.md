@@ -20,7 +20,7 @@ Darryl le dit lui même, il n'a rien inventé dans ce script, il a juste apport�
 ## C'est très bien mais ca sert à quoi ?
 
 <figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/dynamic-binding.gif" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/dynamic-binding.gif" alt="Drive bindings">
   <figcaption>Les liaisons de lecteurs.</figcaption>
 </figure>
 
