@@ -34,7 +34,7 @@ De plus il faut s'assurer que les disques sont bien liés, il arrive parfois (so
 
 ## A quoi cela ressemble-t-il ?
 
-Pour être concret, la cmdlet va retourner un resultat semblable a celui-ci pour chaqun des noeuds du cluster.
+Pour être concret, la cmdlet va retourner un résultat semblable a celui-ci pour chaqun des noeuds du cluster.
 
 Si des disques sont _unbound_ ou le ration non _even_ il sera alors temps de lancer la cmdlet _Repair-ClusrerS2D -RecoerUnboundDrives_
 
