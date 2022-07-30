@@ -9,6 +9,9 @@ tags:
   - Idrac
   - Redfish
   - Racadm
+header:
+  teaser: /assets/images/DellLogoCorruption.webp
+  image_description: "Dell Logo"
 ---
 
 # Idrac RedFish Powershell Module
