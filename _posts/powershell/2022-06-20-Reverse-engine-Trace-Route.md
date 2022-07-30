@@ -15,7 +15,7 @@ tags:
 
 ## Le mec qui s'ennuit
 
-Bon j'avoue, je suis probablement le seul a m'être éclaté à ce petit jeu, mais le resultat est formateur.
+Bon j'avoue, je suis probablement le seul a m'être éclaté à ce petit jeu, mais le résultat est formateur.
 
 C'est un petit projet que j'ai entrepris il y a 3 ans, il m'a cramé pas mal d'heures, et ca n'a d'utilité que pour crâner...
 
@@ -55,7 +55,7 @@ Test-Ping dispose aussi de ce tips.
 
 ![Ping Demo]({{ site.url }}{{ site.baseurl }}/assets/images/Test-Ping-Demo.gif)
 
-J'ai poussé le simulacre jusqu'a mettre des sleep en mode verbeux.😅
+J'ai poussé le simulacre jusqu'à mettre des sleeps en mode verbeux.😅
 
 
 ### Trace-Route
@@ -66,7 +66,7 @@ J'ai poussé le simulacre jusqu'a mettre des sleep en mode verbeux.😅
 
 Pour commencer je ne tente pas la resolution de l'ip... après... je ne sais pas 🤔...
 
-j'ai le meme comportement avec ping.exe... dans mon code, rien ne me force a attendre 1 seconde entre chaque paquet. 🤷‍♂️
+J'ai le même comportement avec ping.exe... dans mon code, rien ne me force à attendre 1 seconde entre chaque paquet. 🤷‍♂️
 
 Du coup, c'est beaucoup plus rapide !
 
@@ -76,7 +76,7 @@ J'ai trouvé l'exercice très exaltant. Parole de geek !
 
 Les scripts ne contiennent quasiment que des classes dot net; Cela donne l'illusion que l'on flirt avec du developpement.😁
 
-Il s'avère que le resultat obtenu est bien plus rapide qu'attendu. 
+Il s'avère que le résultat obtenu est bien plus rapide qu'attendu. 
 
 
 Ca, c'est cadeau, à plus !
