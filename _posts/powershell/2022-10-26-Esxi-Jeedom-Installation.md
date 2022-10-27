@@ -26,7 +26,7 @@ Commencez donc par télécharger l’ISO sur le [repo de Jeedom](https://images.
 
 Cliquez sur le bouton "Créer une machine virtuelle", puis sélectionnez l'option du même nom dans l'assistant.
 
-> Jusque là vous savez faire...
+> Jusque-là vous savez faire...
 
 Ensuite, donnez un nom à votre VM. Ce sera également son nom d'hôte.
 
@@ -44,9 +44,9 @@ Sélectionnez le datastore qui hébergera la VM, il se peut que vous en ayez qu'
 
 > ❗Prenez le temps de lire cette partie.
 
-Si vous le mini pc (barebone) le permet. Choisissez 2 vCPU. Moi je frime avec mon nuc, je l'ai choisi volontairement avec 4 cœurs afin de multiplier les contextes d'exécutions.
+Si votre le mini pc (barebone) le permet, choisissez 2 vCPU. Moi je frime avec mon nuc, je l'ai choisi volontairement avec 4 cœurs afin de multiplier les contextes d'exécutions.
 2 Go de RAM c'est bien.
-10 Go de disque est le minimum. Sorti de boite, l'installation de Jeedom occupe 7 Go. Prévoyez assez, parce que redimensionner un volume Linux, n'est pas simple quand on ne maitrise pas cet OS.
+10 Go de disque est le minimum. Sorti de boite, l'installation de Jeedom occupe 7 Go. Prévoyez assez parce que redimensionner un volume Linux, n'est pas simple quand on ne maitrise pas cet OS.
 Enfin, profitez-en pour connecter le lecteur CD-ROM à l'ISO précédemment télé-versé sur votre datastore. N'omettez pas de cocher la case "Connecter lors de la mise sous tension"
 
 <figure style="width: 500px" class="align-center">
@@ -62,14 +62,14 @@ Sélectionnez la seule option disponible.
 
 <figure style="width: 500px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h22_52.webp" alt="Install on disk">
-  <figcaption>Install in disk.</figcaption>
+  <figcaption>Installation sur disque.</figcaption>
 </figure>
 
 Validez.
 
 <figure style="width: 500px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h23_15.webp" alt="Install Jeedom ">
-  <figcaption>Installer Jeedom ?</figcaption>
+  <figcaption>Installer Jeedom ? Yes !</figcaption>
 </figure>
 
 Patientez jusqu'a obtenir la mire de connexion.
@@ -174,7 +174,7 @@ Ne reste plus qu'a répondre aux questions.
 
 ### Installez les vmtools
 
-le matériel de votre machine virtuelle, bien que virtuels, ont besoin de pilotes.
+Le matériel de votre machine virtuelle, bien que virtuels, ont besoin de pilotes.
 
 ```bash
 sudo apt-get install open-vm-tools
