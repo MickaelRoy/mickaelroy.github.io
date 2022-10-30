@@ -169,6 +169,8 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
+after_footer_scripts:
+  - clipboardrouge.js
 
 # Reading Files
 include:
