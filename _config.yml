@@ -169,9 +169,6 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
-after_footer_scripts:
-  - assets/js/clipboard.js
-
 # Reading Files
 include:
   - .htaccess
@@ -340,3 +337,5 @@ defaults:
         image_alt: "S2D-Logo"
         nav: "S2D"
 
+after_footer_scripts:
+  - assets/js/clipboard.js
