@@ -1,19 +1,2 @@
-const fs = require("fs");
-const pkg = require("./package.json");
-const filename = "assets/js/main.min.js";
-const script = fs.readFileSync(filename);
-const padStart = str => ("0" + str).slice(-2);
-const dateObj = new Date();
-const date = `${dateObj.getFullYear()}-${padStart(
-  dateObj.getMonth() + 1
-)}-${padStart(dateObj.getDate())}`;
-const banner = `/*!
- * Minimal Mistakes Jekyll Theme ${pkg.version} by ${pkg.author}
- * Copyright 2013-${dateObj.getFullYear()} Michael Rose - mademistakes.com | @mmistakes
- * Licensed under ${pkg.license}
- */
-`;
-
-if (script.slice(0, 3) != "/**") {
-  fs.writeFileSync(filename, banner + script);
-}
+/* https://gist.github.com/crykn/561307b8d70ce104eba0a57f29785e3f */
+function sleep(e){return new Promise(t=>setTimeout(t,e))}async function onClickEffect(e,t){e.removeClass("btn-light"),e.addClass(t),await sleep(250),e.removeClass(t),e.addClass("btn-light")}$(document).ready(function(){$(".page__content pre > code").each(function(){$(this).parent().prepend($(document.createElement("button")).prop({type:"button",innerHTML:'<i class="far fa-copy"></i>'}).attr("title","Copy to clipboard").addClass("btn").addClass("btn--primary").css("position","absolute").css("right","1em").on("click",function(){let e=$(this).parent().children("code").first();if(!e)throw new Error("Unexpected error! No corresponding code block was found for this button.");return onClickEffect($(this),"btn--success"),t=e,n=$("<input>"),$("body").append(n),n.val($(t).text()).select(),document.execCommand("copy"),void n.remove();var t,n}))})});
