@@ -8,7 +8,7 @@ tags:
   - Winform
   - Tips
 header:
-  teaser: /assets/images/Invoke-InputBox.webp
+  teaser: /assets/images/Invoke-Inputbox.webp
   image_description: "Boite de dialogue en WInForm."
 ---
 
@@ -21,7 +21,7 @@ Je ne vais donc pas m'attarder sur ce qu'est du Winform, qui est censé être d�
 > GUI tu dis ? ouais j'lé dit. GUI et PowerShell ne s'oppose pas forcément, même si cela semble contre-intuitif.
 
 <figure style="width: 303px" class="align-center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Invoke-InputBox.webp" alt="InputBox">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Invoke-Inputbox.webp" alt="InputBox">
   <figcaption>Illustation de la boite de dialogue.</figcaption>
 </figure>
 
