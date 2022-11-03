@@ -6,9 +6,10 @@ classes: wide
 tags: 
   - PowerShell  
   - Winform
+  - Tips
 header:
   teaser: /assets/images/Invoke-InputBox.webp
-  image_description: "Jeedom sur Esxi"
+  image_description: "Boite de dialogue en WInForm."
 ---
 
 ## Préambule
