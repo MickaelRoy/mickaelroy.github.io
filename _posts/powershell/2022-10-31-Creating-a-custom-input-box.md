@@ -16,7 +16,7 @@ header:
 
 Je ne vous cache pas que ce que je vous montre ici, 90% est expliqué chez nos amis [Microsoft](https://learn.microsoft.com/fr-fr/powershell/scripting/samples/creating-a-custom-input-box?view=powershell-5.1).
 
-Je ne vais donc pas m'attarder sur ce qu'est du Winform, qui est censé est déprécié depuis des années, mais plutôt me concentrer sur les tips qui font que cette petite GUI aura de la gueule... enfin... c'est du Winform, ne vous attendez pas non plus à un truc de fou.
+Je ne vais donc pas m'attarder sur ce qu'est du Winform, qui est censé être déprécié depuis des années, mais plutôt me concentrer sur les tips qui font que cette petite GUI aura de la gueule... enfin... c'est du Winform, ne vous attendez pas non plus à un truc de fou.
 
 > GUI tu dis ? ouais j'lé dit. GUI et PowerShell ne s'oppose pas forcément, même si cela semble contre-intuitif.
 
