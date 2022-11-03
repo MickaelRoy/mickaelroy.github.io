@@ -20,6 +20,11 @@ Je ne vais donc pas m'attarder sur ce qu'est du Winform, qui est censé est dép
 
 > GUI tu dis ? ouais j'lé dit. GUI et PowerShell ne s'oppose pas forcément, même si cela semble contre-intuitif.
 
+<figure style="width: 303px" class="align-center">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Invoke-InputBox.webp" alt="InputBox">
+  <figcaption>Illustation de la boite de dialogue.</figcaption>
+</figure>
+
 ## Astuce n°1
 
 ```powershell
@@ -84,7 +89,7 @@ Ajoutez une belle icone pour votre application. 16x16 pixels suffit, embarquez l
 
 Un effet de fondu pour afficher la GUI, en voilà une bonne idée. **1*$($form.Opacity/15)** donnera une sensation d'accélération...
 
-<figure style="width: 500px" class="align-center">
+<figure style="width: 303px" class="align-center">
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Invoke-InputBox.gif" alt="Fade-In-InputBox">
   <figcaption>Effet fondu.</figcaption>
 </figure>
@@ -119,11 +124,6 @@ N'oubliez pas le Dispose() après le Close(). Si vous développez sous ISE, cela
 ```
 
 Offrez-vous le luxe d'un ctrl+C
-
-<figure style="width: 500px" class="align-center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-27_00h48_24.webp" alt="Ip static">
-  <figcaption>Fixez l'adresse IP.</figcaption>
-</figure>
 
 ## Conclusion
 
