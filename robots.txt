@@ -3,3 +3,6 @@ layout: none
 ---
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
+
+Disallow: /feed.xml
+Disallow: /assets/images
