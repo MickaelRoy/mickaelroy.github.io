@@ -169,7 +169,7 @@ Ne reste plus qu'a répondre aux questions.
 
 <figure style="width: 450px" class="align-center">
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-24_22h55_15.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-24_22h55_15.webp" alt="Certbot"></a>
-  <figcaption>Générez le certificat..</figcaption>
+  <figcaption>Générez le certificat.</figcaption>
 </figure>
 
 ### Installez les vmtools
@@ -190,8 +190,8 @@ Editez le fichier de configuration.
 sudo nano /etc/network/interfaces
 ```
 
-<figure style="width: 500px" class="align-center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-27_00h48_24.webp" alt="Ip static">
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-27_00h48_24.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-27_00h48_24.webp" alt="Ip static"></a>
   <figcaption>Fixez l'adresse IP.</figcaption>
 </figure>
 
