@@ -30,6 +30,11 @@ Cliquez sur le bouton "Créer une machine virtuelle", puis sélectionnez l'optio
 
 Ensuite, donnez un nom à votre VM. Ce sera également son nom d'hôte.
 
+<figure>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h39_48.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h39_48.webp" alt="Assistant Esxi Etape 2"></a>
+  <figcaption>Sélectionnez un nom et un système d'exploitation.</figcaption>
+</figure>
+
 <figure style="width: 500px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h39_48.webp" alt="Assistant Esxi Etape 2">
   <figcaption>Sélectionnez un nom et un système d'exploitation.</figcaption>
