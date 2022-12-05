@@ -30,20 +30,15 @@ Cliquez sur le bouton "Créer une machine virtuelle", puis sélectionnez l'optio
 
 Ensuite, donnez un nom à votre VM. Ce sera également son nom d'hôte.
 
-<figure style="width: 500px" class="align-center">
+<figure style="width: 400px" class="align-center">
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h39_48.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h39_48.webp" alt="Assistant Esxi Etape 2"></a>
-  <figcaption>Sélectionnez un nom et un système d'exploitation.</figcaption>
-</figure>
-
-<figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h39_48.webp" alt="Assistant Esxi Etape 2">
   <figcaption>Sélectionnez un nom et un système d'exploitation.</figcaption>
 </figure>
 
 Sélectionnez le datastore qui hébergera la VM, il se peut que vous en ayez qu'un... je ne peux pas le savoir pour vous 😁
 
-<figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h41_44.webp" alt="Assistant Esxi Etape 3">
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h41_44.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h41_44.webp" alt="Assistant Esxi Etape 3"></a>
   <figcaption>Sélectionnez un stockage.</figcaption>
 </figure>
 
@@ -54,8 +49,8 @@ Si votre le mini pc (barebone) le permet, choisissez 2 vCPU. Moi je frime avec m
 10 Go de disque est le minimum. Sorti de boite, l'installation de Jeedom occupe 7 Go. Prévoyez assez parce que redimensionner un volume Linux, n'est pas simple quand on ne maitrise pas cet OS.
 Enfin, profitez-en pour connecter le lecteur CD-ROM à l'ISO précédemment télé-versé sur votre datastore. N'omettez pas de cocher la case "Connecter lors de la mise sous tension"
 
-<figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h44_27.webp" alt="Assistant Esxi Etape 4">
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h44_27.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h44_27.webp" alt="Assistant Esxi Etape 4"></a>
   <figcaption>Personnalisez les paramètres.</figcaption>
 </figure>
 
@@ -65,22 +60,22 @@ Terminez l'assistant et démarrez la VM pour passer à l'installation de l'OS
 
 Sélectionnez la seule option disponible.
 
-<figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h22_52.webp" alt="Install on disk">
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h22_52.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h22_52.webp" alt="Install on disk"></a>
   <figcaption>Installation sur disque.</figcaption>
 </figure>
 
 Validez.
 
-<figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h23_15.webp" alt="Install Jeedom ">
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h23_15.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h23_15.webp" alt="Install Jeedom"></a>
   <figcaption>Installer Jeedom ? Yes !</figcaption>
 </figure>
 
 Patientez jusqu'a obtenir la mire de connexion.
 
-<figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h27_28.webp" alt="Jeedom Installed">
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h27_28.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h27_28.webp" alt="Install Installed"></a>
   <figcaption>Mire de connexion Jeedom.</figcaption>
 </figure>
 
@@ -99,9 +94,9 @@ dpkg-reconfigure keyboard-configuration
 
 > ℹ️ dpg-reconfiure n'est accessible qu'en tant que root.
 
-<figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h42_03.webp" alt="keyboad layout">
-  <figcaption>Adaptez votre clavier.</figcaption>
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h42_03.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h42_03.webp" alt="keyboad layout"></a>
+  <figcaption>Adaptez votre clavier</figcaption>
 </figure>
 
 ### sudo
@@ -117,9 +112,9 @@ Enfin exécutez cette commande pour autoriser le compte jeedom a utiliser sudo
 usermod -aG sudo mon_user
 ```
 
-<figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_23h02_50.webp" alt="Jeedom Installed">
-  <figcaption>Mire de connexion Jeedom.</figcaption>
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_23h02_50.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_23h02_50.webp" alt="Enable sudo"></a>
+  <figcaption>Déléguez les super-pouvoirs.</figcaption>
 </figure>
 
 ### Mise à jour de debian
@@ -130,8 +125,8 @@ Récupérez la liste des mises à jour disponibles
 sudo apt update
 ```
 
-<figure style="width: 500px" class="align-center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_23h06_22.webp" alt="apt update">
+<figure style="width: 450px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_23h06_22.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_23h06_22.webp" alt="apt update"></a>
   <figcaption>sudo apt update.</figcaption>
 </figure>
 
@@ -141,8 +136,8 @@ Puis lancez la mise à jour
 sudo apt-get upgrade
 ```
 
-<figure style="width: 500px" class="align-center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_23h09_42.webp" alt="apt-get upgrade">
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_23h09_42.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_23h09_42.webp" alt="apt-get upgrade"></a>
   <figcaption>sudo apt-get upgrade.</figcaption>
 </figure>
 
@@ -172,9 +167,9 @@ sudo certbot --apache
 
 Ne reste plus qu'a répondre aux questions.
 
-<figure style="width: 500px" class="align-center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-24_22h55_15.webp" alt="Certbot">
-  <figcaption>sudo apt-get upgrade.</figcaption>
+<figure style="width: 450px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-24_22h55_15.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-24_22h55_15.webp" alt="Certbot"></a>
+  <figcaption>Générez le certificat..</figcaption>
 </figure>
 
 ### Installez les vmtools
