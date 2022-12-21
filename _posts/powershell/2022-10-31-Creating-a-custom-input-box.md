@@ -90,9 +90,10 @@ Ajoutez une belle icone pour votre application. 16x16 pixels suffit, embarquez l
 Un effet de fondu pour afficher la GUI, en voilà une bonne idée. **1*$($form.Opacity/15)** donnera une sensation d'accélération...
 
 <figure style="width: 303px" class="align-center">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Invoke-InputBox.gif" alt="Fade-In-InputBox">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/Invoke-InputBox.gif"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Invoke-InputBox.gif" alt="Fade-In-InputBox"></a>
   <figcaption>Effet fondu.</figcaption>
 </figure>
+
 
 ## Astuce n°4
 
