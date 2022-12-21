@@ -2,6 +2,7 @@
 title:  "Get-WsusUpdates et un peu plus"
 excerpt: "Get-WsusUpdates: Ou telecharger les patches directement depuis le wsus."
 category: PowerShell
+classes: wide
 tags: 
   - PowerShell
   - Tips

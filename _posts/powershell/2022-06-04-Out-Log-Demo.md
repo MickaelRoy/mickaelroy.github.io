@@ -2,6 +2,7 @@
 title:  "Out-Log: une cmdlet qui affiche la couleur"
 excerpt: "Quand on veut horodater les processus longs, voir en un coup d'oeil les évènements importants."
 category: PowerShell
+classes: wide
 tags: 
   - PowerShell
   - Tips

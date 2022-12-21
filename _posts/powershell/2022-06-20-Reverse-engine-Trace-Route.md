@@ -3,6 +3,7 @@ title: "Trace-Route, Test-Ping et du fun"
 excerpt: "Un projet rigolo, reproduire le comportement de tracert.exe et de ping.exe"
 description: "Une demonstration de la force de powershell tout en s'amusant. Deux commandes Dos reproduite en Posh et une astuce en prime."
 category: PowerShell
+classes: wide
 tags: 
   - PowerShell
   - cmdlet
