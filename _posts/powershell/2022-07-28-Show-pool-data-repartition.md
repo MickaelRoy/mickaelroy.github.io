@@ -13,10 +13,11 @@ header:
   image_description: "data repartition"
 ---
 
-<figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/S2D-Slabs-re-balance.gif" alt="Data-Rebalance">
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/S2D-Slabs-re-balance.gif"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/S2D-Slabs-re-balance.gif" alt="Data-Rebalance"></a>
   <figcaption>S2D data re-balance.</figcaption>
 </figure>
+
 
 @Cosmos Darwin, please considere all my appologies regarding what i'm about to do.
 
@@ -52,8 +53,8 @@ Je vous invite fermement à visiter [sa page](https://techcommunity.microsoft.co
 
 A première vue, c'est du lourd, __240 lignes__ pour obtenir un objet PowerShell qui ressemble à ca:
 
-<figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Show-PrettyPoolObject.webp" alt="Show-PrettyPool-Result">
+<figure style="width: 400px" class="align-center">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/Show-PrettyPoolObject.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Show-PrettyPoolObject.webp" alt="Show-PrettyPool-Result"></a>
   <figcaption>Show-PrettyPool result.</figcaption>
 </figure>
 
