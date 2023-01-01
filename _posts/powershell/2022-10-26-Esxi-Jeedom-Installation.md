@@ -3,6 +3,7 @@ title: "[Jeedom] Virtualiser sa box domotique"
 excerpt: "Installer Jeedom sous Esxi VM a l'aide de l'image officielle."
 category: Jeedom
 classes: wide
+comments: true
 tags: 
   - VMWare	
   - Esxi

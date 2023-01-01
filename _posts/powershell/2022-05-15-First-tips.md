@@ -2,6 +2,7 @@
 title:  "Bienvenue sur mon blog!"
 excerpt: "Optimisation de code, test et booleens."
 category: PowerShell
+comments: true
 tags: 
   - PowerShell
   - Tips

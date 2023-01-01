@@ -2,6 +2,7 @@
 title:  "PowerShell: Manipuler les informations réseau."
 excerpt: "Convertion d'IP, masque, en valeur binaire ou decimale et vice et versa."
 category: PowerShell
+comments: true
 tags: 
   - PowerShell
   - Tips

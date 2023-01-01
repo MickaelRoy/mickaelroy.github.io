@@ -3,6 +3,7 @@ title:  "Activer WINRM/PSRemoting avec chiffrement"
 excerpt: "Configurez WINRM et faites du PSRemote en SSL."
 category: PowerShell
 classes: wide
+comments: true
 tags: 
   - PowerShell
   - Tips
