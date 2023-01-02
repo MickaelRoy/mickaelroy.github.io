@@ -72,7 +72,7 @@ YES ! on peut !
 
 ```powershell
 $MyObject.psobject.properties.Add( [psnoteproperty]::new('IpAddress', '192.168.1.1') )
-```powershell
+```
 
 Et voilà !
 
