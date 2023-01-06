@@ -8,8 +8,8 @@ tags:
   - PowerShell
   - Tips
 header:
-  teaser: /assets/images/Invoke-Inputbox.webp
-  image_description: "Boite de dialogue en WInForm."
+  teaser: /assets/images/2023-01-02_13h21_54.webp
+  image_description: "Apercu du code."
 ---
 
 ## Préambule
