@@ -7,6 +7,7 @@ comments: true
 tags: 
   - PowerShell
   - Tips
+  - RegEx
 header:
   teaser: /assets/images/2023-01-06_21h57_35.webp
   image_description: "Apercu du code."
