@@ -17,7 +17,7 @@ header:
 
 En cherchant toute autre chose, sachez que je ne suis pas l'auteur de cette page, l'originale se trouve sur ce [blog](https://lazywinadmin.com/2015/08/powershell-remove-special-characters.html).
 
-Une astuce fort pratique pour manipuler des chaines de caractère tout en abordant differents aspects et notamment les *RegEx* (Prononcez Reguex, puisque le terme est la contraction de *Regular Expression*)
+Une astuce fort pratique pour manipuler des chaines de caractères tout en abordant differents aspects et notamment les *RegEx* (Prononcez Reguex, puisque le terme est la contraction de *Regular Expression*)
 
 
 ## Entrons dans le vif
@@ -88,6 +88,6 @@ Chaque caractère Unicode appartient à une certaine catégorie. Vous pouvez fai
 
 D'autres exemples sympas tels que `\p{N}` pour tout type de nombres, `\p{Nl}` pour un nombre qui ressemble à une lettre, comme un chiffre romain et enfin `\p{No}` pour un chiffre en exposant ou en indice, ou un nombre qui n'est pas un chiffre "0-9".
 
-Je trouve très intelligent la methode, surtout pour un générateur de mot de passe.
+Je trouve très intelligente la methode, surtout pour un générateur de mot de passe.
 
 Ça, c'est cadeau, à plus !
