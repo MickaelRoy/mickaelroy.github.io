@@ -11,13 +11,11 @@ tags:
 ---
 
 ## Préambule
----
 
 
 Un post un peu singulier puisqu'il ne vous ai pas vraiment destiné, c'est plus un post-it qu'un post.
 
 ## Commandes Winhttp proxy
----
 
 
 La base, importer les pametres IE.
@@ -49,7 +47,6 @@ netsh winhttp reset proxy
 
 
 ## Commandes interface
----
 
 
 Utiles dans un WinPE depourvu de PowerShell.
@@ -114,7 +111,6 @@ netsh int ipv6 reset catalog
 ```
 
 ## Commandes advfirewall
----
 
 Pour tout ouvrir :) (pare-feu)
 
