@@ -8,10 +8,11 @@ tags:
   - NetSH
   - Tips
   - WinHTTP
-
 ---
 
 ## Préambule
+---
+
 
 Un post un peu singulier puisqu'il ne vous ai pas vraiment destiné, c'est plus un post-it qu'un post.
 
