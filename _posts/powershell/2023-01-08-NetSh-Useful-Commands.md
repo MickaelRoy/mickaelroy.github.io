@@ -1,16 +1,14 @@
 ﻿---
-title: "Retirer les caractères speciaux d'une chaine."
-excerpt: "Trois approche pour nettoyer une chaine de caratères."
+title: "NetSh, les commandes quisauvent."
+excerpt: "L'essentiel des commandes NetSh qui peuvent vous sauver quand PowerShell n'est pas là."
 category: PowerShell
 classes: wide
 comments: true
 tags: 
-  - PowerShell
+  - NetSH
   - Tips
-  - RegEx
-header:
-  teaser: /assets/images/2023-01-06_21h57_35.webp
-  image_description: "Apercu du code."
+  - WinHTTP
+
 ---
 
 ## Préambule
