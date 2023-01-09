@@ -19,28 +19,28 @@ Un post un peu singulier puisqu'il ne vous ai pas vraiment destiné, c'est plus 
 
 La base, importer les pametres IE.
 
-```powershell
+```
 netsh winhttp import proxy source = ie
 ```
 
 
 Exemple de configuration manuelle.
 
-```powershell
+```
 netsh winhttp set proxy proxy-server = "SRV-PROXY: PORT-PROXY" bypass-list = "192.168.1.*; *.home"
 ```
 
 
 Afficher la configuration courante
 
-```powershell
+```
 netsh winhttp show proxy
 ```
 
 
 Remise à 0.
 
-```powershell
+```
 netsh winhttp reset proxy
 ```
 
@@ -53,14 +53,14 @@ Utiles dans un WinPE depourvu de PowerShell.
 
 Pour voir la configuration actuelle.
 
-```powershell
+```
 netsh interface ip show config
 ```
 
 
 Configuration dhcp.
 
-```powershell
+```
 netsh interface ip set address "connection name" source=dhcp
 netsh interface ip set dns "connection name" source=dhcp
 ```
@@ -68,7 +68,7 @@ netsh interface ip set dns "connection name" source=dhcp
 
 Configuration static. Definition de l'adresse IP, Masque et passerelle.
 
-```powershell
+```
 netsh interface ip set address "connection name" static 192.168.0.101 255.255.255.0 192.168.0.1
 ```
 
@@ -76,7 +76,7 @@ netsh interface ip set address "connection name" static 192.168.0.101 255.255.25
 
 Configuration des DNS
 
-```powershell
+```
 netsh interface ipv4 set dns name="connection name" static 4.4.4.4
 ou
 netsh interface ipv4 add dnsserver "connection name" address=8.8.8.8 index=2
@@ -85,14 +85,14 @@ netsh interface ipv4 add dnsserver "connection name" address=8.8.8.8 index=2
 
 Activer ou désactiver une carte réseau.
 
-```powershell
+```
 netsh interface set interface "connection name" enable/disable
 ```
 
 
 Désactiver les interfaces virtuelles IPv6
 
-```powershell
+```
 netsh interface teredo set state disabled
 netsh interface ipv6 6to4 set state state=disabled undoonstop=disabled
 netsh interface ipv6 isatap set state state=disabled
@@ -101,7 +101,7 @@ netsh interface ipv6 isatap set state state=disabled
 
 Pour tout peter !
 
-```powershell
+```
 netsh winsock reset
 netsh winhttp reset tracing
 netsh winsock reset catalog
@@ -113,7 +113,7 @@ netsh int ipv6 reset catalog
 
 Pour tout ouvrir :) (pare-feu)
 
-```powershell
+```
 netsh advfirewall set domainprofile state off
 netsh advfirewall set privateprofile state off
 netsh advfirewall set publicprofile state off
@@ -122,14 +122,14 @@ netsh advfirewall set publicprofile state off
 
 Pour afficher tous les profils de pare-feu
 
-```powershell
+```
 netsh advfirewall show allprofiles
 ```
 
 
 Pour afficher la configuration globale du pare-feu
 
-```powershell
+```
 netsh advfirewall monitor show firewall
 ```
 
