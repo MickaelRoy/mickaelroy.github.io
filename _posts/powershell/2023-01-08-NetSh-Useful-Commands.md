@@ -1,5 +1,5 @@
 ﻿---
-title: "NetSh, les commandes quisauvent."
+title: "NetSh, les commandes qui sauvent."
 excerpt: "L'essentiel des commandes NetSh qui peuvent vous sauver quand PowerShell n'est pas là."
 category: PowerShell
 classes: wide
