@@ -121,13 +121,12 @@ netsh advfirewall set privateprofile state off
 netsh advfirewall set publicprofile state off
 ```
 
+
 Pour afficher tous les profils de pare-feu
 
 ```powershell
 netsh advfirewall show allprofiles
 ```
-
-
 
 
 Pour afficher la configuration globale du pare-feu
