@@ -18,7 +18,7 @@ Un post un peu singulier puisqu'il ne vous ai pas vraiment destiné, c'est plus 
 ## Commandes Winhttp proxy
 
 
-La base, importer les pametres IE.
+La base, importer les paremètres IE.
 
 ```
 netsh winhttp import proxy source = ie
@@ -49,7 +49,7 @@ netsh winhttp reset proxy
 ## Commandes interface
 
 
-Utiles dans un WinPE depourvu de PowerShell.
+Utiles, dans un WinPE depourvu de PowerShell.
 
 Pour voir la configuration actuelle.
 
@@ -66,12 +66,11 @@ netsh interface ip set dns "connection name" source=dhcp
 ```
 
 
-Configuration static. Definition de l'adresse IP, Masque et passerelle.
+Configuration statique. Définition de l'adresse IP, le masque et la passerelle.
 
 ```
 netsh interface ip set address "connection name" static 192.168.0.101 255.255.255.0 192.168.0.1
 ```
-
 
 
 Configuration des DNS
