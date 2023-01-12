@@ -93,13 +93,13 @@ Je trouve très intelligente la methode, surtout pour un générateur de mot de 
 Edit du 12/01/23
 
 ```powershell
-PS C:\Users\amena> $CharSet
+PS> $CharSet
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()_[]-,./?\²
 
-PS C:\Users\amena>     $CharSet -replace '[\p{No}]', ' '
+PS C:\Users\amena> $CharSet -replace '[\p{No}]', ' '
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()_[]-,./?\ 
 
-PS C:\Users\amena>     $CharSet -replace '[\p{Nl}]', ' '
+PS> $CharSet -replace '[\p{Nl}]', ' '
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()_[]-,./?\²
 ```
 
