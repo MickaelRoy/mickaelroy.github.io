@@ -90,4 +90,23 @@ D'autres exemples sympas tels que `\p{N}` pour tout type de nombres, `\p{Nl}` po
 
 Je trouve très intelligente la methode, surtout pour un générateur de mot de passe.
 
+Edit du 12/01023
+
+```powershell
+PS C:\Users\amena> $CharSet
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()_[]-,./?\²
+
+PS C:\Users\amena>     $CharSet -replace '[\p{No}]', ' '
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()_[]-,./?\ 
+
+PS C:\Users\amena>     $CharSet -replace '[\p{Nl}]', ' '
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()_[]-,./?\²
+```
+
+On voit bien que `\p{No}` enleve le chiffre exposant. En revanche `\p{No}` ne retire rien.
+
+> Je suis decu, je pensais voir disparaitre au moin le `1` ou le `l`, le O et/ou le 0.
+
+J'en profite pour vous conduire vers [Microsoft|(https://learn.microsoft.com/en-us/dotnet/standard/base-types/character-classes-in-regular-expressions)] qui a répertorié toutes les categories.
+
 Ça, c'est cadeau, à plus !
