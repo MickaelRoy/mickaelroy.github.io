@@ -87,7 +87,6 @@ function Get-RandomPassword {
     }
 
     # pour le fun, on remelange le tout !
-    #Scrambling charset
     $result = $result | Get-Random -Count $result.Length 
     
     # On colle le tout pour en faire une chaine de caractère.
