@@ -90,7 +90,7 @@ D'autres exemples sympas tels que `\p{N}` pour tout type de nombres, `\p{Nl}` po
 
 Je trouve très intelligente la methode, surtout pour un générateur de mot de passe.
 
-Edit du 12/01023
+Edit du 12/01/23
 
 ```powershell
 PS C:\Users\amena> $CharSet
