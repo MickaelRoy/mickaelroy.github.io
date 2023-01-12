@@ -107,6 +107,7 @@ J'espere que les explications en commentaire suffiront...
 
 ## Conclusion
 
-Bien entendu, il est perfectible. je vous laisse me chambrer en commentaire 😁
+Bien entendu, il est perfectible, vous constatez qu'il y a un argument MaxSpecial, mais pas de MinSpecial..
+je vous laisse me chambrer en commentaire 😁
 
 Ça, c'est cadeau, à plus !
