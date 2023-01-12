@@ -46,7 +46,7 @@ function Get-RandomPassword {
     $nCharSet = "0123456789"
     $sCharSet = $SpecialPattern
 
-    If ($MaxSpecial -gt 0  -and (!$NoSpecial)) { $CharSet += $sCharSet }
+    If ($MaxSpecial -gt 0 -and (!$NoSpecial)) { $CharSet += $sCharSet }
     If (!$NoUpper) { $CharSet += $uCharSet }
     If (!$NoLower) { $CharSet += $lCharSet }
     If (!$NoNumeric) { $CharSet += $nCharSet }
@@ -74,12 +74,13 @@ function Get-RandomPassword {
     For ($i = 0 ; $i -lt $length ; $i++) {
         
         # Utilisation de la fonction mathematique modulo, pour que le choix de caracter aux limites de imposées par le charset.
-        # si le charset ne dispose que de 73 caracteres, le modulo (reste de la division) ne peut etre qu'inferieur à 73
+        # si le charset ne dispose que de 73 caracteres, le modulo (reste de la division) ne peut être qu'inferieur à 73
         $Char = $charSet[$bytes[$i] % $charSet.Length]
 
-        # On incrémente a chaque fois qu'un caractère special passe.
+        # On incrémente à chaque fois qu'un caractère special passe.
         If ($Char -in $sCharSet.ToCharArray()) { $schar++ ; Write-Verbose "$Char found Special count: $sChar/$MaxSpecial" }
-        # Si on a attent le nombre de caractères speciaux voulu, on les retire du charset
+
+        # Si on a attent le nombre maximum de caractères speciaux, on les retire du charset
         If ($schar -ge $MaxSpecial) { $charSet = $charSet | ? { $_ -notin  $sCharSet.ToCharArray() }; Write-Verbose "MaxSpecial reached"}
 
         # On place le caractère généré dans la variable result les uns à la suite des autres.
