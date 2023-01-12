@@ -98,9 +98,15 @@ function Get-RandomPassword {
 }
 ```
 
+J'espere que les explications en commentaire suffiront...
+
 <figure style="width: 400px" class="align-center">
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-01-12_23h19_22.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-01-12_23h19_22.webp" alt="3 exemples."></a>
   <figcaption>Générez des mots de passes.</figcaption>
 </figure>
+
+## Conclusion
+
+Bien entendu, il est perfectible. je vous laisse me chambrer en commentaire 😁
 
 Ça, c'est cadeau, à plus !
