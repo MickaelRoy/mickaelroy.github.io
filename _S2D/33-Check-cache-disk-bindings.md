@@ -24,7 +24,7 @@ Darryl le dit lui même, il n'a rien inventé dans ce script, il a juste apport�
   <figcaption>Les liaisons de lecteurs.</figcaption>
 </figure>
 
-Comme le montre cette figure (Merci MS), dans l'ideal et a moins que vous n'ayez désactivé le cache S2D, les disques de capacité sont liés à des disques de cache.
+Comme le montre cette figure (Merci MS), dans l'idéal et à moins que vous n'ayez désactivé le cache S2D, les disques de capacité sont liés (_bindés_) à des disques de cache.
 
 Il doit y avoir un ratio, entre le nombre de disques de capacité et le nombre de disques de cache.
 
@@ -36,7 +36,7 @@ De plus il faut s'assurer que les disques sont bien liés, il arrive parfois (so
 
 Pour être concret, la cmdlet va retourner un résultat semblable a celui-ci pour chaqun des noeuds du cluster.
 
-Si des disques sont _unbound_ ou le ration non _even_ il sera alors temps de lancer la cmdlet _Repair-ClusrerS2D -RecoerUnboundDrives_
+Si des disques sont _unbound_ ou le ratio non _even_ il sera alors temps de lancer la cmdlet _Repair-ClusrerS2D -RecoverUnboundDrives_
 
 ```
 ╒═══════════════╕

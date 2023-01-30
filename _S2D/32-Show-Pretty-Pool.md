@@ -17,7 +17,7 @@ classes: wide
 
 C'est un script qu'il met arrivé d'exécuter comme ça, à brule-pourpoint, pour avoir une réponse rapide à une question simple: -"les données du pool sont-elles correctement réparties entre les disques ?"
 
-Il arrive parfois, notemment après l'insertion de nouveaux disques au sein d'un cluster, que des disques ne soient pas utilisés pour acceuillir des donnés du StoragepPool à la meme echelle que les autres.
+Il arrive parfois, notemment après l'insertion de nouveaux disques au sein d'un cluster, que des disques ne soient pas utilisés pour acceuillir des données du StoragepPool à la même échelle que les autres.
 
 Parfois même, c'est l'ensemble des disques d'un noeud qui sont sous-utilisés; Après une mise en maintenance par exemple.
 
