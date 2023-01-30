@@ -67,7 +67,7 @@ Beaucoup de choses dans ce bout de code.
 
 Prenez le temps de regarder la partie Ipv6, que je désactive de force, de façon un peu sale.
 
-L’expérience montre qu’en entreprise, il nous arrive de devoir faire face a des GPO récalcitrantes, d’où l’interet de ce procédé.
+L’expérience montre qu’en entreprise, il nous arrive de devoir faire face à des GPO récalcitrantes, d’où l’interet de ce procédé.
 
 > ℹ️ Si vous avez le choix, optez toujours pour une désactivation de l’Ipv6 via la clé __DisabledComponents__. La seule methode supportée par MS.
 
