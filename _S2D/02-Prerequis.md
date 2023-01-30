@@ -6,7 +6,7 @@ classes: wide
 
 ## Prérequis Matériels
 
-- Au moins deux serveurs identique tel que _Dell Powerdge r740 xd_
+- Au moins deux serveurs identiques tels que _Dell Powerdge r740 xd_
 - Au moins 1 carte dual port 10Gb, 25Gb est fortement conseillé.
 - Une carte HBA non-RAID, seul le _JBOD_ est supporté.
 - Suivez ce lien pour savoir ce qu'en pense MS: [HardWare Requirement]
