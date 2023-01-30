@@ -60,7 +60,7 @@ S2D:
       - title: "VMMS - Event ID 14050"
         url: /S2D/30-14050-vmms-event/
       - title: "Quorum - FileShare Witness"
-        url: /S2D/31-Quorum-File-Share-Witness/
+        url: /S2D/31-Quorum-FSWitness/
       - title: "Répartition des données du pool"
         url: /S2D/32-Show-Pretty-Pool/
       - title: "Liaison des disques de cache"
