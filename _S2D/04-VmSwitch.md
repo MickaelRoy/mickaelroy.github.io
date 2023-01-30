@@ -61,5 +61,5 @@ Invoke-NetConfig
 
 Ce bout de code attrape les paramètres réseaux de la carte qui dispose d'une passerelle pour créer et configurer le Switch SET ainsi que la carte de management.
 
-> ⚠️ Je précise que le LACP n’est pas supporté par MS dns un contexte HCI.
+> ⚠️ Je précise que le LACP n’est pas supporté par MS dans un contexte HCI.
  
