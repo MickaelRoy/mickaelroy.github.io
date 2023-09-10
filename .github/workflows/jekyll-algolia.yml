@@ -1,3 +1,5 @@
+name: Algolia push records
+
 on: [push]
 
 jobs:
@@ -8,10 +10,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: Set up Ruby 2.6
+      - name: Set up Ruby 3.2
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
+          ruby-version: '3.2'
       - name: Install dependencies and push records
         run: |
           gem install bundler
