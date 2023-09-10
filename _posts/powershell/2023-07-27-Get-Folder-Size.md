@@ -46,7 +46,7 @@ Get-FolderSize C:\Windows
 -> toi tu sors. 👈🏻
 
 
-Les dessins valent parfois mieux que les longs discourts mais Je ne sais pas dessiner...
+Les dessins valent parfois mieux que les longs discours mais je ne sais pas dessiner...
 
 <figure style="width: 400px" class="align-center">
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-07-27-Get-FolderSize.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-07-27-Get-FolderSize.webp" alt="Comparons les perfs."></a>
