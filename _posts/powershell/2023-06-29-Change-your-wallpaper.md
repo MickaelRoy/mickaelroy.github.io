@@ -117,6 +117,6 @@ public static extern int SystemParametersInfo(int uAction, int uParam, string lp
 
 Ce script n'est pas de moi, je ne l'ai même pas optimisé;
 
-Si cela avait été le cas je n'aurai pas fait usage de bloc BEGIN/PROCESS qui est une notion completement inutile si le cmdlet n'est pas destiné a recevoir des object en entrée.
+Si cela avait été le cas je n'aurai pas fait usage de bloc BEGIN/PROCESS qui est une notion completement inutile si le cmdlet n'est pas destiné à recevoir des objets en entrée.
 
 Ça, c'est cadeau, à plus !
