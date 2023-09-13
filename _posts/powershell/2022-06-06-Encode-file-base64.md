@@ -10,8 +10,6 @@ tags:
   - Base64
 ---
 
-# Get-WsusUpdates
-
 ## Description
 
 Voici une petite astuce pour convertir n'importe quel fichier en chaine de caractère.
