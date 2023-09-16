@@ -9,7 +9,10 @@ tags:
   - Flan
 ---
 
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/flan-patissier.webp){: .align-right}
+<figure style="width: 300px" class="align-right">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/flan-patissier.webp" alt="">
+  <figcaption>Le flan patissier !.</figcaption>
+</figure> 
 
 A peanut butter cookie is a type of cookie that is distinguished for having peanut butter as a principal ingredient. The cookie generally originated in the United States, its development dating back to the 1910s.
 
@@ -92,3 +95,8 @@ Laissez-le encore au moins 2h prendre au frigo.
 Démoulez-le quand il est bien froid.
 
 ![Avec Amour]({{ site.url }}{{ site.baseurl }}/assets/images/Coeur-vanille.webp){: .align-left}
+
+<figure style="width: 300px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Coeur-vanille.webp" alt="">
+  <figcaption>Le flan patissier !.</figcaption>
+</figure> 
