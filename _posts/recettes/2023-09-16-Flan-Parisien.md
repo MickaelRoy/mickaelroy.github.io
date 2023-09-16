@@ -7,17 +7,20 @@ comments: true
 tags: 
   - Patisserie
   - Flan
+header:
+  teaser: /assets/images/flan-patissier.webp
+  image_description: "Une belle part de flan parisien."
 ---
 
-<i class="fas fa-signal"> Difficulté </i>
+<i class="fas fa-signal"> </i> Difficulté: Moyen
 
-<i class="fas fa-balance-scale-left"> Préparation </i>
+<i class="fas fa-balance-scale-left"> </i> Préparation: 15 min
 
-<i class="fas fa-burn"> Cuisson </i>
+<i class="fas fa-burn"> </i> Cuisson: 40-50 min à 180°
 
-<i class="fas fa-pause"> Pause </i>
+<i class="fas fa-pause"> </i> Pause: 2 heures au froid
 
-<i class="fas fa-stopwatch"> Temps total </i>
+<i class="fas fa-stopwatch"> </i> Temps total: 3 heures
 
 ## Ingredients
 
