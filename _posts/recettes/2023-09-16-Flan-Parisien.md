@@ -9,12 +9,13 @@ tags:
   - Flan
 ---
 
+## Ingredients
+
 <figure style="width: 300px" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/flan-patissier.webp" alt="">
   <figcaption>Le flan patissier !.</figcaption>
 </figure> 
 
-## Ingredients
 
 ### Pate sucrée
 
@@ -92,10 +93,8 @@ Laissez-le encore au moins 2h prendre au frigo.
 
 Démoulez-le quand il est bien froid.
 
-![Avec Amour]({{ site.url }}{{ site.baseurl }}/assets/images/Coeur-vanille.webp){: .align-left}
-
 <figure style="width: 300px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Coeur-vanille.webp" alt="">
-  <figcaption>Le flan patissier !.</figcaption>
+  <figcaption>Avec beaucoup d'amour !.</figcaption>
 </figure> 
 
