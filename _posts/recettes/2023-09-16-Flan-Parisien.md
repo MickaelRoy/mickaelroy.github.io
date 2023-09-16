@@ -13,7 +13,7 @@ tags:
 
 <figure style="width: 300px" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/flan-patissier.webp" alt="">
-  <figcaption>Le flan patissier !.</figcaption>
+  <figcaption>Le flan patissier !</figcaption>
 </figure> 
 
 
@@ -93,7 +93,7 @@ Laissez-le encore au moins 2h prendre au frigo.
 
 Démoulez-le quand il est bien froid.
 
-<figure style="width: 300px">
+<figure style="width: 400px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Coeur-vanille.webp" alt="">
   <figcaption>Avec beaucoup d'amour !.</figcaption>
 </figure> 
