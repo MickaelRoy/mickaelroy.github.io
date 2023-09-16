@@ -9,6 +9,16 @@ tags:
   - Flan
 ---
 
+<i class="fas fa-signal"> Difficulté </i>
+
+<i class="fas fa-balance-scale-left"> Préparation </i>
+
+<i class="fas fa-burn"> Cuisson </i>
+
+<i class="fas fa-pause"> Pause </i>
+
+<i class="fas fa-stopwatch"> Temps total </i>
+
 ## Ingredients
 
 <figure style="width: 300px" class="align-right">
@@ -36,7 +46,7 @@ Personnellement je divise tout par deux. Ca suffit pour faire un fond sans le tr
 * 25cl de crème liquide entière
 * 1l de lait
 
-Bon, en vrai sur la photo, j'avais plus que 55g de maïzena, et 100g de sucre blanc
+Bon, en vrai sur la photo, je n'avais plus que 55g de maïzena, et 100g de sucre blanc
 J'ai donc ajouté 25g de farine pour remplacer les 45g maïzena, et complété le sucre avec de la cassonade.
 {: .notice--info}
 
