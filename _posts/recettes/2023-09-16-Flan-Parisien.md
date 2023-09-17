@@ -37,10 +37,16 @@ header:
 * 280g de farine
 * 2 Œufs
 
+217Kcal , IG:6 , 3gr de proteines, 11gr de lipides, 27gr de glucides, 10 portion(s) de  48 gr
+{: .notice--success}
+
 Personnellement je divise tout par deux. Ca suffit pour faire un fond sans le trottoir.
 {: .notice--info}
 
 ### Appareil à flan
+
+240Kcal , IG:24 , 5gr de proteines, 8gr de lipides, 37gr de glucides, 10 portion(s) de  162 gr
+{: .notice--success}
 
 * 5 œufs
 * 250g de sucre en poudre
