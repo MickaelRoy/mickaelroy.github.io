@@ -12,6 +12,11 @@ header:
   image_description: "Une belle part de flan parisien."
 ---
 
+<figure style="width: 300px" class="align-right">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/flan-patissier.webp" alt="">
+  <figcaption>Le flan patissier !</figcaption>
+</figure> 
+
 <i class="fas fa-signal"> </i> Difficulté: Moyen
 
 <i class="fas fa-balance-scale-left"> </i> Préparation: 15 min
@@ -23,12 +28,6 @@ header:
 <i class="fas fa-stopwatch"> </i> Temps total: 3 heures
 
 ## Ingredients
-
-<figure style="width: 300px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/flan-patissier.webp" alt="">
-  <figcaption>Le flan patissier !</figcaption>
-</figure> 
-
 
 ### Pate sucrée
 
