@@ -101,7 +101,7 @@ Lissez la surface de la crème avec une spatule et enfournez pour 50 min.
 A tester:
 Préchauffez le four à 220° (th7/8) chaleur tournante.
 Enfournez pour 20 minutes puis montez la température à 240°(th8) pour 10 minutes supplémentaires.
-{: .notice--Success}"
+{: .notice--success}"
 
 ## Avant dégustation
 
