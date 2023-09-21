@@ -50,5 +50,5 @@ Enfournez pendant 25 min a 180°.
 Laissez refroidir une bonne heure avant de démouler.
 
 
-136Kcal , IG:13 , 4gr de proteines, 3gr de lipides, 24gr de glucides, 8 portion(s) de  117 gr
+198Kcal , IG:17 , 6gr de proteines, 5gr de lipides, 32gr de glucides, 6 portion(s) de  158 gr
 {: .notice--success}
