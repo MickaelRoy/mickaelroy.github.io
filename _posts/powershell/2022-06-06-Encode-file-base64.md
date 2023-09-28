@@ -14,15 +14,15 @@ tags:
 
 ## Description
 
-Voici une petite astuce pour convertir n'importe quel fichier en chaine de caractère.
+Voici une petite astuce pour encoder n'importe quel fichier en chaine de caractère, et bien entendu, décoder cette chaine en fichier.
 
-Ce n'est en aucun cas du chiffrement, soyons bien clair.
+Ce n'est en aucun cas du chiffrement, soyons bien clair, c'est pourquoi j'utilise le terme encoder/décoder
 
 Je m'en sers parfois pour exporter un fichier entre deux serveurs ou seul winrm est ouvert.
 
-Un petit fichier... moins de 1Mo... n'allez essayer avec un ISO.
+(Un petit fichier... moins de 1Mo... n'allez essayer avec un ISO.)
 
-## Encode
+## Encoder
  
 ```powershell
 $FilePath = "c:\setup\foo.exe"
@@ -31,7 +31,7 @@ $Base64String = [System.Convert]::ToBase64String($File)
 ```
 Le contenu du fichier se trouve codé dans la variable Base64String, il peut donc être décodé sur un server distant via un invoke-command.
 
-## Decode
+## Decoder
 
 ```powershell
 # Si vous utilisez invoke-command, $Using ne vous est pas inconnu.
