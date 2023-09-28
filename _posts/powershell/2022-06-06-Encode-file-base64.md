@@ -1,5 +1,7 @@
 ﻿---
 title:  "Encoder, décoder un fichier"
+seo_title: "Petite astuce powershell pour encoder ou décoder un fichier dans une variable."
+seo_description: "Une astuce pour transformer n'importe quel fichier en chaine de charactères, la stocker dans une variable, l'envoyer par mail, faites-en ce que vous voulez."
 excerpt: "Petite astuce pour consigner un fichier dans une variable par exemple."
 category: PowerShell
 classes: wide
