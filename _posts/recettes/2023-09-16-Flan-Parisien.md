@@ -74,16 +74,16 @@ Dans un cul de poule, mélangez les œufs et la moitié du sucre en poudre (150g
 
 Ajoutez la crème liquide et mélangez.
 
-Dans une casserole, faites bouillir le lait, la crème liquide, le reste du sucre en poudre (150g) et les gousses de vanilles grattée et fendues.
+Dans une casserole, faites bouillir le lait, le reste du sucre en poudre (150g) et les gousses de vanilles grattée et fendues.
 
 Mouillez le fond de la casserole pour que le lait n'attache pas.
 {: .notice--warning}
 
 Incorporez la moitié du lait au mélange précédent en remuant.
 
-Reversez le tout dans la casserole et faites cuire jusqu’à épaississe l'ébullition, tout en remuant constamment.
+Reversez le tout dans la casserole et faites cuire jusqu’à épaississement, tout en remuant constamment.
 
-Réservez au frais 1h.
+Réservez au frais 1h. (ou pas, ce le rendra probablement plus moeleux au coeur)
 
 > Préchauffez le four à 180° 15 min avant d'entamer l'étape suivante.
 
