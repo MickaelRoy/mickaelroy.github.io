@@ -42,7 +42,7 @@ Dans __PowerShell Power User__, j'entends __Power__ user. Pas besoin de d'avoir 
 (Je ne sais pas si je finirai mon article ce soir, j'ai vraiment mal au crâne.)
 (Non, ce n'est pas lié à ma prise de tête et/ou de conscience.)
 
-Reprenons, dans la vidéo relative à ma frustration, on vous explique ce qui est écrit a-peu-prêt dans tous les manuels, y compris [celui-ci:https://learn.microsoft.com/en-us/powershell/scripting/samples/working-with-files-and-folders]. (Un éditeur inconnu et mal compris)
+Reprenons, dans la vidéo relative à ma frustration, on vous explique ce qui est écrit a-peu-prêt dans tous les manuels, y compris [celui-ci]:(https://learn.microsoft.com/en-us/powershell/scripting/samples/working-with-files-and-folders). (Un éditeur inconnu et mal compris)
 
 Sérieusement, Youtube est une source d'information inépuisable, j'ai hâte de voir les remparts de sa prochaine video -how to eat your soup with _the help of_ a spoon- 😒
 
