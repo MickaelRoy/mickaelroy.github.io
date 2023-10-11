@@ -57,11 +57,11 @@ Ce qu'il faut retenir, c'est que PowerShell 5 et 5.1 nous on fait atteindre un p
 
 > Coup de gueule !
 
-Vous êtes encore là ?
+> Vous êtes encore là ?
 
 Bon un petit cadeau avant de partir alors.
 
-C'est un truc tellement bête, mais je le trouve pratique
+C'est un truc tellement bête, mais je le trouve pratique.
 
 ```powershell
 Try {
@@ -76,16 +76,16 @@ Et voilà ce que ca donne:
 
 Quand ca fonctionne:
 
-<figure class="align-center">
+<figure style="width: 372px" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png" alt="ca marche."></a>
-  <figcaption>Les performances parlent d'elles-mêmes.</figcaption>
+  <figcaption>Quand c'est vert c'est bon.</figcaption>
 </figure>
 
 Quand ca ne fonctionne pas:
 
-<figure class="align-center">
+<figure style="width: 387px" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h37_19.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h37_19.png" alt="ca marche pas."></a>
-  <figcaption>Les performances parlent d'elles-mêmes.</figcaption>
+  <figcaption>Quand c'est rouge c'est pas  bon.</figcaption>
 </figure>
 
 
