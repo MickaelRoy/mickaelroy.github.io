@@ -1,6 +1,6 @@
 ﻿---
 title: "Comment manipuler les fichiers et les dossiers."
-excerpt: "Manipuler les données en PowerShell, mais avec classe!"
+excerpt: "Manipuler les données en PowerShell avec classe !"
 category: PowerShell
 classes: wide
 comments: true
