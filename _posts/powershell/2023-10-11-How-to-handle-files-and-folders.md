@@ -50,7 +50,7 @@ Bon, vous n'apprendrez rien ce soir avec mon blog, mais restons sur une note con
 
 Il y a une notion sur laquelle ce youtubeur fou aurait peut-être dû ralentir. En effet, une copie de fichiers récursive ou non, n'impose pas l'usage Copy-Item. J'en montre l'exemple souvent. Par contre, la notion de copie distante le conseille vivement.
 
-Et oui, même si pour ma part je sais copier de petites quantités de données via un PsSession (c'est déjà chiant), un procédé qui m'était imposé sur les plateformes PowerShell 4 et inférieur, copier de données volumineuses m'était alors impossible sans montage de partage réseaux.
+Et oui, même si pour ma part je sais copier de petites quantités de données via un PsSession (c'est déjà chiant), un procédé qui m'était imposé sur les plateformes __PowerShell 4 et inférieur__, copier de données volumineuses m'était alors impossible sans montage d'un partage réseau. __Puisque les paramètres -toSession et -fromSession n'existaient pas__
 
 Ce qu'il faut retenir, c'est que PowerShell 5 et 5.1 nous on fait atteindre un point culminant en ce qui concerne l'interopérabilité Windows.
 
