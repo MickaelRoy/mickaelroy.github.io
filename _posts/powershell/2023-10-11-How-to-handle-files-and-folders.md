@@ -53,10 +53,12 @@ Il y a une notion sur laquelle ce youtubeur fou aurait peut-être dû ralentir. 
 
 Et oui, même si pour ma part je sais copier de petites quantités de données via un PsSession (c'est déjà chiant), un procédé qui m'était imposé sur les plateformes __PowerShell 4 et inférieur__, copier de données volumineuses m'était alors impossible sans montage d'un partage réseau __puisque les paramètres -toSession et -fromSession n'existaient pas__
 
-Ce qu'il faut retenir, c'est que PowerShell 5 et 5.1 nous on fait atteindre un point culminant en ce qui concerne l'interopérabilité Windows.
-
-\ \ \ \ \
-
+Ce qu'il faut retenir, c'est que PowerShell 5 et 5.1 nous on fait atteindre un point culminant en ce qui concerne l'interopérabilité Windows.\
+\
+\
+\
+\
+\
 > Coup de gueule !
 
 > Vous êtes encore là ?
@@ -80,7 +82,7 @@ Quand ca fonctionne:
 
 ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png){: .align-left}
 
-\\
+<br/>
 
 Quand ca ne fonctionne pas:
 
