@@ -56,11 +56,10 @@ Et oui, même si pour ma part je sais copier de petites quantités de données v
 Ce qu'il faut retenir, c'est que PowerShell 5 et 5.1 nous on fait atteindre un point culminant en ce qui concerne l'interopérabilité Windows.
 
 \
-
 \
-
 \
-
+\
+\
 \
 
 > Coup de gueule !
