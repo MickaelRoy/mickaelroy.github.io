@@ -80,12 +80,16 @@ Et voilà ce que ca donne:
 
 Quand ca fonctionne:
 
+![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png){: .align-left}
+
 <figure style="width: 372px" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png" alt="ca marche."></a>
   <figcaption>Quand c'est vert c'est bon.</figcaption>
 </figure>
 
 Quand ca ne fonctionne pas:
+
+![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h37_19.png){: .align-left}
 
 <figure style="width: 387px" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h37_19.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h37_19.png" alt="ca marche pas."></a>
