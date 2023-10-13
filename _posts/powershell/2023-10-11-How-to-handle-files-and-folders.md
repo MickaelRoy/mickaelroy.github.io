@@ -55,9 +55,13 @@ Et oui, même si pour ma part je sais copier de petites quantités de données v
 
 Ce qu'il faut retenir, c'est que PowerShell 5 et 5.1 nous on fait atteindre un point culminant en ce qui concerne l'interopérabilité Windows.
 
+\
 
+\
 
+\
 
+\
 
 > Coup de gueule !
 
@@ -82,18 +86,6 @@ Quand ca fonctionne:
 
 ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png){: .align-left}
 
-<figure style="width: 372px" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png" alt="ca marche."></a>
-  <figcaption>Quand c'est vert c'est bon.</figcaption>
-</figure>
-
 Quand ca ne fonctionne pas:
 
 ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h37_19.png){: .align-left}
-
-<figure style="width: 387px" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h37_19.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h37_19.png" alt="ca marche pas."></a>
-  <figcaption>Quand c'est rouge c'est pas  bon.</figcaption>
-</figure>
-
-
