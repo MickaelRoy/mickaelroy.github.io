@@ -83,7 +83,7 @@ Et voilà ce que ca donne:
 
 Quand ca fonctionne:
 
-![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png){: .align-left}
+![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png){: .align-left}\
 
 Quand ca ne fonctionne pas:
 
