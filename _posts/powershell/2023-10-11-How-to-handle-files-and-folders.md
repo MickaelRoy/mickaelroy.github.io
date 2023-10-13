@@ -17,7 +17,7 @@ Initialement posté sur une page LinkedIn, sur le channel "PowerShell Power User
 
 D'ordinaire j'adore lire ce channel. On y trouve souvent des gens créatifs, inventifs offrant des enseignements instructifs et constructifs.
 
-Ici ce n'est pas le cas, sinon je ne me serais pas levé après 5 jours d'hospitalisation pour ouvrir mon laptop et compter ces mots.
+Ici ce n'est pas le cas, sinon je ne me serais pas levé après 5 jours d'hospitalisation pour ouvrir mon laptop et vous conter ces mots.
 
 {% include video id="61E5LB5cXq0" provider="youtube" %}
 
