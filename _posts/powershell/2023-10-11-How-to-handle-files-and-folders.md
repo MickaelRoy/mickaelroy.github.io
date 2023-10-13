@@ -60,7 +60,7 @@ Ce qu'il faut retenir, c'est que PowerShell 5 et 5.1 nous on fait atteindre un p
 \
 \
 \
-\
+
 
 > Coup de gueule !
 
