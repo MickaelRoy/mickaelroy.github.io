@@ -55,12 +55,7 @@ Et oui, même si pour ma part je sais copier de petites quantités de données v
 
 Ce qu'il faut retenir, c'est que PowerShell 5 et 5.1 nous on fait atteindre un point culminant en ce qui concerne l'interopérabilité Windows.
 
-\
-\
-\
-\
-\
-
+\ \ \ \ \
 
 > Coup de gueule !
 
@@ -83,7 +78,9 @@ Et voilà ce que ca donne:
 
 Quand ca fonctionne:
 
-![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png){: .align-left}\
+![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/2023-10-11_21h36_22.png){: .align-left}
+
+\\
 
 Quand ca ne fonctionne pas:
 
