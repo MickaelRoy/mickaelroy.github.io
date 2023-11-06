@@ -55,7 +55,7 @@ Targetproduct=0x1f01
 MessageContent="55534243123456780000000000000011062000000100000000000000000000"
 ```
 
-Puis débrancher et rebrancher la clé.
+Puis débranchez et rebranchez la clé.
 
 Le switch de 12d1:1f01 vers le mode GSM modem est visible avec la commande :
 
