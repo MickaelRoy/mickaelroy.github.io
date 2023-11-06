@@ -111,17 +111,24 @@ MessageContent="55534243000000000000000000000011060000000000000000000000000000"
 
 Enfin... et là Akenad a oublié de nous le dire dans ses tutos... Il se peut qu'il manque les fichiers rules, notemment si vous avez un Debian officiel non customisé par Jeedom.
 
-créez, ou éditez le fichier /lib/udev/rules.d/40-usb_modeswitch.rules
+Dans mon cas, avec le Debien Bullseye fourni par Jeedom, le fichier existe et contient une ligne "fourre-tout".
 
-il doit contenir
+```
+# Generic entry for most Huawei devices, excluding Android phones
+ATTRS{idVendor}=="12d1", ATTRS{manufacturer}!="Android", ATTR{bInterfaceNumber}=="00", ATTR{bInterfaceClass}=="08", RUN>
+```
+
+Si ce n'est pas le cas chez vous, créez, ou éditez le fichier /lib/udev/rules.d/40-usb_modeswitch.rules pour qu'il contienne:
 
 ```
 # Huawei 3531-i2
 ATTR{idVendor}=="12d1", ATTR{idProduct}=="1f01", RUN+="/usr/sbin/usb_modeswitch -c /etc/usb_modeswitch.d/12d1:1f01"
 ```
 
-et à la fin du fichier, en derniere ligne
+et à la fin du fichier, en derniere ligne:
 
 ```
 LABEL="modeswitch_rules_end"
 ```
+
+> bon chance !
