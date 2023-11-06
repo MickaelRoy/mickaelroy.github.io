@@ -77,13 +77,13 @@ ls -l /dev/serial/by-id
 
 Utilisez le premier port.
 
-La documentation Jeedom officielle d_u #plugin-sms est [ici](https://doc.jeedom.com/fr_FR/plugins/communication/sms/)
+La documentation Jeedom officielle du #plugin-sms est [ici](https://doc.jeedom.com/fr_FR/plugins/communication/sms/)
 
 ## Ce que moi je dis.
 
 Je n'ai pas reussi à faire fonctionner la version 320 de la clé. 
 
-J'ai du flasher le firmware de la clé 153 tel que je l'indique dans l'article Youdom. C'est une douleur.
+J'ai dû flasher le firmware de la clé 153 tel que je l'indique dans l'article Youdom. C'est une douleur.
 
-L'ajout du fichier /etc/usb_modeswitch.d/12d1:1f01 est indispendable et fonctionne très bien même sur Bullseye. Ne prétez pas attention à l'Id de la clé, chez moi elle est reconnue sous l'id 12d1:1d46.
+L'ajout du fichier /etc/usb_modeswitch.d/12d1:1f01 est indispendable et fonctionne très bien même sur Bullseye fourni par Jeedom. Ne prétez pas attention à l'Id de la clé, chez moi elle est reconnue sous l'id 12d1:1d46.
 
