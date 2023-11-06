@@ -85,5 +85,43 @@ Je n'ai pas reussi à faire fonctionner la version 320 de la clé.
 
 J'ai dû flasher le firmware de la clé 153 tel que je l'indique dans l'article Youdom. C'est une douleur.
 
-L'ajout du fichier /etc/usb_modeswitch.d/12d1:1f01 est indispendable et fonctionne très bien même sur Bullseye fourni par Jeedom. Ne prétez pas attention à l'Id de la clé, chez moi elle est reconnue sous l'id 12d1:1d46.
+L'ajout du fichier /etc/usb_modeswitch.d/12d1:1f01 est indispendable et fonctionne très bien même sur Bullseye fourni par Jeedom. Ne prétez pas attention à l'Id de la clé, chez moi elle est reconnue à la base sous l'id 12d1:1d46.
 
+A titre indicatif, ce contenu fonctionne très bien pour la 3372.
+```
+DefaultVendor= 0x12d1
+DefaultProduct=0x1f01
+
+# Huawei E353 (3.se) and others
+# Switch from default mass storage device mode 12d1:1f01 to ...
+TargetVendor=0x12d1
+
+# WWAN mode 12d1:155e
+#TargetProduct=0x155e
+#MessageContent="55534243123456780000000000000011063000000100010000000000000000"
+
+# Broadband modem mode 12d1:1442
+TargetProduct=0x1442
+MessageContent="55534243000000000000000000000011060000000000000000000000000000"
+
+# "ethernet" mode
+#TargetProductList="14db,14dc"
+#HuaweiNewMode=1
+```
+
+Enfin... et là Akenad a oublié de nous le dire dans ses tutos... Il se peut qu'il manque les fichiers rules, notemment si vous avez un Debian officiel non customisé par Jeedom.
+
+créez, ou éditez le fichier /lib/udev/rules.d/40-usb_modeswitch.rules
+
+il doit contenir
+
+```
+# Huawei 3531-i2
+ATTR{idVendor}=="12d1", ATTR{idProduct}=="1f01", RUN+="/usr/sbin/usb_modeswitch -c /etc/usb_modeswitch.d/12d1:1f01"
+```
+
+et à la fin du fichier, en derniere ligne
+
+```
+LABEL="modeswitch_rules_end"
+```
