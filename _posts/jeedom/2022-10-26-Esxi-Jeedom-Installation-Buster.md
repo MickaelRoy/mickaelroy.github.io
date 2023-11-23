@@ -47,8 +47,11 @@ Sélectionnez le datastore qui hébergera la VM, il se peut que vous en ayez qu'
 > ❗Prenez le temps de lire cette partie.
 
 Si votre mini pc (barebone) le permet, choisissez 2 vCPU. Moi je frime avec mon nuc, je l'ai choisi volontairement avec 4 cœurs afin de multiplier les contextes d'exécutions.
+
 2 Go de RAM c'est bien.
+
 12 Go de disque est le minimum. Sorti de boite, l'installation de Jeedom occupe 7 Go. Prévoyez assez parce que redimensionner un volume Linux, n'est pas simple quand on ne maitrise pas cet OS.
+
 Enfin, profitez-en pour connecter le lecteur CD-ROM à l'ISO précédemment télé-versé sur votre datastore. N'omettez pas de cocher la case "Connecter lors de la mise sous tension"
 
 <figure style="width: 400px" class="align-center">
