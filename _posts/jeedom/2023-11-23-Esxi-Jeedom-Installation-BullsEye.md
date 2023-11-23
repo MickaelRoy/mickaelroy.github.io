@@ -207,7 +207,7 @@ sudo nano /etc/network/interfaces
 
 > Ne mettez pas les mêmes valeurs que moi ! mettez les vôtres ! copieurs !
 
-## Compatibilité des plugin.
+## Compatibilité des plugins
 
 Le passage a cette nouvelle distro Debian ne sera pas sans conséquence.
 
