@@ -235,7 +235,7 @@ C'était deja le cas avec Buster, le package protobuf a besoin d'etre rétrograd
 
 <figure style="width: 400px" class="align-center">
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_01h23_26.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_01h23_26.webp" alt="Ip static"></a>
-  <figcaption>Fixez l'adresse IP.</figcaption>
+  <figcaption>Protobuf dans le log.</figcaption>
 </figure>
 
 Executez cette commande en ssh.
@@ -246,7 +246,7 @@ sudo pip install protobuf==3.20.*
 
 <figure style="width: 400px" class="align-center">
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_01h24_38.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_01h24_38.webp" alt="Ip static"></a>
-  <figcaption>Fixez l'adresse IP.</figcaption>
+  <figcaption>Protobuf rétrogradé.</figcaption>
 </figure>
 
 
