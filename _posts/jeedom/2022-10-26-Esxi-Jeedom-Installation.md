@@ -1,5 +1,5 @@
 ﻿---
-title: "[Jeedom] Virtualiser sa box domotique"
+title: "[Jeedom] Virtualiser sa box domotique sur Debian 10"
 excerpt: "Installer Jeedom sous Esxi VM a l'aide de l'image officielle."
 category: Jeedom
 classes: wide
@@ -13,17 +13,15 @@ header:
   image_description: "Jeedom sur Esxi"
 ---
 
-Après un an de bon et loyaux service, Debian 10 {Buster) laisse sa place à Debian 11(BullsEye).
-
-Le précédent article mérite un coup de frais, je reprends donc son contenu et vous le mets à jour.
-
 ## Le système d’exploitation pour Jeedom
 
-Je pars du principe que votre serveur Esxi est déjà prêt. Ici nous allons survoler l'installation de Debian 11 préconfiguré par Jeedom SAS.
+Je pars du principe que votre serveur Esxi est déjà prêt. Ici nous allons survoler l'installation de Debian Buster 10 préconfiguré par Jeedom SAS.
 
-J'ai personnellement opté pour leur ISO plutôt que l'officielle Debian, ainsi je suis certain que Jeedom ne souffrira pas d'une mauvaise configuration de l'OS et que tous les prérequis seront présents.
+J'ai personnellement opté pour leur ISO plutôt que l'officielle Debian, ainsi je suis certain que Jeedom ne souffrira pas d'une mauvaise configuration de l'OS.
 
-Commencez par télécharger l’ISO sur le [repo de Jeedom](https://images.jeedom.com/x86-64/) et copiez-la sur le datastore de votre serveur Esxi.
+En plus, le sujet est déjà couvert chez [DomoBlog](https://www.domo-blog.fr/virtualisation-installer-jeedom-debian-9-esxi-vm/) et personnellement, vu la quantité d'étapes... c'est chiant. Je n'ai pas le temps. 😅
+
+Commencez donc par télécharger l’ISO sur le [repo de Jeedom](https://images.jeedom.com/x86-64/) et copiez la sur le datastore de votre serveur Esxi.
 
 ## Créez la nouvelle machine virtuelle
 
@@ -34,26 +32,26 @@ Cliquez sur le bouton "Créer une machine virtuelle", puis sélectionnez l'optio
 Ensuite, donnez un nom à votre VM. Ce sera également son nom d'hôte.
 
 <figure style="width: 400px" class="align-center">
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h30_33.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h30_33.webp" alt="Assistant Esxi Etape 2"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h39_48.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h39_48.webp" alt="Assistant Esxi Etape 2"></a>
   <figcaption>Sélectionnez un nom et un système d'exploitation.</figcaption>
 </figure>
 
 Sélectionnez le datastore qui hébergera la VM, il se peut que vous en ayez qu'un... je ne peux pas le savoir pour vous 😁
 
 <figure style="width: 400px" class="align-center">
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h31_16.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h31_16.webp" alt="Assistant Esxi Etape 3"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h41_44.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h41_44.webp" alt="Assistant Esxi Etape 3"></a>
   <figcaption>Sélectionnez un stockage.</figcaption>
 </figure>
 
 > ❗Prenez le temps de lire cette partie.
 
-Si votre serveur le permet, choisissez 2 vCPU. Moi je frime avec mon nuc, je l'ai choisi volontairement avec 4 cœurs afin de multiplier les contextes d'exécutions.
+Si votre mini pc (barebone) le permet, choisissez 2 vCPU. Moi je frime avec mon nuc, je l'ai choisi volontairement avec 4 cœurs afin de multiplier les contextes d'exécutions.
 2 Go de RAM c'est bien.
-16 Go de disque est le minimum. Sorti de boite, l'installation de Jeedom occupe 7 Go. Prévoyez assez parce que redimensionner un volume Linux, n'est pas simple quand on ne maitrise pas cet OS.
+12 Go de disque est le minimum. Sorti de boite, l'installation de Jeedom occupe 7 Go. Prévoyez assez parce que redimensionner un volume Linux, n'est pas simple quand on ne maitrise pas cet OS.
 Enfin, profitez-en pour connecter le lecteur CD-ROM à l'ISO précédemment télé-versé sur votre datastore. N'omettez pas de cocher la case "Connecter lors de la mise sous tension"
 
 <figure style="width: 400px" class="align-center">
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h33_44.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h33_44.webp" alt="Assistant Esxi Etape 4"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h44_27.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_21h44_27.webp" alt="Assistant Esxi Etape 4"></a>
   <figcaption>Personnalisez les paramètres.</figcaption>
 </figure>
 
@@ -64,22 +62,15 @@ Terminez l'assistant et démarrez la VM pour passer à l'installation de l'OS
 Sélectionnez la seule option disponible.
 
 <figure style="width: 400px" class="align-center">
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h34_41.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h34_41.webp" alt="Install on disk"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h22_52.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h22_52.webp" alt="Install on disk"></a>
   <figcaption>Installation sur disque.</figcaption>
 </figure>
 
 Validez.
 
 <figure style="width: 400px" class="align-center">
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h35_00.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h35_00.webp" alt="Install Jeedom"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h23_15.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-10-23_22h23_15.webp" alt="Install Jeedom"></a>
   <figcaption>Installer Jeedom ? Yes !</figcaption>
-</figure>
-
-Il se peut que l'assistant d'installation vous signale cette erreur. Dans ce cas, validez.
-
-<figure style="width: 400px" class="align-center">
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h38_12.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_00h38_12.webp" alt="Install Jeedom"></a>
-  <figcaption>Bam! une erreur !</figcaption>
 </figure>
 
 Patientez jusqu'a obtenir la mire de connexion.
@@ -93,7 +84,9 @@ Patientez jusqu'a obtenir la mire de connexion.
 
 ### Changer le layout du clavier
 
-Pour la plupart d'entre vous, le clavier azerty francais c'est top, vous pouvez passer cette étape, pour les autres voici comment congigurer le clavier.
+Pour la plupart d'entre vous, le clavier azerty c'est top.
+
+Mais pour ceux qui sont habitués à un autre layout...
 
 ```bash
 su -
@@ -110,12 +103,11 @@ dpkg-reconfigure keyboard-configuration
 ### sudo
 
 Partout vous verrez les commandes exécutées sur Linux commencer par "sudo". Cela permet d'héritez des privilèges root sans être root.
-
 > En principe et pour des raisons de sécurité, le mot de passe root doit différer de celui du compte jeedom.
 
-Bref, à l'aide de la console VMWare, connectez-vous en root avec pour mot de passe: Mjeedom96
+Bref. à l'aide de la console VMWare, connectez-vous en root avec pour mot de passe: Mjeedom96
 
-Enfin exécutez cette commande pour autoriser le compte jeedom a utiliser sudo.
+Enfin exécutez cette commande pour autoriser le compte jeedom a utiliser sudo
 
 ```bash
 usermod -aG sudo mon_user
@@ -206,49 +198,9 @@ sudo nano /etc/network/interfaces
 
 > Ne mettez pas les mêmes valeurs que moi ! mettez les vôtres ! copieurs !
 
-## Compatibilité des plugin.
+## Conclusion
 
-Le passage a cette nouvelle distro Debian ne sera pas sans conséquence.
-
-En effet, Python 2 n'est plus et cela créer des adherences avec le module développé sur ce langage.
-
-### JeeOrangeTV
-
-Ce plugin ne fonctionnera plus du tout. Et il n'est plus maintenu.
-
-Heureusement, une version beta était en cours de developpement et fonctionne avec Python 3.
-
-### Google Cast
-
-#### SocketClient' object has no attribute 'isAlive
-
->. Il suffit de remplacer isAlive() par is_alive() dans le fichier googlecast/resources/pychromecast/pychromecast/init.py ligne 444.
-
-Après cela, votre Google Home pourra à nouveau parler.
-
-#### protobuf
-
-A ne pas confondre avec GCast de Jeedom.
-
-C'était deja le cas avec Buster, le package protobuf a besoin d'etre rétrogradé pour être compatible avec Google Cast.
-
-<figure style="width: 400px" class="align-center">
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_01h23_26.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_01h23_26.webp" alt="Ip static"></a>
-  <figcaption>Fixez l'adresse IP.</figcaption>
-</figure>
-
-Executez cette commande en ssh.
-
-```bash
-sudo pip install protobuf==3.20.*
-```
-2023-11-23_01h23_26.webp
-
-
-<figure style="width: 400px" class="align-center">
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_01h24_38.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_01h24_38.webp" alt="Ip static"></a>
-  <figcaption>Fixez l'adresse IP.</figcaption>
-</figure>
-
+Voilà, on a abordé la plupart des sujets pour mettre en production votre box domotique.
+J'espère que c'était bref mais clair.
 
 je vous dis à bientôt !
