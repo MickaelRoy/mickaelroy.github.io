@@ -243,8 +243,6 @@ Executez cette commande en ssh.
 ```bash
 sudo pip install protobuf==3.20.*
 ```
-2023-11-23_01h23_26.webp
-
 
 <figure style="width: 400px" class="align-center">
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_01h24_38.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-11-23_01h24_38.webp" alt="Ip static"></a>
