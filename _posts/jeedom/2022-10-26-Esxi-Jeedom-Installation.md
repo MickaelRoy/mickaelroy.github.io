@@ -13,7 +13,7 @@ header:
   image_description: "Jeedom sur Esxi"
 ---
 
-Après un an de bon et loyaux service, Debian 10 {Buster) laisse sa place a Debian 11(BullsEye).
+Après un an de bon et loyaux service, Debian 10 {Buster) laisse sa place à Debian 11(BullsEye).
 
 Le précédent article mérite un coup de frais, je reprends donc son contenu et vous le mets à jour.
 
