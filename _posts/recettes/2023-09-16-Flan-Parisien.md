@@ -1,6 +1,6 @@
 ﻿---
 title: "Mon flan parisien."
-excerpt: "Le traditionnel flan parisien."
+excerpt: "La traditionnelle recette du flan parisien."
 category: Patisserie
 classes: wide
 comments: true
