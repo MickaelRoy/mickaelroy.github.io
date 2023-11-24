@@ -1,6 +1,6 @@
 ﻿---
 title: "Le banana bread."
-excerpt: "ou, le gateau de flocon d'avoine à la banane."
+excerpt: "ou, la recette de gateau de flocon d'avoine à la banane."
 category: Patisserie
 classes: wide
 comments: true
@@ -9,6 +9,7 @@ tags:
   - Banane
   - Avoine
   - Cake
+  - Recette
 ---
 
 <i class="fas fa-signal"> </i> Difficulté: très facile

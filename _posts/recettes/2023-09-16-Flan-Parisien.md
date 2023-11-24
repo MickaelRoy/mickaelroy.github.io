@@ -7,6 +7,7 @@ comments: true
 tags: 
   - Patisserie
   - Flan
+  - Recette
 header:
   teaser: /assets/images/flan-patissier.webp
   image_description: "Une belle part de flan parisien."
