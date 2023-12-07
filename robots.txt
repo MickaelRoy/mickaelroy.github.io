@@ -5,3 +5,6 @@ User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
 
 Disallow: /feed.xml
+Disallow: /page*/
+Disallow: /categories/
+Disallow: /about/
