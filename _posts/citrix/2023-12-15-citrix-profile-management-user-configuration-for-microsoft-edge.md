@@ -5,7 +5,7 @@ excerpt: "Microsoft a annoncé le retrait d'Internet Explorer à l'été 2022, M
 Lorsque les utilisateurs se déconnectent et se reconnectent, MS Edge présente des invites de dialogue « Ou of Box ». Les favoris MS Edge, la page d'accueil, l'historique, etc. ne sont pas conservés.
 
 Cet article fournit les paramètres recommandés pour éviter une éventuelle surcharge de profil associée à la post-configuration de Microsoft Edge."
-category: Jeedom
+category: Citrix
 classes: wide
 comments: true
 tags: 
@@ -41,9 +41,9 @@ Je suis vraiment navré je vous la confie sous forme de capture, mais je manque 
 
 # Sources
 
-[CTX336809](https://support.citrix.com/article/CTX336809/citrix-profile-management-user-configuration-for-microsoft-edge)
+[CTX336809](https://support.citrix.com/article/CTX336809)
 
-[CTX235698]{https://support.citrix.com/article/CTX235698/issues-to-synchronize-bookmarks-of-google-chrome-using-citrix-profile-management)
+[CTX235698](https://support.citrix.com/article/CTX235698)
 
 [La base Chrome](https://docs.citrix.com/en-us/profile-management/2203-ltsr/integrate/google-chrome.html)
 
