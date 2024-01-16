@@ -51,7 +51,7 @@ Bref ca le fait le taf, rien de plus.
 
 Voici ce que cela donne d'un point de vu PowerShell.
 
-<figure style="width: 400px" class="align-center">
+<figure style="width: 600px" class="align-center">
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2024-01-12_17h40_31.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-01-12_17h40_31.png" alt="Déroulement verbeu."></a>
   <figcaption>Verbosité claire.</figcaption>
 </figure>
