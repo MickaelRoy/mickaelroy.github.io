@@ -163,17 +163,9 @@ Voici la mienne:
 
                 $Inc = 0
                 Foreach ($Result in $BinaryResult) {
-                    $Inc++
+                $Inc
+                    $DayOfWeek = [dayofweek]$Inc
         
-                    Switch ($Inc) {
-                        1 { $DayOfWeek = [dayofweek]::Sunday }
-                        2 { $DayOfWeek = [dayofweek]::Monday }
-                        3 { $DayOfWeek = [dayofweek]::Tuesday }
-                        4 { $DayOfWeek = [dayofweek]::Wednesday }
-                        5 { $DayOfWeek = [dayofweek]::Thursday }
-                        6 { $DayOfWeek = [dayofweek]::Friday }
-                        7 { $DayOfWeek = [dayofweek]::Saturday }
-                    }
                     $Result = $Result -split '(.)' -ne ''
 
                     $LogonHours = [ordered]@{}
@@ -182,6 +174,7 @@ Voici la mienne:
                         [Void]$LogonHours.Add(("{0:d2}" -f $Hour), $LogonAuth)
                     }
                     $ExportObj.psobject.Properties.Add( [psnoteproperty]::new($DayOfWeek, $LogonHours) )
+                    $Inc++
                 }
 ```
 
