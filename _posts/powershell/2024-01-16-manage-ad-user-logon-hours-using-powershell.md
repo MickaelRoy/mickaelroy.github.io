@@ -64,8 +64,8 @@ Set-ADLogonHours -Identity $User -TimeIn24Format (0..5) -Monday -Tuesday -Wednes
 ```
 
 <figure style="width: 800px" class="align-center">
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2024-01-16_10h52_52.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-01-16_10h52_52.png" alt="Comparons les perfs."></a>
-  <figcaption>Les performances parlent d'elles-mêmes.</figcaption>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2024-01-16_10h52_52.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-01-16_10h52_52.png" alt="AdLogon Output."></a>
+  <figcaption>Un output clair.</figcaption>
 </figure>
 
 Et là vous allez me dire:
@@ -184,7 +184,12 @@ Voici la mienne:
                     $ExportObj.psobject.Properties.Add( [psnoteproperty]::new($DayOfWeek, $LogonHours) )
                 }
 ```
+
+Sachez que _Set-ADLogonHours_ dépend de _Get-ADLogonHours_. C'est sur ce dernier que se porte le visuel.
+
 Bon, je ne vais pas m'étendre davantage sur le sujet, je pense que vous avez compris l'idée.
+
+
 
 Ca, c'est cadeau, à plus !
 
