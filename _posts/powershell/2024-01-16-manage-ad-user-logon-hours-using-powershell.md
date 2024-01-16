@@ -163,7 +163,7 @@ Voici la mienne:
 
                 $Inc = 0
                 Foreach ($Result in $BinaryResult) {
-                $Inc
+
                     $DayOfWeek = [dayofweek]$Inc
         
                     $Result = $Result -split '(.)' -ne ''
