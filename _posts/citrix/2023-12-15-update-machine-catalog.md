@@ -15,6 +15,14 @@ tags:
 
 Cet article décrit comment mettre à jour l'image principale pour les catalogues MCS dédiés et regroupés à l'aide du kit de développement logiciel PowerShell (SDK PowerShell)
 
+# Prérequis
+
+Les PSSnapin (non compatibles avec PowerShell 7) devront être installés sur le poste qui éxecutera ce script.
+
+Un accès WinRM sera également nécessaire.
+
+Je vous invite à adapter ce code pour utilier le WinRM en SSL.
+
 # Sources
 
 [CTX129205](https://support.citrix.com/article/CTX129205)
@@ -23,7 +31,7 @@ Cet article décrit comment mettre à jour l'image principale pour les catalogue
 
 # Dans le détail
 
-Je cite la source de hallspalmer pour la forme, si vous souhaitez vous bruler la cornée sur son script je vous invite à le copier dans un étiteur et de vous armer d'une belle paire de lunette.
+Je cite la source de hallspalmer pour la forme, si vous souhaitez vous brûler la cornée sur son script je vous invite à le copier dans un étiteur et de vous armer d'une belle paire de lunettes.
 
 Son script se veut plus compliqué que nécessaire, je pensais m'en servir comme base pour traiter mon besoin, au final je n'ai rien gardé.
 
@@ -47,6 +55,13 @@ Voici ce que cela donne d'un point de vu PowerShell.
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2024-01-12_17h40_31.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-01-12_17h40_31.png" alt="Déroulement verbeu."></a>
   <figcaption>Verbosité claire.</figcaption>
 </figure>
+
+A la fin du script, vous pourrez consulter l'avancement du déploiement à l'aide de ce petit bout de code.
+
+powershell```
+$provTask = Get-ProvTask -AdminAddress $adminAddress -TaskId $PubTask
+```
+
 
 Ca, c'est cadeau, à plus !
 
