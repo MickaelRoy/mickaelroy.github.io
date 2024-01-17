@@ -76,11 +76,11 @@ Set-ADLogonHours -Identity $User -TimeIn24Format (0..5) -Monday -Tuesday -Wednes
   <figcaption>Un output clair.</figcaption>
 </figure>
 
-Et là vous allez me dire:
+Et là vous allez me dire :
 
 > c'est très graphique comme output...
 
-En effet, j'ai choisi l'option la plus visuelle pour savoir si immediatement si le paramètrage soumis est le bon.
+En effet, j'ai choisi l'option la plus visuelle pour savoir si immédiatement si le paramétrage soumis est le bon.
 
 Libre à vous de faire les changements nécessaires si cela ne convient pas. Contrairement au Sel de cuisine, le code est plus facile à retirer qu'à ajouter.
 
@@ -90,9 +90,9 @@ Richard avait de l'idée, Francis aussi. J'en ai encore plus.
 
 En réalité, le code de Francis était très inspirant, je me suis basé dessus, mais l'aspect du code de Richard m'a poussé à aller plus loin.
 
-Pour arriver à obtenir un output qui va au delà de ce qu'a fait Richard, j'ai dû refondre le code de Francis en profondeur.
+Pour arriver à obtenir un output qui va au-delà de ce qu'a fait Richard, j'ai dû refondre le code de Francis en profondeur.
 
-Pour l'historique voici la boucle de Francis:
+Pour l'historique voici la boucle de Francis :
 
 ```powershell
 $ExportArray = For ($Inc = 0; $Inc -lt $User.LogonHours.Count; $Inc += 3) {
@@ -189,8 +189,6 @@ Voici la mienne:
 Sachez que _Set-ADLogonHours_ dépend de _Get-ADLogonHours_. C'est sur ce dernier que se porte le visuel.
 
 Bon, je ne vais pas m'étendre davantage sur le sujet, je pense que vous avez compris l'idée.
-
-
 
 Ca, c'est cadeau, à plus !
 
