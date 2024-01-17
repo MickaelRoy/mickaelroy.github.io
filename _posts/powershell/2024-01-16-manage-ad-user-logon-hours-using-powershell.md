@@ -64,6 +64,8 @@ Un exemple.
 Get-ADUser -Filter * -SearchBase $SearchBase | Set-ADLogonHours -TimeIn24Format (0..5) -Monday -Tuesday -Wednesday -Thursday -Friday -Saturday -LogonPrecedence Deny -NonSelectedDaysare NonWorkingDays
 ```
 
+un autre.
+
 ```powershell
 Set-ADLogonHours -Identity $User -TimeIn24Format (0..5) -Monday -Tuesday -Wednesday -Thursday -Friday -Saturday -LogonPrecedence Deny -NonSelectedDaysare NonWorkingDays
 
