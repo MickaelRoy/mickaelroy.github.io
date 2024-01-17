@@ -13,13 +13,13 @@ tags:
 
 ## Préambule
 
-De toute évidence, la fonctionnalité _Logon Hours_ est un laissé pour compte de Microsoft. Rien ne semble avoir bougé du coté de cet attribut depuis au moins une décennie.
+De De toute évidence, la fonctionnalité Logon Hours est un laissé pour compte de Microsoft. Rien ne semble avoir bougé du coté de cet attribut depuis au moins une décennie.
 
-La pluspart des attributs sont modifiable avec des cmdlets dédiées, mais il n'existe pour l'heure absolument rien pour le _Logon Hours_
+La plupart des attributs sont modifiables avec des cmdlets dédiées, mais il n’existe pour l’heure absolument rien pour le Logon Hours
 
-C'est d'autant plus malheureux que ces attributs me peuvent être défini que sur un compte utilisateur et pas sur un groupe. Automatiser la définition des heures de connexion sur plusieurs utilisateur à la fois semble être indispensable.
+C’est d’autant plus malheureux que ces attributs me peuvent être définis que sur un compte utilisateur et pas sur un groupe. Automatiser la définition des heures de connexion sur plusieurs utilisateurs à la fois semble être indispensable.
 
-Dans cet article je vous présente rapidement les outils que j'ai développés.
+Dans cet article je vous présente rapidement les outils que j’ai développés.
 
 ## Sources
 
@@ -32,17 +32,17 @@ Dans cet article je vous présente rapidement les outils que j'ai développés.
 
 ## Entrons dans le vif
 
-L'article et le code de Faris Malaed est d'un niveau très correct. Je n'ai apporté que tres peu de changement, principalement cosmetiques.
+L'article et le code de Faris Malaed est d'un niveau très correct. Je n'ai apporté que très peu de changement, principalement cosmétiques.
 
-Le changement plus pertinent est le paramètre _LogonPrecedence_, le nom de ce paramètre n'est pas des plus adapté. Comprenez-le comme ceci:
+Le changement plus pertinent est le paramètre _LogonPrecedence_, le nom de ce paramètre n'est pas des plus adapté. Comprenez-le comme ceci :
 
-Conjointement à la plage horaire _TimeIn24Format_, _LogonPrecedence_ indique si l'on est en train de spécifer une plage autorisée ou à contrario, interdite. Voyez-le comme un inverseur.
+Conjointement à la plage horaire _TimeIn24Format_, _LogonPrecedence_ indique si l'on est en train de spécifier une plage autorisée ou à contrario, interdite. Voyez-le comme un inverseur.
 
-Le second changement est la possibilité de ne pas changer certains jour. Tel que Faris a écrit son code, il y a un manque de granularité: s'il on ne spécifie pas un jour alors, il doit être considéré comme entièrement autorisié ou interdit celon ce qui est précié par _NonSelectedDaysare_.
+Le second changement est la possibilité de ne pas changer certains jours. Tel que Faris a écrit son code, il y a un manque de granularité : s'il on ne spécifie pas un jour alors, il doit être considéré comme entièrement autorisé ou interdit selon ce qui est précisé par _NonSelectedDaysare_.
 
-J'ai donc ajuouté la considération que l'on puisse vouloir simplement ignorer ce jour.
+J'ai donc ajouté la considération que l'on puisse vouloir simplement ignorer ce jour.
 
-Notez que le paramètre _TimeIn24Format_ attend une list (array), tel que:
+Notez que le paramètre _TimeIn24Format_ attend une liste (array), tel que :
 
 ```powershell
 # 8h à midi, puis 14h à 18h:
