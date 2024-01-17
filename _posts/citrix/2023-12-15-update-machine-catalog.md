@@ -58,7 +58,7 @@ Voici ce que cela donne d'un point de vu PowerShell.
 
 A la fin du script, vous pourrez consulter l'avancement du déploiement à l'aide de ce petit bout de code.
 
-powershell```
+```powershell
 $provTask = Get-ProvTask -AdminAddress $adminAddress -TaskId $PubTask
 ```
 
