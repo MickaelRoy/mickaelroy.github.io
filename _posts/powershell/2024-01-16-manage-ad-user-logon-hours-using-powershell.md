@@ -59,6 +59,12 @@ En ce qui concerne les jours, chaque jour est un switch, chaque switch indique q
 Un exemple.
 
 ```powershell
+ $SearchBase = 'OU=Users,DC=contoso,DC=fr'
+
+Get-ADUser -Filter * -SearchBase $SearchBase | Set-ADLogonHours -TimeIn24Format (0..5) -Monday -Tuesday -Wednesday -Thursday -Friday -Saturday -LogonPrecedence Deny -NonSelectedDaysare NonWorkingDays
+```
+
+```powershell
 Set-ADLogonHours -Identity $User -TimeIn24Format (0..5) -Monday -Tuesday -Wednesday -Thursday -Friday -Saturday -LogonPrecedence Deny -NonSelectedDaysare NonWorkingDays
 
 ```
