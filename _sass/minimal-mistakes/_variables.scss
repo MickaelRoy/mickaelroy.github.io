@@ -123,22 +123,22 @@ $notice-background-mix: 80% !default;
 $code-notice-background-mix: 90% !default;
 
 /* syntax highlighting (base16) */
-$base00: #1f1f1f !default;
-$base01: #61afef !default;
-$base02: #98c379 !default;
-$base03: #56b6c2 !default;
-$base04: #e06c75 !default;
-$base05: #c678dd !default;
-$base06: #d19a06 !default;
-$base07: #abb2bf !default;
-$base08: #828997 !default;
-$base08: #61afef !default;
-$base0a: #98c379 !default;
-$base0b: #56b6c2 !default;
-$base0c: #e5847b !default;
-$base0d: #c689dd !default;
-$base0e: #e5c07b !default;
-$base0f: #ffffff !default;
+$base00: #1f1f1f !default; /*Background ?*/
+$base01: #073642 !default;
+$base02: #073642 !default;
+$base03: #839496 !default;
+$base04: #93a1a1 !default;
+$base05: #eee8d5 !default;
+$base06: #eee8d5 !default;
+$base07: #d19a06 !default; /*Command ?*/
+$base08: #98c379 !default; /*Variable ?*/
+$base09: #e06c75 !default;
+$base0a: #b58900 !default;
+$base0b: #56b6c2 !default; /*String ?*/
+$base0c: #828997 !default; /*Parameter ?*/
+$base0d: #abb2bf !default; /*Argument ?*/
+$base0e: #abb2bf !default; /*Condition ?*/
+$base0f: #ffffff !default; /*Integer ?*/
 
 /*
    Breakpoints
