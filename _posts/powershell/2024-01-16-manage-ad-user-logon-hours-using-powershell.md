@@ -192,4 +192,6 @@ Bon, je ne vais pas m'étendre davantage sur le sujet, je pense que vous avez co
 
 Ca, c'est cadeau, à plus !
 
+#Test Algolia
+
 [Lien Direct](https://github.com/MickaelRoy/Cmdlets/tree/main/ADLogonHours){: .btn .btn--info}
