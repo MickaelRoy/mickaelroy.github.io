@@ -123,23 +123,24 @@ $notice-background-mix: 80% !default;
 $code-notice-background-mix: 90% !default;
 
 /* syntax highlighting (base16) */
-$base00: #1f1f1f !default; /*Background ?*/
-$base01: #073642 !default;
-$base02: #073642 !default;
-$base03: #839496 !default;
-$base04: #93a1a1 !default;
-$base05: #b58900 !default; /*Command ?*/
-$base06: #eee8d5 !default;
-$base07: #fdf6e3 !default;
-$base08: #859900 !default; /*Variable ?*/
-$base09: #fdf6e3 !default; /*Integer ?*/
-$base0a: #ffcb6b !default;
-$base0b: #2aa198 !default; /*String ?*/
-$base0c: #073642 !default; /*Parameter ?*/
-$base0d: #cacaca !default; /*Argument ?*/
-$base0e: #6c71c4 !default; /*Condition ?*/
-$base0f: #dc322f !default;
 
+
+ $base00: #1f1f1f;
+ $base01: #61afef;
+ $base02: #98c379;
+ $base03: #56b6c2;
+ $base04: #e06c75;
+ $base05: #c678dd;
+ $base06: #d19a06;
+ $base07: #abb2bf;
+ $base08: #828997;
+ $base08: #61afef;
+ $base0a: #98c379;
+ $base0b: #56b6c2;
+ $base0c: #e5847b;
+ $base0d: #c689dd;
+ $base0e: #e5c07b;
+ $base0f: #cacaca;
 /*
    Breakpoints
    ========================================================================== */
