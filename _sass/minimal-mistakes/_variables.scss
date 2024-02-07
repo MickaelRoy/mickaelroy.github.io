@@ -124,23 +124,22 @@ $code-notice-background-mix: 90% !default;
 
 /* syntax highlighting (base16) */
 
-
- $base00: #1f1f1f;
- $base01: #61afef;
- $base02: #98c379;
- $base03: #56b6c2;
- $base04: #e06c75;
- $base05: #c678dd;
- $base06: #d19a06;
- $base07: #abb2bf;
- $base08: #828997;
- $base08: #61afef;
- $base0a: #98c379;
- $base0b: #56b6c2;
- $base0c: #e5847b;
- $base0d: #c689dd;
- $base0e: #e5c07b;
- $base0f: #ffffff ;
+$base00: #1f1f1f !default;
+$base01: #61afef !default;
+$base02: #98c379 !default;
+$base03: #56b6c2 !default;
+$base04: #e06c75 !default;
+$base05: #c678dd !default;
+$base06: #d19a06 !default;
+$base07: #abb2bf !default;
+$base08: #828997 !default;
+$base08: #61afef !default;
+$base0a: #98c379 !default;
+$base0b: #56b6c2 !default;
+$base0c: #e5847b !default;
+$base0d: #c689dd !default;
+$base0e: #e5c07b !default;
+$base0f: #ffffff !default;
 /*
    Breakpoints
    ========================================================================== */
