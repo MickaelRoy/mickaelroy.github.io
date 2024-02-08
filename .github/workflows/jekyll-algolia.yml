@@ -1,31 +1,27 @@
 name: Algolia push records
 
-on:
-  push:
-    branches: ['master']
+on: [push]
 
 jobs:
-  algolia-search:
+  build:
+    name: Algolia push records
+
     runs-on: ubuntu-latest
-    env:
-      JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
-      - uses: node20
-      - uses: actions/checkout@v3
-      - uses: actions/setup-ruby@v1
-      - uses: actions/cache@v2
+      - name: Set Node.js 20.x
+        uses: actions/setup-node@master
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-            
-      - name: Bundle install
+          node-version: 20.x
+      - uses: actions/checkout@v3
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@ec02537da5712d66d4d50a0f33b7eb52773b5ed1
+        with:
+          ruby-version: '3.3'
+      - name: Install dependencies and push records
         run: |
-          bundle config path vendor/bundle
+          gem install bundler
           bundle install --jobs 4 --retry 3
-          
-      - name: Exec jekyll algolia
-        run: bundle exec jekyll algolia
+          bundle exec jekyll algolia
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
