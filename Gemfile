@@ -15,5 +15,6 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
+  gem 'jekyll-timeago', '~> 0.15.0'
 end
 
