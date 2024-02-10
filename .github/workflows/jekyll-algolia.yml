@@ -10,14 +10,23 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: Set up Ruby 2.6
+      - name: Set up Ruby 3.1
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
-      - name: Install dependencies and push records
+          ruby-version: '3.1'
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Install ruby dependencies
         run: |
           gem install bundler
+          bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
-          bundle exec jekyll algolia
+      - name: Push algolia records
+        if: success() && github.ref == 'refs/heads/master'
+        run: bundle exec jekyll algolia
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
