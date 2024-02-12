@@ -14,7 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-include-cache"
-  gem 'algolia'
+  gem "jekyll-algolia"
   gem 'jekyll-timeago', '~> 0.15.0'
 end
 
