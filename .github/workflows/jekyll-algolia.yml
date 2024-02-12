@@ -11,7 +11,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
+          ruby-version: '3.2'
       - name: Install dependencies and push records
         run: |
           gem install bundler
