@@ -4,29 +4,20 @@ on: [push]
 
 jobs:
   build:
-    name: Algolia push records
-
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-      - name: Set up Ruby 3.1
-        uses: actions/setup-ruby@v1
+      - uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
-          ruby-version: '3.1'
-      - uses: actions/cache@v1
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      - name: Install ruby dependencies
+          ruby-version: '3.1' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Install dependencies and push records
         run: |
           gem install bundler
-          bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
-      - name: Push algolia records
-        if: success() && github.ref == 'refs/heads/master'
-        run: bundle exec jekyll algolia
+          bundle exec jekyll algolia
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
