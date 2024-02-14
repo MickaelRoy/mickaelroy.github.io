@@ -1,6 +1,6 @@
 ﻿---
 title: "Comment configurer votre propre serveur DHCP por remplace celui d'Orange."
-excerpt: "Je vous décrypte la composition de l'option dhcp nécessaire au fonctionnent du décodeur Orange et à l'éradication du code erreur G03"
+excerpt: "Je vous décrypte la composition de l'option dhcp nécessaire au fonctionnent du décodeur Orange et à l'éradication du code erreur G03."
 category: Hors-Series
 classes: wide
 comments: true
@@ -136,7 +136,7 @@ Commencez par déclarer l'option sur le scope, ainsi elle sera disponible pour �
 L'option dhcp créée devrait ressembler à ceci. En moins flou.
 
 <figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-02-11_10h34_11.webp" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-02-14_23h53_13.webp" alt="">
 </figure> 
 
 > Je me rends compte que j'ai un peu survoler l'aspect administration Windows. clic clic toussa toussa... mais faudrait pas passer pour des idiots face aux linuxiens.
