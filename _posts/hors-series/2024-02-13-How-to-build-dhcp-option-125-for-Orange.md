@@ -14,9 +14,9 @@ tags:
 
 ## Préambule
 
-Dans cet article je vous propose d'apprendre à contourner la restriction Orange qui vise a vous imposer les services dhcp de la Livbox.
+Dans cet article je vous propose d'apprendre à contourner la restriction Orange qui vise à vous imposer les services dhcp de la Livbox.
 
-## l'anecdote
+## L'anecdote
 
 > passez ce paragraphe si me vie ne vous interesse pas.
 
