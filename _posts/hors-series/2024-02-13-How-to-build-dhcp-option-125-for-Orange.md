@@ -102,11 +102,11 @@ En suivant ce shema et en vous aidant d'un [converteur hexa en ligne](https://st
 
 #### Livebox 3:
 
-<span style="font-family:consolas; font-size:0.65em;">00:00:0D:E9:2<span style="color: #BA4642">4</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F<span style="color: #96B656">:41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:09:<span style="color: #F59D56">4C:69:76:65:62:6F:78:20:33</span></span>
+<span style="font-family:consolas; font-size:0.65em;">00:00:0D:E9:2<span style="color: #BA4642">4</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F:<span style="color: #96B656">41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:09:<span style="color: #F59D56">4C:69:76:65:62:6F:78:20:33</span></span>
 
 #### Livebox 4:
 
-<span style="font-family:consolas; font-size:0.65em;">00:00:0D:E9:2<span style="color: #BA4642">4</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F<span style="color: #96B656">:41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:09:<span style="color: #F59D56">4C:69:76:65:62:6F:78:20:34</span></span>
+<span style="font-family:consolas; font-size:0.65em;">00:00:0D:E9:2<span style="color: #BA4642">4</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F:<span style="color: #96B656">41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:09:<span style="color: #F59D56">4C:69:76:65:62:6F:78:20:34</span></span>
 
 #### Livebox 5 (estampillée Fibre):
 
