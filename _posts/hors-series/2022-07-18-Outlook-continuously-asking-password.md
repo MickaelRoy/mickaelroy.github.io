@@ -1,6 +1,7 @@
 ﻿---
 title: "Outlook ne cesse de demander le mot de passe outlook.com/live.fr"
-excerpt: "Hors-Série: Continuer à utiliser Outlook pour se connecter à la messagerie Outlook.com."
+excerpt: |
+  Hors-Série: Continuer à utiliser Outlook pour se connecter à la messagerie Outlook.com.
 category: Hors-Series
 classes: wide
 comments: true

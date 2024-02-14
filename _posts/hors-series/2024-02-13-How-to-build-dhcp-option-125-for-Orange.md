@@ -2,6 +2,7 @@
 title: "Comment configurer votre propre serveur DHCP por remplace celui d'Orange."
 excerpt: |
   Je vous décrypte la composition de l'option dhcp nécessaire au fonctionnent du décodeur Orange et à l'éradication du code erreur G03.
+  
 category: Hors-Series
 classes: wide
 comments: true

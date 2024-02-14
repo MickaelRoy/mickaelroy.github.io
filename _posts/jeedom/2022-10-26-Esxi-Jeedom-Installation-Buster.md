@@ -1,6 +1,8 @@
 ﻿---
 title: "[Jeedom] Virtualiser sa box domotique sur Debian 10"
-excerpt: "Installez Jeedom sous Esxi à l'aide de l'image officielle basée sur Debian 10 Buster."
+excerpt: |
+  Installez Jeedom sous Esxi à l'aide de l'image officielle basée sur Debian 10 Buster.
+  
 category: Jeedom
 classes: wide
 comments: true

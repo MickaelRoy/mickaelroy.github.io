@@ -1,6 +1,8 @@
 ﻿---
 title: "[Jeedom] migration Aeotec z-stick 700"
-excerpt: "Aeotec z-stick 700, une migration compliquée."
+excerpt: |
+  Aeotec z-stick 700, une migration compliquée.
+
 category: Jeedom
 classes: wide
 comments: true

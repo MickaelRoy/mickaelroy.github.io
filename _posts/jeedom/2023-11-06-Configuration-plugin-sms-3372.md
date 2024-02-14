@@ -1,6 +1,8 @@
 ﻿---
 title: "[Jeedom] Utiliser la clé huawei 3372"
-excerpt: "Il est pour moi indispensable de pouvoir faire communiquer jeedom autrement que par les cannaux classique. Les sms est une excelente alternative si votre box internet ne fonctionne plus."
+excerpt: |
+  Il est pour moi indispensable de pouvoir faire communiquer jeedom autrement que par les cannaux classiques. Les sms sont une excelente alternative si votre box internet ne fonctionne plus.
+
 category: Jeedom
 classes: wide
 comments: true

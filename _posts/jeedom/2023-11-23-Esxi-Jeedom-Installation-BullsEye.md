@@ -1,6 +1,8 @@
 ﻿---
 title: "[Jeedom] Virtualiser sa box domotique sur Debian 11"
-excerpt: "Installez Jeedom sous Esxi à l'aide de l'image officielle basée sur Debian 11 BullsEye."
+excerpt: |
+  Installez Jeedom sous Esxi à l'aide de l'image officielle basée sur Debian 11 BullsEye.
+  
 category: Jeedom
 classes: wide
 comments: true
