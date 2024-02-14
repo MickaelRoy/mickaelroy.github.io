@@ -121,10 +121,18 @@ Profitez de ce [convertisseur Hexa inversé](https://string-functions.com/hex-st
 
 Je suis certains que les linux savent comment configurer leur dhcp. Passons à la suite pour les noob sur windows.
 
+Commencez par déclarer l'option sur le scope, ainsi elle sera disponible pour être utilisée lors de la création de la réservation du bail du décodeur.
+
 <figure style="width: 500px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-02-11_10h34_11.webp" alt="">
 </figure> 
 
 <figure style="width: 500px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-02-11_10h39_55.webp" alt="">
+</figure> 
+
+Une fois créé l'option dhcp devrait ressembler à ceci. En moins flou.
+
+<figure style="width: 500px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/22024-02-11_10h34_11.webp" alt="">
 </figure> 
