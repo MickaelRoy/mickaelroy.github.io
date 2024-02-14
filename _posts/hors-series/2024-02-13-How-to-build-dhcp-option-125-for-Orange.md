@@ -1,6 +1,6 @@
 ﻿---
 title: "Comment configurer votre propre serveur DHCP por remplace celui d'Orange."
-excerpt: ""
+excerpt: "Je vous décrypte la composition de l'option dhcp nécessaire au fonctionnent du décodeur Orange et à l'éradication du code erreur G03"
 category: Hors-Series
 classes: wide
 comments: true
@@ -18,17 +18,17 @@ Dans cet article je vous propose d'apprendre à contourner la restriction Orange
 
 > passez ce paragraphe si me vie ne vous interesse pas.
 
-Avant d'aller plus loin dans cet article il faut que je vous comte comment j'en suis venu a vouloir faire ça.
+Avant d'aller plus loin dans cet article il faut que je vous comte comment j'en arrivé là.
 
-Il se trouve que je suis un abonné Orange depuis de nombres années. Free offre un service à la hauteur de mon besoin mais n'offre pas la fibre 1a mon adresse, SFR est à la rue, et bouygues... Bouygues, je les connais pour la télephonie mobile et c'est bien suffsant.
+Il se trouve que je suis un abonné Orange depuis de nombreuses années. Free offre un service à la hauteur de mon besoin mais n'offre pas la fibre à mon adresse, SFR est à la rue, et bouygues... Bouygues, je les connais pour la télephonie mobile et c'est bien suffsant.
 
 Bref, dans le cadre de la modification de mon contrat fibre, je me suis vu offrir la LiveBoc 6 et son decodeur.
 
 ### le numero ONT
 
-En principe je n'avais qu'a brancher la nouvelle box en lieu et place de l'ancienne...
+En principe je n'avais qu'à brancher la nouvelle box en lieu et place de l'ancienne...
 
-Plus facile a dire qu'a faire, la box est a installer verticalement, il faut donc prevoir sa place. Pour vous donner une idée, elle est plus haute qu'un NAS a deux ou quqtre baies.
+Plus facile à dire qu'à faire, la box est à installer verticalement, il faut donc prévoir sa place. Pour vous donner une idée, elle est plus haute qu'un NAS à deux ou quatre baies.
 
 Une fois que c'est fait, ca ne fonctionne pas. Je ne suis pas un cas isolé, il m'a fallu appeler Orange pour leur communiquer le numero ONT de la box... comme s'ils ne pouvaient pas faire le necessaire en boutique...
 
@@ -36,15 +36,17 @@ Bon, j'ai Internet, mais pas la télé... code G03
 
 ### Le décodeur (G03)
 
-Après deux heures de diagnostique, je suis passé au service PRO. en effet ma ligne migre en ligne PRO donc, les services changent et le support aussi.
+Après deux heures de diagnostique, je suis passé au service PRO. En effet ma ligne migre en ligne PRO donc, les services changent et le support aussi.
 
 Le support aux professionnels m'indique que je dois attendre quinze jours pour que ma ligne soit migrée. 
 
-Après deux semaines à râler pour leur incapacité, toujours rien ! enfin si,  tojours le code G03, Box incompatible avec le décodeur.
+Après deux semaines à râler pour leur incapacité, toujours rien ! enfin si, tojours le code G03, "Box incompatible avec le décodeur".
 
 Ma femme souhaiterais voir la maison des maternelles, et elle ne peut pas (ou presque).
 
-Je rappelle donc Orange, je passe au niveau 2 et une conseillère presque compétente m'indique (pour faire court), utilsez le dhcp de la box plutot que votre serveur. Les nouveaux décodeurs embarque une sécurité plus abouti qui impose l'usage du dhcp de la Box.
+Je rappelle donc Orange, je passe au niveau 2 et une conseillère presque compétente m'indique (pour faire court) d'utilsez le dhcp de la box plutôt que mon serveur. 
+
+> Les nouveaux décodeurs embarquent une sécurité plus aboutie qui impose l'usage du dhcp de la Box.
 
 > Merde
 
@@ -66,7 +68,7 @@ Après une nuit de refexion, j'ai fini par douter de l'argument "sécurité de l
 
 La LiveBox 6 doit fournir l'ip au décodeur pour lui fournir dans le même temps une option dhcp (supplémentaire).
 
-Après avoir pas mal chiné. je suis tombé sur [cette page]https://forums.framboise314.fr/viewtopic.php?t=5960).
+Après avoir pas mal chiné, je suis tombé sur [cette page](https://forums.framboise314.fr/viewtopic.php?t=5960).
 
 On y explique quele est l'option et de quoi elle se compose.
 
@@ -100,19 +102,19 @@ En suivant ce shema et en vous aidant d'un [converteur hexa en ligne](https://st
 
 #### Livebox 3:
 
-<span style="font-family:consolas; font-size:0.7em;">00:00:0D:E9:2<span style="color: #BA4642">4</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F<span style="color: #96B656">:41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:09:<span style="color: #F59D56">4C:69:76:65:62:6F:78:20:33</span></span>
+<span style="font-family:consolas; font-size:0.65em;">00:00:0D:E9:2<span style="color: #BA4642">4</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F<span style="color: #96B656">:41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:09:<span style="color: #F59D56">4C:69:76:65:62:6F:78:20:33</span></span>
 
 #### Livebox 4:
 
-<span style="font-family:consolas; font-size:0.7em;">00:00:0D:E9:2<span style="color: #BA4642">4</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F<span style="color: #96B656">:41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:09:<span style="color: #F59D56">4C:69:76:65:62:6F:78:20:34</span></span>
+<span style="font-family:consolas; font-size:0.65em;">00:00:0D:E9:2<span style="color: #BA4642">4</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F<span style="color: #96B656">:41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:09:<span style="color: #F59D56">4C:69:76:65:62:6F:78:20:34</span></span>
 
 #### Livebox 5 (estampillée Fibre):
 
-<span style="font-family:consolas; font-size:0.7em;">00:00:0D:E9:2<span style="color: #BA4642">8</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F:<span style="color: #96B656">41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:0D:<span style="color: #F59D56">4C:69:76:65:62:6F:78:20:46:69:62:72:65</span></span>
+<span style="font-family:consolas; font-size:0.65em;">00:00:0D:E9:2<span style="color: #BA4642">8</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F:<span style="color: #96B656">41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:0D:<span style="color: #F59D56">4C:69:76:65:62:6F:78:20:46:69:62:72:65</span></span>
 
 #### Livebox 6
 
-<span style="font-family:consolas; font-size:0.7em;">00:00:0D:E9:2<span style="color: #BA4642">4</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F:<span style="color: #96B656">41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:09<span style="color: #F59D56">:4C:69:76:65:62:6F:78:20:36</span></span>
+<span style="font-family:consolas; font-size:0.65em;">00:00:0D:E9:2<span style="color: #BA4642">4</span>:04:06:<span style="color: #527AAE">01:23:45:67:89:AB</span>:05:0F:<span style="color: #96B656">41:42:43:44:45:30:31:32:33:34:35:36:37:38:39</span>:06:09<span style="color: #F59D56">:4C:69:76:65:62:6F:78:20:36</span></span>
 
 Profitez de ce [convertisseur Hexa inversé](https://string-functions.com/hex-string.aspx) pour vérifier votre chaine
 {: .notice--info}
@@ -131,8 +133,11 @@ Commencez par déclarer l'option sur le scope, ainsi elle sera disponible pour �
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-02-11_10h39_55.webp" alt="">
 </figure> 
 
-Une fois créé l'option dhcp devrait ressembler à ceci. En moins flou.
+L'option dhcp créée devrait ressembler à ceci. En moins flou.
 
 <figure style="width: 500px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/22024-02-11_10h34_11.webp" alt="">
 </figure> 
+
+> Je me rends compte que j'ai un peu survoler l'aspect administration Windows. clic clic toussa toussa... mais faudrait pas passer pour des idiots face aux linuxiens.
+
