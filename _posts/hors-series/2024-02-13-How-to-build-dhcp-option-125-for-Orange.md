@@ -122,11 +122,6 @@ Profitez de ce [convertisseur Hexa inversé](https://string-functions.com/hex-st
 Je suis certains que les linux savent comment configurer leur dhcp. Passons à la suite pour les noob sur windows.
 
 <figure style="width: 500px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-02-11_10h33_53.webp" alt="">
-</figure> 
-
-
-<figure style="width: 500px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-02-11_10h34_11.webp" alt="">
 </figure> 
 
