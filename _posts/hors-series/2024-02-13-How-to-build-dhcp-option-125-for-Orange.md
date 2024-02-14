@@ -136,7 +136,7 @@ Commencez par déclarer l'option sur le scope, ainsi elle sera disponible pour �
 
 L'option dhcp créée devrait ressembler à ceci. En moins flou.
 
-<figure style="width: 500px" class="align-center">
+<figure style="width: 320px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-02-14_23h53_13.webp" alt="">
 </figure> 
 
