@@ -1,10 +1,10 @@
 ﻿---
 title: "[Citrix] UPM Configuration Edge"
-excerpt: "Microsoft a annoncé le retrait d'Internet Explorer à l'été 2022, MS Edge a été déployé sur les serveurs Citrix XenApp avec des bureaux publiés.
+excerpt: |
+  Microsoft a annoncé le retrait d'Internet Explorer à l'été 2022, MS Edge a été déployé sur les serveurs Citrix XenApp avec des bureaux publiés.
+  Lorsque les utilisateurs se déconnectent et se reconnectent, MS Edge présente des invites de dialogue « Ou of Box ». Les favoris MS Edge, la page d'accueil, l'historique, etc. ne sont pas conservés.
+  Cet article fournit les paramètres recommandés pour éviter une éventuelle surcharge de profil associée à la post-configuration de Microsoft Edge.
 
-Lorsque les utilisateurs se déconnectent et se reconnectent, MS Edge présente des invites de dialogue « Ou of Box ». Les favoris MS Edge, la page d'accueil, l'historique, etc. ne sont pas conservés.
-
-Cet article fournit les paramètres recommandés pour éviter une éventuelle surcharge de profil associée à la post-configuration de Microsoft Edge."
 category: Citrix
 classes: wide
 comments: true

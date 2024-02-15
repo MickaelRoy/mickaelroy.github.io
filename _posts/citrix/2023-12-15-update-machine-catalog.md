@@ -1,7 +1,8 @@
 ﻿---
 title: "[Citrix] Mettre à jour un Machine Catalog"
-excerpt: "Le studio Citrix ayant ces limitations, il convient pour les plus fainéants d'entres nous d'automatiser le déploiement des mises à jour Citix.
-"
+excerpt: |
+  Le studio Citrix ayant ces limitations, il convient pour les plus fainéants d'entres nous d'automatiser le déploiement des mises à jour Citix.
+
 category: Citrix
 classes: wide
 comments: true
