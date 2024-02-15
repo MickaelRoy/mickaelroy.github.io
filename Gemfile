@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "github-pages", "~> 228", group: :jekyll_plugins
-gem "jekyll", "3.9.3"
+gem "github-pages", "~> 231", group: :jekyll_plugins
+#gem "jekyll", "3.9.3"
 
 gem 'algolia', '~> 2.3', '>= 2.3.4'
 
