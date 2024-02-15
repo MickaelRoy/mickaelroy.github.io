@@ -1,6 +1,8 @@
 ﻿---
 title: "Changer le papier peint."
-excerpt: "Changer votre fond d'écran Windows par script."
+excerpt: |
+    Changer votre fond d'écran Windows par script.
+
 category: PowerShell
 classes: wide
 comments: true

@@ -1,5 +1,5 @@
 ﻿---
-title: "Supprimer les fichier récalcitrants"
+title: "Supprimer les fichiers récalcitrants"
 excerpt: ""
 category: PowerShell
 classes: wide

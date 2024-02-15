@@ -1,7 +1,9 @@
 ﻿---
 title: "Trace-Route, Test-Ping et du fun"
-excerpt: "Un projet rigolo, reproduire le comportement de tracert.exe et de ping.exe"
-description: "Une demonstration de la force de powershell tout en s'amusant. Deux commandes Dos reproduite en Posh et une astuce en prime."
+excerpt: |
+  Un projet rigolo, reproduire le comportement de tracert.exe et de ping.exe
+  Une demonstration de la force de powershell tout en s'amusant. Deux commandes DOS reproduites en Posh et une astuce en prime.
+
 category: PowerShell
 classes: wide
 comments: true
@@ -17,7 +19,7 @@ tags:
 
 ## Le mec qui s'ennuit
 
-Bon j'avoue, je suis probablement le seul a m'être éclaté à ce petit jeu, mais le résultat est formateur.
+Bon j'avoue, je suis probablement le seul à m'être éclaté à ce petit jeu, mais le résultat est formateur.
 
 C'est un petit projet que j'ai entrepris il y a 3 ans, il m'a cramé pas mal d'heures, et ca n'a d'utilité que pour crâner...
 

@@ -1,6 +1,8 @@
 ﻿---
 title: "Générer un mot de passe (fort)."
-excerpt: "Encore une facon de générer un mot de passe."
+excerpt: |
+  Encore une facon de générer un mot de passe en POwerShell.
+
 category: PowerShell
 classes: wide
 comments: true

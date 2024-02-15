@@ -1,6 +1,8 @@
 ﻿---
 title: "Mettre à jour votre enregistrement DNS dynamique"
-excerpt: "Voici un script pour mettre en correspondance votre nom de domaine avec votre adresse IP publique."
+excerpt: |
+  Voici un script pour mettre en correspondance votre nom de domaine avec votre adresse IP publique.
+  
 category: PowerShell
 classes: wide
 comments: true

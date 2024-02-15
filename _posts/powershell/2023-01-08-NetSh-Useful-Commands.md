@@ -1,6 +1,8 @@
 ﻿---
 title: "NetSh, les commandes qui sauvent."
-excerpt: "L'essentiel des commandes NetSh qui peuvent vous sauver quand PowerShell n'est pas là."
+excerpt: |
+  L'essentiel des commandes NetSh qui peuvent vous sauver quand PowerShell n'est pas là.
+
 category: PowerShell
 classes: wide
 comments: true
@@ -11,7 +13,6 @@ tags:
 ---
 
 ## Préambule
-
 
 Un post un peu singulier puisqu'il ne vous ai pas vraiment destiné, c'est plus un post-it qu'un post.
 

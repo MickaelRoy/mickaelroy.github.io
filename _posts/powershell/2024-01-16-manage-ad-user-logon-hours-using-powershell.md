@@ -1,7 +1,9 @@
 ﻿---
 title: "Gérer les heures de connexion autorisées d'un utilisateur Active Directory."
-excerpt: "La plupart des propriétés des objets Active Directory sont facilement accessibles en utilisant Get- ou Set- tel que Get-ADUser ou Set-ADUser, mais ce n'est pas si simple en ce qui concerne LogonHours.
-Plusieurs étapes et défis sont nécessaires pour créer de la valeur, et dans ce didacticiel, vous apprendrez tous les trucs et astuces nécessaires pour définir les heures de connexion via Windows PowerShell."
+excerpt: |
+    La plupart des propriétés des objets Active Directory sont facilement accessibles en utilisant Get- ou Set- tel que Get-ADUser ou Set-ADUser, mais ce n'est pas si simple en ce qui concerne LogonHours.
+    Plusieurs étapes et défis sont nécessaires pour créer de la valeur, et dans ce didacticiel, vous apprendrez tous les trucs et astuces nécessaires pour définir les heures de connexion via Windows PowerShell.
+
 category: PowerShell
 classes: wide
 comments: true

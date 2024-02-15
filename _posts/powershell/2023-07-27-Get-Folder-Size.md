@@ -1,6 +1,8 @@
 ﻿---
 title: "Obtenir la taille d'un dossier."
-excerpt: "La facon la plus rapide pour calculer la taille d'un dossier selon moi."
+excerpt: |
+  La facon la plus rapide pour calculer la taille d'un dossier selon moi.
+
 category: PowerShell
 classes: wide
 comments: true

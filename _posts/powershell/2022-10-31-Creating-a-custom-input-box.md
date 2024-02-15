@@ -1,6 +1,8 @@
 ﻿---
 title: "Créer une zone d'entrée graphique personnalisée."
-excerpt: "Dans Windows PowerShell 3.0 et versions ultérieures, utilisez les fonctionnalités de création de formulaires de Microsoft .NET Framework pour créer une zone d'entrée graphique personnalisée à l'aide d'un script."
+excerpt: |
+  Dans Windows PowerShell 3.0 et versions ultérieures, utilisez les fonctionnalités de création de formulaires de Microsoft .NET Framework pour créer une zone d'entrée graphique personnalisée à l'aide d'un script.
+
 category: PowerShell
 classes: wide
 comments: true

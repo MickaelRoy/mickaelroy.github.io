@@ -1,6 +1,8 @@
 ﻿---
-title: "Ajouter et supprimer un membre a un PSCustomObject."
-excerpt: "Add-Member n'est pas indispensable, et Remove-Member pourrait être écrit."
+title: "Ajouter et supprimer un membre à un PSCustomObject."
+excerpt: |
+  Add-Member n'est pas indispensable, et Remove-Member pourrait être écrit.
+
 category: PowerShell
 classes: wide
 comments: true

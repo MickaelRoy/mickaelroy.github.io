@@ -1,6 +1,8 @@
 ﻿---
 title: "Retirer les caractères speciaux d'une chaine."
-excerpt: "Trois approches pour nettoyer une chaine de caratères."
+excerpt: |
+  Trois approches pour nettoyer une chaine de caratères.
+
 category: PowerShell
 classes: wide
 comments: true
