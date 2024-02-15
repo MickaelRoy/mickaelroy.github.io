@@ -15,7 +15,7 @@ tags:
 
 ## Préambule
 
-De De toute évidence, la fonctionnalité Logon Hours est un laissé pour compte de Microsoft. Rien ne semble avoir bougé du coté de cet attribut depuis au moins une décennie.
+De toute évidence, la fonctionnalité Logon Hours est un laissé pour compte de Microsoft. Rien ne semble avoir bougé du coté de cet attribut depuis au moins une décennie.
 
 La plupart des attributs sont modifiables avec des cmdlets dédiées, mais il n’existe pour l’heure absolument rien pour le Logon Hours
 

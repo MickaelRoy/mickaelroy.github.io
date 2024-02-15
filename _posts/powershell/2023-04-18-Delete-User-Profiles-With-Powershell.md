@@ -1,7 +1,7 @@
 ﻿---
 title: "Supprimer un profil utilisateur."
 excerpt: |
-    Supprimer un profil utilisateur residuel proprement.
+    Supprimer un profil utilisateur résiduel proprement.
 
 category: PowerShell
 classes: wide
