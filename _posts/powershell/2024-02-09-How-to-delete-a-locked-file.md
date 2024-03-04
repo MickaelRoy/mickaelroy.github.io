@@ -1,7 +1,7 @@
 ﻿---
 title: "Supprimer les fichiers récalcitrants"
 excerpt: |
-Il est parfois compliqué de supprimer des fichiers. Le système le verrouille pour ces besoins et redemarrer -certains- services ne fonctionne pas toujours. Un probleme souvent rencontré lors de mise à jour Windows. Heureusement MS-Windows dispose d'un mécanisme pour contourner cette contrainte.
+    Il est parfois compliqué de supprimer des fichiers. Le système le verrouille pour ces besoins et redemarrer -certains- services ne fonctionne pas toujours. Un probleme souvent rencontré lors de mise à jour Windows. Heureusement MS-Windows dispose d'un mécanisme pour contourner cette contrainte.
 
 category: PowerShell
 classes: wide

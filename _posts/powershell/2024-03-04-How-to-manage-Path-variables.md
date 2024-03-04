@@ -1,8 +1,8 @@
 ---
 title: "Ajouter, supprimer des chemins à la variable PATH."
 excerpt: |
-Deux cmdlets pour industrialiser la modification de la veriable PATH ou PSModulePath.
-Cela peut être utilisé dans le cadre de la création de package chocolatey par exemple...
+    Deux cmdlets pour industrialiser la modification de la veriable PATH ou PSModulePath.
+    Cela peut être utilisé dans le cadre de la création de package chocolatey par exemple...
 
 category: PowerShell
 classes: wide
