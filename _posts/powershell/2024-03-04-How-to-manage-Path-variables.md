@@ -45,7 +45,7 @@ Cet objet pourra vous aider si vous souhaitez faire évoluer vous-mêmes cette f
 [System.io.directory]::Exists
 ```
 
-Ces lignes égelement...
+Cette ligne également...
 
 ```powershell
 $Env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + $PS + [System.Environment]::GetEnvironmentVariable("Path","User")  
