@@ -143,7 +143,7 @@ L'option dhcp créée devrait ressembler à ceci; En moins floue.
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2024-02-14_23h53_13.webp" alt="">
 </figure> 
 
-> Je me rends compte que j'ai un peu survoler l'aspect administration Windows. clic clic toussa toussa... mais faudrait pas passer pour des idiots face aux linuxiens.
+> Je me rends compte que j'ai un peu survolé l'aspect administration Windows. clic clic toussa toussa... mais faudrait pas passer pour des idiots face aux linuxiens.
 
 Voilà de quoi résoudre votre code G03, s'il est toujours là c'est que votre chaine binaire est incorrecte.
 
