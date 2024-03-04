@@ -17,9 +17,9 @@ tags:
 
 De toute évidence, la fonctionnalité Logon Hours est un laissé pour compte de Microsoft. Rien ne semble avoir bougé du coté de cet attribut depuis au moins une décennie.
 
-La plupart des attributs sont modifiables avec des cmdlets dédiées, mais il n’existe pour l’heure absolument rien pour le Logon Hours
+La plupart des attributs sont modifiables avec des cmdlets dédiés, mais il n’existe pour l’heure absolument rien pour le Logon Hours
 
-C’est d’autant plus malheureux que ces attributs me peuvent être définis que sur un compte utilisateur et pas sur un groupe. Automatiser la définition des heures de connexion sur plusieurs utilisateurs à la fois semble être indispensable.
+C’est d’autant plus malheureux que ces attributs me peuvent être définis que sur un compte utilisateur et pas sur un groupe ou une OU. Automatiser la définition des heures de connexion sur plusieurs utilisateurs à la fois semble être indispensable.
 
 Dans cet article je vous présente rapidement les outils que j’ai développés.
 
@@ -34,13 +34,13 @@ Dans cet article je vous présente rapidement les outils que j’ai développés
 
 ## Entrons dans le vif
 
-L'article et le code de Faris Malaed est d'un niveau très correct. Je n'ai apporté que très peu de changement, principalement cosmétiques.
+L'article et le code de Faris Malaed est d'un niveau très correct. Je n'ai apporté que très peu de changements, principalement cosmétiques.
 
-Le changement plus pertinent est le paramètre _LogonPrecedence_, le nom de ce paramètre n'est pas des plus adapté. Comprenez-le comme ceci :
+Le changement le plus pertinent est le paramètre _LogonPrecedence_, le nom de ce paramètre n'est pas des plus adaptés. Comprenez-le comme ceci :
 
 Conjointement à la plage horaire _TimeIn24Format_, _LogonPrecedence_ indique si l'on est en train de spécifier une plage autorisée ou à contrario, interdite. Voyez-le comme un inverseur.
 
-Le second changement est la possibilité de ne pas changer certains jours. Tel que Faris a écrit son code, il y a un manque de granularité : s'il on ne spécifie pas un jour alors, il doit être considéré comme entièrement autorisé ou interdit selon ce qui est précisé par _NonSelectedDaysare_.
+Le second changement est la possibilité de ne pas changer certains jours. Tel que Faris a écrit son code, il y a un manque de granularité : s'il on ne spécifie pas un jour alors, il doit être considéré comme entièrement autorisé ou interdit selon ce qui est précisé par _NonSelectedDaysAre_.
 
 J'ai donc ajouté la considération que l'on puisse vouloir simplement ignorer ce jour.
 
@@ -52,13 +52,14 @@ Notez que le paramètre _TimeIn24Format_ attend une liste (array), tel que :
 
 # pour une plage plus exaustive: 
 -TimeIn24Format  @(8,9,10,11,12,13,14,15,16)
+
 # ou mieux: 
 -TimeIn24Format  (8..16)
 ```
 
 En ce qui concerne les jours, chaque jour est un switch, chaque switch indique que le jour sera soumis à la plage _TimeIn24Format_
 
-Un exemple.
+### Un exemple.
 
 ```powershell
  $SearchBase = 'OU=Users,DC=contoso,DC=fr'
@@ -66,7 +67,7 @@ Un exemple.
 Get-ADUser -Filter * -SearchBase $SearchBase | Set-ADLogonHours -TimeIn24Format (0..5) -Monday -Tuesday -Wednesday -Thursday -Friday -Saturday -LogonPrecedence Deny -NonSelectedDaysare NonWorkingDays
 ```
 
-un autre.
+### un autre exemple.
 
 ```powershell
 Set-ADLogonHours -Identity $User -TimeIn24Format (0..5) -Monday -Tuesday -Wednesday -Thursday -Friday -Saturday -LogonPrecedence Deny -NonSelectedDaysare NonWorkingDays
@@ -82,19 +83,19 @@ Et là vous allez me dire :
 
 > c'est très graphique comme output...
 
-En effet, j'ai choisi l'option la plus visuelle pour savoir si immédiatement si le paramétrage soumis est le bon.
+En effet, j'ai choisi l'option la plus visuelle pour savoir immédiatement si le paramétrage soumis est le bon.
 
 Libre à vous de faire les changements nécessaires si cela ne convient pas. Contrairement au Sel de cuisine, le code est plus facile à retirer qu'à ajouter.
 
 Cela m'amène à la plus grosse partie de mon investissement.
 
-Richard avait de l'idée, Francis aussi. J'en ai encore plus.
+Richard avait de l'idée, Francis aussi. J'en ai encore plus 😁.
 
 En réalité, le code de Francis était très inspirant, je me suis basé dessus, mais l'aspect du code de Richard m'a poussé à aller plus loin.
 
 Pour arriver à obtenir un output qui va au-delà de ce qu'a fait Richard, j'ai dû refondre le code de Francis en profondeur.
 
-Pour l'historique voici la boucle de Francis :
+Pour l'historique, voici la boucle de Francis :
 
 ```powershell
 $ExportArray = For ($Inc = 0; $Inc -lt $User.LogonHours.Count; $Inc += 3) {
@@ -188,7 +189,7 @@ Voici la mienne:
                 }
 ```
 
-Sachez que _Set-ADLogonHours_ dépend de _Get-ADLogonHours_. C'est sur ce dernier que se porte le visuel.
+Sachez que _Set-ADLogonHours_ dépend de _Get-ADLogonHours_. C'est sur ce dernier que repose le visuel.
 
 Bon, je ne vais pas m'étendre davantage sur le sujet, je pense que vous avez compris l'idée.
 
