@@ -84,16 +84,12 @@ Function Get-McAfeeWebContent {
 }
 ```
 
-
 ## Paramètres
 
-Uri: Paramètre obligatoire spécifiant l'URI du contenu web à récupérer.
-
-OutFile: Paramètre obligatoire spécifiant le chemin où le contenu téléchargé sera enregistré.
-
-UseBasicParsing: Commutateur facultatif indiquant s'il faut utiliser une analyse de base pour la requête web.
-
-DisableKeepAlive: Commutateur facultatif indiquant s'il faut désactiver le maintien de connexion HTTP pour la requête web.
+* __Uri__: Paramètre obligatoire spécifiant l'URI du contenu web à récupérer.
+* __OutFile__: Paramètre obligatoire spécifiant le chemin où le contenu téléchargé sera enregistré.
+* __UseBasicParsing__: Commutateur facultatif indiquant s'il faut utiliser une analyse de base pour la requête web.
+* __DisableKeepAlive__: Commutateur facultatif indiquant s'il faut désactiver le maintien de connexion HTTP pour la requête web.
 
 ## Exemple
 
@@ -105,7 +101,6 @@ Cette commande récupère le contenu web depuis "https://example.com" et le sauv
 
 ## Remarques
 
-Cette fonction est conçue pour fonctionner spécifiquement avec McAfee Web Gateway afin de garantir le téléchargement réussi des fichiers après la numérisation antivirus.
-
-Des paramètres et des commutateurs supplémentaires sont disponibles pour la personnalisation et l'optimisation en fonction des besoins spécifiques.
+* Cette fonction est conçue pour fonctionner spécifiquement avec McAfee Web Gateway afin de garantir le téléchargement réussi des fichiers après la numérisation antivirus.
+* Des paramètres et des commutateurs supplémentaires sont disponibles pour la personnalisation et l'optimisation en fonction des besoins spécifiques.
 
