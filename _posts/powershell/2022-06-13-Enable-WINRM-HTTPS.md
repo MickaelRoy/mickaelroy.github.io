@@ -1,7 +1,7 @@
 ﻿---
-title:  "Activer WINRM/PSRemoting avec chiffrement"
+title:  "Configuration de WinRM avec un certificat SSL auto-signé en PowerShell"
 excerpt: |
-  Configurez WINRM et faites du PSRemote en SSL.
+  Découvrez comment configurer WinRM avec un certificat SSL auto-signé pour sécuriser les communications à distance en PowerShell.
   
 category: PowerShell
 classes: wide
@@ -10,19 +10,20 @@ tags:
   - PowerShell
   - Tips
   - Tutoriel
+  - WinRM
+  - SSL
+  - Certificat
 ---
 
-# WINRM
+# Configuration de WinRM avec un certificat SSL auto-signé en PowerShell
 
-Un petit mode operatoire tout simple aujourd'hui.
+Dans les environnements Windows, la configuration de WinRM (Windows Remote Management) est essentielle pour permettre la gestion à distance des machines. Voici comment configurer WinRM avec un certificat SSL auto-signé pour sécuriser les communications à distance en PowerShell.
 
-Activer WINRM c'est facile, mais l'avoir en HTTPS et le configurer en ligne de commande, ca demande une bonne mémoire ou de l'avoir noté quelque part...
-
-Je ne vous explique pas ici comment lancer un Enable-PsRemoting...? je suppose que c'est déjà fait, le port 5985 est donc déjà ouvert.
+Je ne vous explique pas ici comment utiliser Enable-PsRemoting...? je suppose que c'est déjà fait, le port 5985 est donc déjà ouvert.
 
 ## Configurer WINRM avec SSL
-
-Comme je suis un chique type, je vous donne l'astuce pour inclure les noms d'hotes alternatifs.
+### Génération du certificat SSL auto-signé
+Comme je suis un chique type, je vous donne l'astuce pour inclure les noms d'hôtes alternatifs.
 
 ```powershell
 # Nom de l'hôte
@@ -35,19 +36,23 @@ $subjects = @(
 )
 
 $Cert = New-SelfSignedCertificate  -DnsName $Subjects -CertStoreLocation cert:\LocalMachine\My -TextExtension '2.5.29.37={text}1.3.6.1.5.5.7.3.1' -Subject $Subject
+```
 
+Ce code génère un certificat SSL auto-signé pour sécuriser les communications avec l'hôte winserv001, avec plusieurs noms d'hôte et alias.
+
+### Configuration de WinRM avec le certificat SSL
+
+```powershell
 New-WSManInstance  -ResourceURI winrm/config/Listener -SelectorSet @{Address="*";Transport="HTTPS"} -ValueSet @{Hostname="$Subject";CertificateThumbprint="$($Cert.Thumbprint)"}
 
 ```
 Ici le paramètre Address est "*", donc pas de restriction. A vous de gérer vos contraintes et d'en changer la valeur si nécessaire.
 
+Ce code configure WinRM pour écouter les connexions HTTPS et utilise le certificat SSL auto-signé généré précédemment.
+
 ## Le pare-feu
 
-Il est probable que le port 5986 soit toujours fermé.
-
-Curieux, Microsoft ne semble pas mettre à disposition de règle de pare-feu pour le port securisé.
-
-Tant pis, on va la créer... Il y en a une pour le port standard qui se nomme WINRM-HTTP-In-TCP, créons la deuxième (sur la machine de destination):
+Il est possible que le port 5986 soit initialement fermé par le pare-feu, ce qui peut empêcher la communication sécurisée avec WinRM. Curieusement, Microsoft ne fournit pas de règle de pare-feu par défaut pour ce port. Cependant, nous pouvons facilement remédier à cela en créant une règle spécifique sur la machine de destination:
 
 ```powershell
     New-NetFirewallRule -Name "WINRM-HTTPS-In-TCP" `
@@ -62,13 +67,13 @@ Tant pis, on va la créer... Il y en a une pour le port standard qui se nomme WI
 
 ```
 
-Après ca, la communication doit pouvoir être établie entre votre client (Source) et le serveur (Destnation)
+Une fois cette règle de pare-feu créée, la communication sécurisée entre votre client (source) et le serveur (destination) devrait pouvoir être établie sans problème.
 
 # Bonus
 
 Je vous ai décrit une base, pour aller plus loin dans l'automation, il y a une cmdlet sur mon GitHub.
 
-La cmdlet repose sur le module powershell Active-Directory pour recuperer les différents SPN et en déduire les noms d'hôtes alternatifs.
+La cmdlet repose sur le module powershell Active-Directory pour récupérer les différents SPN et en déduire les noms d'hôtes alternatifs.
 
 Ca, c'est cadeau, à plus !
 
