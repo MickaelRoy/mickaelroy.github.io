@@ -22,7 +22,8 @@ Je ne vous explique pas ici comment utiliser Enable-PsRemoting...? je suppose qu
 ## Configurer WINRM avec SSL
 
 ### Génération du certificat SSL auto-signé
-Comme je suis un chique type, je vous donne l'astuce pour inclure les noms d'hôtes alternatifs.
+
+> Comme je suis un chique type, je vous donne l'astuce pour inclure les noms d'hôtes alternatifs.
 
 ```powershell
 # Nom de l'hôte
