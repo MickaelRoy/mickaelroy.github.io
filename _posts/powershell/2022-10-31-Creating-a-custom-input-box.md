@@ -16,11 +16,6 @@ header:
   image_description: "Boite de dialogue en WInForm."
 ---
 
-Vous souhaitez personnaliser l'apparence de votre application PowerShell en ajoutant une zone d'entrée graphique personnalisée ? Pas de problème ! Voici un exemple de code qui vous montre comment créer une telle zone en utilisant PowerShell et WinForms.
-
-
-## Préambule
-
 Je vous avoue que la majeure partie de ce que je vous présente ici est expliqué en détail sur le site de [Microsoft](https://learn.microsoft.com/fr-fr/powershell/scripting/samples/creating-a-custom-input-box?view=powershell-5.1).
 
 Plutôt que de m'attarder sur les bases de Winform, qui sont censées être dépassées depuis un bon moment déjà, je vais plutôt me concentrer sur les astuces qui vont donner du style à cette petite GUI... Bon, soyons honnêtes, on parle de Winform, donc ne vous attendez pas non plus à des miracles.
