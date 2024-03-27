@@ -1,7 +1,7 @@
 ﻿---
-title: "Mettre à jour votre enregistrement DNS dynamique"
+title: "Mettez à jour automatiquement votre IP avec style !"
 excerpt: |
-  Voici un script pour mettre en correspondance votre nom de domaine avec votre adresse IP publique.
+  Découvrez comment mettre à jour automatiquement votre adresse IP avec une touche de style grâce à PowerShell.
   
 category: PowerShell
 classes: wide
@@ -10,20 +10,43 @@ tags:
   - PowerShell
   - Tips
   - DNS
+  - Domains
+  - IP
 header:
   teaser: /assets/images/2022-07-12-Update-Dynamic-DNS.webp
 ---
 
+Ah, la magie de PowerShell combinée à la puissance de Google Domains ! Dans cet article, vous allez découvrir comment mettre à jour automatiquement votre adresse IP avec une touche de style.
+
+## Le Scénario
+
+Imaginez-vous, dans un monde où votre adresse IP change plus souvent que les saisons.
+
+Pas de panique ! Avec quelques lignes de code et une pincée de bonne humeur, vous pouvez automatiser cette tâche fastidieuse.
+
+## Pourquoi est-ce utile ?
+
+Un DNS dynamique est un service qui permet de mettre à jour automatiquement l'adresse IP associée à un nom de domaine. C'est particulièrement utile lorsque vous avez un site Web ou un service hébergé sur votre réseau domestique ou sur un serveur dont l'adresse IP est susceptible de changer.
+
+En utilisant le code PowerShell présenté ici, vous pouvez automatiser le processus de mise à jour de votre adresse IP sur Google Domains (ou NoIP). Cela signifie que votre site Web ou service reste accessible même si votre adresse IP change régulièrement.
+
+
+
 ## DNS dynamique Google
 
-Le DNS dynamique met les noms de domaine Internet en correspondance avec les adresses IP et vous permet d'accéder à un ordinateur de votre réseau domestique où que vous soyez dans le monde.
+### Les Prérequis
 
-Bien entendu, vous devez disposer:
-- d'un nom de domaine Google
-- un nom d'utilisateur pour accéder a l'API Google
-- et son mot de passe
+Avant de plonger dans le code, assurez-vous d'avoir les éléments suivants :
+
+- **Un Nom de Domaine Google :** Vous aurez besoin d'un nom de domaine enregistré auprès de Google Domains. Si vous n'en avez pas encore, vous pouvez en acheter un sur leur site web.
+
+- **Un Nom d'Utilisateur Google :** Vous devrez disposer d'un nom d'utilisateur pour accéder à l'API Google Domains. Assurez-vous de le noter quelque part en lieu sûr !
+
+- **Votre Mot de Passe Google :** Évidemment, vous aurez également besoin de votre mot de passe Google pour vous connecter à l'API. Veillez à choisir un mot de passe sécurisé et à ne le partager avec personne.
 
 Le tout est disponible sur votre dashboard Google Domains
+
+### Le code
 
 ```powershell
 $hostname = "subdomain.domain.xx"
@@ -50,21 +73,24 @@ If ($MyIpPage.RawContent -match "(?:[0-9]{1,3}.){3}[0-9]{1,3}")
     $resp.Content 
 }
 ```
+
 Les réponses attendues dans $resp.Content sont disponibles sur le [Support Google]
 
 [Support Google]: <https://support.google.com/domains/answer/6147083?hl=fr#zippy=%2Cutiliser-lapi-pour-mettre-%C3%A0-jour-votre-enregistrement-dns-dynamique>
 
 ## DNS dynamique NoIP
 
-On a à peu près compris le principe avec Google, j'irai plus vite à l'essentiel avec NoIP.com. 
+On a à peu près compris le principe avec Google, mais que diriez-vous d'aller encore plus vite à l'essentiel avec NoIP.com ? 
 
-Notez simplement que NoIP demande un [User Agent] et qu'il doit être formaté comme ceci:
+NoIP demande un [User Agent] spécifique qui doit être formaté comme suit :
 
 _User-Agent: Company NameOfProgram/OSVersion-ReleaseVersion maintainer-contact@example.com_
 
-Les valeurs sont arbitraires.
+Les valeurs sont arbitraires mais assurez-vous de suivre ce format lors de l'intégration.
 
 [User Agent]:<https://www.noip.com/integrate/add-noip>
+
+Voici un exemple de code pour mettre à jour automatiquement votre adresse IP avec NoIP.com :
 
 ```powershell
 $myhost ="subdomain.domain.xx"

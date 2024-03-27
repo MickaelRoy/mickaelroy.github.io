@@ -10,8 +10,8 @@ tags:
   - PowerShell
   - cmdlet
   - Tips
-  - tracert
-  - ludique
+  - Tracert
+  - Ludique
 ---
 
 ![Brian disapointed]({{ site.url }}{{ site.baseurl }}/assets/images/hopeless-disappointed.gif)
