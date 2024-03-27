@@ -15,13 +15,12 @@ tags:
   - Certificat
 ---
 
-# Configuration de WinRM avec un certificat SSL auto-signé en PowerShell
-
 Dans les environnements Windows, la configuration de WinRM (Windows Remote Management) est essentielle pour permettre la gestion à distance des machines. Voici comment configurer WinRM avec un certificat SSL auto-signé pour sécuriser les communications à distance en PowerShell.
 
 Je ne vous explique pas ici comment utiliser Enable-PsRemoting...? je suppose que c'est déjà fait, le port 5985 est donc déjà ouvert.
 
 ## Configurer WINRM avec SSL
+
 ### Génération du certificat SSL auto-signé
 Comme je suis un chique type, je vous donne l'astuce pour inclure les noms d'hôtes alternatifs.
 
