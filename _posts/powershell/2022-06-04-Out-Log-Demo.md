@@ -1,7 +1,7 @@
 ﻿---
 title:  "Out-Log: une cmdlet qui affiche la couleur"
 excerpt: |
-  Quand on veut horodater les processus longs, voir en un coup d'oeil les évènements importants.
+  Découvrez comment la fonction Out-Log facilite la journalisation dans vos scripts PowerShell en ajoutant des messages datés et catégorisés à des fichiers de log.
   
 category: PowerShell
 classes: wide
@@ -12,24 +12,39 @@ tags:
   - cmdlet
 ---
 
-# Out-Log
+# Présentation de la fonction Out-Log - Améliorez la journalisation dans PowerShell
 
-## Description
+La fonction `Out-Log` est un outil essentiel pour améliorer la journalisation dans vos scripts PowerShell.
 
-Une cmdlet verbeuse qui permet de journaliser en couleur.
+En ajoutant des messages datés et catégorisés à des fichiers de log, elle simplifie le suivi et le débogage de vos processus automatisés.
 
-Je m'en sers très souvent dans des scripts qui demandent beaucoup d'actions et de contrôles.
+Découvrez comment utiliser cette fonctionnalité puissante pour optimiser votre workflow de développement.
 
-Il pourra remplacer les Write-Host, Write-Warning n'co.
+## Utilisation
 
-## Moins de bla-bla, plus de demo
+La fonction `Out-Log` prend plusieurs paramètres :
 
-Je vous montre tout de suite à quoi ça ressemble:
+- **Path** : Le chemin du fichier de journalisation où les messages seront enregistrés.
+- **String** : La description du message à enregistrer.
+- **Action** : La catégorie du message, comme "ERROR", "WARNING", "ACTION", "INFO", ou "SUCCESS".
+- **Encoding** : L'encodage du fichier de journalisation.
+- **NoNewLine** : Option pour empêcher l'ajout d'un saut de ligne à la fin du message.
+- **Tee** : Option pour écrire le message à la fois sur la sortie standard et dans le fichier de journalisation.
+
+## Exemples
+
+```powershell
+"Message d'erreur" | Out-Log ERROR -Path C:\Logs\logfile.txt
+```
+
+```powershell
+"Message d'action" | Out-Log ACTION -Tee -Path C:\Logs\logfile.txt
+```
 
 ![First tips image]({{ site.url }}{{ site.baseurl }}/assets/images/2022-06-04-Out-Log-Demo.gif)
 
 ## Detournement ?
-Petit hack avant de partir... il ne fonctionne pas sur ISE, mais c'est rigolo.
+Petit hack rigolo avant de partir... (il ne fonctionne pas sur ISE)
 
 ```powershell
 $computerList = 'server01', 'server02', 'server03', 'server04', 'server05', 'server06', 'server07', 'server08', 'server09', 'server10'
