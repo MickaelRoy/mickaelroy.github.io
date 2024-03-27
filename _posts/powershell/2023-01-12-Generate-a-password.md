@@ -1,29 +1,38 @@
 ﻿---
-title: "Générer un mot de passe (fort)."
+title: "Générez des mots de passe aléatoires."
 excerpt: |
-  Encore une facon de générer un mot de passe en POwerShell.
+  Découvrez une fonction PowerShell amusante et utile pour créer des mots de passe aléatoires de manière personnalisée.
 
 category: PowerShell
 classes: wide
 comments: true
 tags: 
   - PowerShell
+  - Cmdlet
   - Tips
   - Password
   - Random
 header:
   teaser: /assets/images/2023-01-12_23h19_22.webp
-  image_description: "Apercu du code."
+  image_description: "Générateur de mots de passe aléatoires."
 ---
 
-## Préambule
+Imaginez-vous en train de créer un compte sur un nouveau site Web et de devoir inventer un mot de passe.
+
+Vous avez envie de quelque chose de sécurisé, mais aussi de mémorable. C'est là que notre fonction entre en jeu !
+
+## Introduction
 
 Ce n'est pas mon premier code qui génère un mot de passe, et encore moins le premier code a le faire tout court. Mais l'exercice merite d'être fait et refait par les debutants et les confirmés.
 
 0x1001 facon de traiter le sujet. En voila une de plus.
 
 
-## Entrons dans le vif
+## La fonction Get-RandomPassword
+
+Voici une fonction PowerShell élégante pour générer des mots de passe aléatoires.
+
+Avec Get-RandomPassword, vous pouvez spécifier la longueur du mot de passe, le nombre maximum de caractères spéciaux, et même exclure certaines catégories de caractères comme les majuscules, les minuscules, les chiffres, ou les caractères spéciaux.
 
 ```powershell
 function Get-RandomPassword {
@@ -100,7 +109,11 @@ function Get-RandomPassword {
 }
 ```
 
-J'espere que les explications en commentaire suffiront...
+```powershell
+Get-RandomPassword -Length 12 -MaxSpecial 2 -ShowCharSet
+```
+Exécutez cette commande et voyez par vous-même la magie opérer !
+
 
 <figure style="width: 400px" class="align-center">
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-01-12_23h19_22.webp"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-01-12_23h19_22.webp" alt="3 exemples."></a>
@@ -109,7 +122,8 @@ J'espere que les explications en commentaire suffiront...
 
 ## Conclusion
 
-Bien entendu, il est perfectible, vous constatez qu'il y a un argument MaxSpecial, mais pas de MinSpecial..
-je vous laisse me chambrer en commentaire 😁
+Avec Get-RandomPassword, créer des mots de passe n'a jamais été aussi facile ! Vous pouvez l'intégrer dans vos scripts PowerShell pour améliorer la sécurité de vos applications et vous assurer que vos utilisateurs disposent de mots de passe solides et uniques.
+
+Alors, qu'attendez-vous ? Essayez dès maintenant cette fonction et impressionnez vos collègues avec vos mots de passe dignes d'un génie de l'informatique !
 
 Ça, c'est cadeau, à plus !
