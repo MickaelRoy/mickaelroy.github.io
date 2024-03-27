@@ -1,7 +1,7 @@
 ﻿---
 title: "[BullShit] Répartition des données d'un pool S2D"
 excerpt: |
-  La cmdlet de fumiste, gratter du code pour rien.
+  Découvrez le script de fumiste qui vous permet de gratter du code pour rien et d'avoir une réponse rapide à la question:: les données du pool sont-elles correctement réparties entre les disques ?.
   
 category: S2D
 classes: wide
@@ -22,33 +22,32 @@ header:
 </figure>
 
 
-@Cosmos Darwin, please considere all my appologies regarding what i'm about to do.
+@Cosmos Darwin, please considere all my appologies regarding what I'm about to do.
+
+Ah, le monde merveilleux de PowerShell et des pools S2D ! Dans cet article, je vous présente un script un peu trop sophistiqué qui promet monts et merveilles, mais qui ne fait finalement que brasser de l'air. Mais bon, c'est amusant, je vous assure ! 😄
 
 ## A quoi ce script sert-il ?
 
-Il arrive parfois, notemment après l'insertion de nouveaux disques au sein d'un cluster, que des disques ne soient pas utilisés pour acceuillir des donnés du StoragepPool à la meme echelle que les autres.
+Parfois, après avoir ajouté de nouveaux disques à votre cluster, vous vous retrouvez avec des disques qui ne sont pas utilisés pour accueillir des données du Storage Pool. 
 
-Parfois même, c'est l'ensemble des disques d'un noeud qui sont sous-utilisés.
+Parfois même, c'est l'ensemble des disques d'__un__ noeud qui sont sous-utilisés.
 
 Nous allons pouvoir voir la répartition des données d'un pool S2D grâce à cette astuce.
 
-## D'où nous vient ce script ?
+## Mais d'où nous vient ce script trompeur ?
 
-Sans plus attendre, j'entre dans le vif du sujet.
+Ce script, je le tiens d'un génie du nom de [Cosmos Darwin](https://twitter.com/CosmosDarwin), un véritable maître dans l'art du PowerShell.
 
-L'origine de ce script, je le tiens de [Cosmos Darwin](https://twitter.com/CosmosDarwin), un ingénieur confirmé; Plus précisément de [cette page](https://techcommunity.microsoft.com/t5/storage-at-microsoft/deep-dive-the-storage-pool-in-storage-spaces-direct/ba-p/425959).
+Il a partagé ce petit bijou sur [cette page](https://techcommunity.microsoft.com/t5/storage-at-microsoft/deep-dive-the-storage-pool-in-storage-spaces-direct/ba-p/425959). Merci Cosmos pour cette pépite de code !
 
 ## Pourquoi j'en parle ?
 
-D'ordinaire, je poste les sujets autour d'S2D directement dans la collection prévue à cet effet. 
+Alors, vous vous demandez peut-être pourquoi je parle de ce script ici, sur ce blog. 
 
-> Mais alors pourquoi j'en parle ici ?
+Eh bien, c'est simple : c'est un script que j'ai utilisé un jour pour répondre à une question toute bête:
+> "les données du pool sont-elles correctement réparties entre les disques ?" 
 
-J'y viens... C'est un script qu'il m'est arrivé d'exécuter comme ça, à brule-pourpoint, pour avoir une réponse rapide à une question simple: 
-> -"les données du pool sont-elles correctement réparties entre les disques ?"
-
-Le script en soit est fonctionnel et a son intérêt. 
-Je voulais donc en parler sur un blog en français. J'ai donc entrepris de le nettoyer, et l'améliorer pour pouvoir être exécuté à distance.
+ Et même si le script est un peu trop enjolivé à mon goût, il fonctionne plutôt bien. Alors pourquoi ne pas en parler ici, hein ?
 
 ## Et le "BullShit" dans tout ça ?🤔
 
@@ -61,9 +60,9 @@ A première vue, c'est du lourd, __240 lignes__ pour obtenir un objet PowerShell
   <figcaption>Show-PrettyPool result.</figcaption>
 </figure>
 
-> ...
+Ah, le BullShit... On en vient enfin au cœur du sujet ! Le script original de Cosmos Darwin est un peu... comment dire... chargé en "bullshit".
 
-Et c'est là que vient le bullshit, son script comprends quasiment 200 lignes pour formater les valeurs, et surtout déterminer la racine du nom d'hôte de chaque nœud comme suit:
+Je veux dire, 240 lignes de code pour obtenir un objet PowerShell qui ressemble à ça ? C'est un peu exagéré, non ? Et puis, cette histoire de déterminer la racine du nom d'hôte de chaque nœud, sérieusement ? 😅
 
 ```
 {
@@ -73,14 +72,11 @@ Et c'est là que vient le bullshit, son script comprends quasiment 200 lignes po
 }
 ```
 
-Non seulement c'est une information peu pertinente, mais c'est ça prend un temps fou à calculer.
-Enfin, le cœur même du sujet réside en une boucle qui récupère une poignée de propriétés à un simple _Get-PhysicalDisk_.
+Alors voilà, j'ai pris les choses en main et j'ai réduit le script à l'essentiel, soit 65 lignes de pur bonheur.
 
-## Conclusion
+J'ai même ajouté un fichier format.ps1xml pour ceux qui ont besoin de valeurs humainement lisibles.
 
-En conclusion, j'ai réduit le script à 65 lignes pour avoir l'essentiel. J'ai ajouté un fichier _format.ps1xml_ à côté pour ceux qui ont besoin d'avoir des valeurs humainement lisibles.
-
-Cosmos Darwin a eu l'intelligence de faire l'éxecice de la division _FootPrint/Size_. On l'en remercie. Selon moi, le reste est une fumisterie et je le dis avec toute mon affection 😅.
+Merci Cosmos pour l'idée de la division _FootPrint/Size_, c'était une vraie brillante idée ! Le reste, eh bien, c'est un peu de la fumisterie, mais bon, on lui pardonne ! 😄
 
 J'ai mis tout ça sur mon repo Git.
 
