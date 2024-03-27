@@ -1,7 +1,7 @@
 ﻿---
 title: "Créer une zone d'entrée graphique personnalisée."
 excerpt: |
-  Dans Windows PowerShell 3.0 et versions ultérieures, utilisez les fonctionnalités de création de formulaires de Microsoft .NET Framework pour créer une zone d'entrée graphique personnalisée à l'aide d'un script.
+  Apprenez à créer une zone d'entrée graphique personnalisée en utilisant PowerShell et WinForms.
 
 category: PowerShell
 classes: wide
@@ -9,19 +9,23 @@ comments: true
 tags: 
   - PowerShell
   - Winform
+  - GUI
   - Tips
 header:
   teaser: /assets/images/Invoke-Inputbox.webp
   image_description: "Boite de dialogue en WInForm."
 ---
 
+Vous souhaitez personnaliser l'apparence de votre application PowerShell en ajoutant une zone d'entrée graphique personnalisée ? Pas de problème ! Voici un exemple de code qui vous montre comment créer une telle zone en utilisant PowerShell et WinForms.
+
+
 ## Préambule
 
-Je ne vous cache pas que ce que je vous montre ici, 90% est expliqué chez nos amis [Microsoft](https://learn.microsoft.com/fr-fr/powershell/scripting/samples/creating-a-custom-input-box?view=powershell-5.1).
+Je vous avoue que la majeure partie de ce que je vous présente ici est expliqué en détail sur le site de [Microsoft](https://learn.microsoft.com/fr-fr/powershell/scripting/samples/creating-a-custom-input-box?view=powershell-5.1).
 
-Je ne vais donc pas m'attarder sur ce qu'est du Winform, qui est censé être déprécié depuis des années, mais plutôt me concentrer sur les tips qui font que cette petite GUI aura de la gueule... enfin... c'est du Winform, ne vous attendez pas non plus à un truc de fou.
+Plutôt que de m'attarder sur les bases de Winform, qui sont censées être dépassées depuis un bon moment déjà, je vais plutôt me concentrer sur les astuces qui vont donner du style à cette petite GUI... Bon, soyons honnêtes, on parle de Winform, donc ne vous attendez pas non plus à des miracles.
 
-> GUI tu dis ? ouais j'lé dit. GUI et PowerShell ne s'oppose pas forcément, même si cela semble contre-intuitif.
+> GUI, ça vous dit quelque chose ? Eh oui, même si cela peut sembler étrange, GUI et PowerShell ne sont pas forcément incompatibles.
 
 <figure style="width: 303px" class="align-center">
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Invoke-Inputbox.webp" alt="InputBox">
@@ -34,9 +38,9 @@ Je ne vais donc pas m'attarder sur ce qu'est du Winform, qui est censé être d�
 [System.Windows.Forms.Application]::EnableVisualStyles()
 ```
 
-Cette méthode active les styles visuels pour l’application. Les styles visuels sont les couleurs, les polices et d’autres éléments visuels qui forment un thème de système d’exploitation.
+Cette ligne active les styles visuels pour votre application, ce qui signifie qu'elle bénéficiera des couleurs, des polices et d'autres éléments visuels du thème de votre système d'exploitation.
 
-Doit être placé dans le code avant toute création d'objet.
+Astuce: Assurez-vous de placer cette ligne avant toute création d'objet dans votre code. C'est un peu comme installer les décorations avant de commencer à meubler une pièce.
 
 ## Astuce n°2
 
@@ -70,7 +74,9 @@ $iconBase64 = 'AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAA
         $form.ShowIcon = $True
 ```
 
-Ajoutez une belle icone pour votre application. 16x16 pixels suffit, embarquez le dans un string en base64.
+Dans cet exemple, nous créons une nouvelle fenêtre Windows Forms avec une icône personnalisée (16x16 pixels suffit) et une zone de texte.
+
+Vous pouvez modifier la taille, l'emplacement et d'autres propriétés de la zone d'entrée graphique selon vos besoins.
 
 ## Astuce n°3
 
@@ -90,7 +96,7 @@ Ajoutez une belle icone pour votre application. 16x16 pixels suffit, embarquez l
         $timer.Start()
 ```
 
-Un effet de fondu pour afficher la GUI, en voilà une bonne idée. **1*$($form.Opacity/15)** donnera une sensation d'accélération...
+Ajouter un effet de fondu pour afficher la GUI est une excellente idée ! En utilisant **1*$($form.Opacity/15)**  vous obtiendrez une sensation d'accélération, ce qui rendra l'apparition de la fenêtre plus fluide et agréable pour l'utilisateur.
 
 <figure style="width: 303px" class="align-center">
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/Invoke-InputBox.gif"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Invoke-InputBox.gif" alt="Fade-In-InputBox"></a>
@@ -104,8 +110,9 @@ Un effet de fondu pour afficher la GUI, en voilà une bonne idée. **1*$($form.O
         $form.Font = [System.Drawing.SystemFonts]::DefaultFont
 ```
 
-Forcez le font system par défaut pour une cohérence avec l'OS.
-, ou au contraire, utilisez en une autre pour vous démarquer.
+Avec celle-co vous forcez votre formulaire à adopter la police par défaut du système. Cela garantit une cohérence avec l'apparence générale de l'interface de votre système d'exploitation.
+
+Maintenant, si vous voulez sortir du lot et ajouter une touche de personnalité, n'hésitez pas à choisir une autre police qui vous démarquera. Après tout, il n'y a pas de mal à se démarquer un peu, n'est-ce pas ?
 
 ## Astuce n°5
 
@@ -114,9 +121,11 @@ Forcez le font system par défaut pour une cohérence avec l'OS.
         $form.Dispose()
 ```
 
-N'oubliez pas le Dispose() après le Close(). Si vous développez sous ISE, cela évitera les freezes de ce dernier.
+Lorsque vous fermez votre formulaire avec __$form.Close()__, n'oubliez pas d'appeler __$form.Dispose()__ juste après. Cette méthode est importante, surtout si vous développez sous ISE. Elle permet d'éviter les éventuels freezes de l'ISE, assurant ainsi une meilleure stabilité dans votre travail.
 
 ## Astuce n°6
+
+Offrez-vous le luxe d'un raccourci clavier Ctrl+C pour annuler une action. Ajoutez simplement cette fonctionnalité à votre formulaire avec le code suivant :
 
 ```powershell
         $form.Add_KeyDown({
@@ -127,15 +136,21 @@ N'oubliez pas le Dispose() après le Close(). Si vous développez sous ISE, cela
         })
 ```
 
-Offrez-vous le luxe d'un ctrl+C
+OMaintenant, chaque fois que vous appuierez sur __Ctrl+C__, cela déclenchera automatiquement l'action associée au bouton d'annulation. Pratique, n'est-ce pas ?
 
 ## Conclusion
 
-Voilà, je ne vais pas détailler **tout** le contenu de ce script. Il n'est pas foufou, mais il donne un petit aperçu des possibilités offertes par PowerShell.
+Et voilà, nous arrivons à la fin de ce script !
 
-D'ailleurs le saviez-vous ? PowerShell ISE, est développé en PowerShell il parait...
+Je pourrais passer des heures à détailler chaque petite ligne, mais soyons honnêtes, ce n'est pas non plus le script du siècle. Néanmoins, il offre un petit aperçu des nombreuses possibilités offertes par PowerShell.
 
-Ça, c'est cadeau, à plus !
+D'ailleurs, avez-vous déjà entendu parler du fait que PowerShell ISE est développé en... PowerShell ?
+
+Incroyable, n'est-ce pas ? Cela montre à quel point ce langage est puissant et polyvalent.
+
+Qui aurait cru qu'on puisse créer un outil de développement avec le langage même qu'il utilise ? Fascinant !
+
+Ca, c'est cadeau, à plus !
 
 [Lien Direct](https://github.com/MickaelRoy/Cmdlets/tree/main/Invoke-InputBox){: .btn .btn--info}
 
