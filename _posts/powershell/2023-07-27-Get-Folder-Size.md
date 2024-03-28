@@ -43,7 +43,7 @@ Get-FolderSize C:\Windows
 
 ```
 
-> oh non, moi chuis po d'accord, je prefere l'autre, en plus c'est du one-liner. 😒
+> oh non, moi chuis po d'accord, je préfère l'autre, en plus c'est du one-liner. 😒
 
 -> toi tu sors. 👈🏻
 
