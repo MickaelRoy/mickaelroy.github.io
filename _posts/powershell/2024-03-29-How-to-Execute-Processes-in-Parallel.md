@@ -61,8 +61,6 @@ Invoke-Parallel -Computername "Serveur01", "Serveur02", "Serveur03" -ScriptBlock
 
 Avec Invoke-Parallel, vous pouvez exploiter la puissance du traitement parallèle pour exécuter des tâches efficacement dans votre environnement. Que vous gériez des serveurs, automatisiez des tâches administratives ou traitiez des données, cette fonction offre une solution polyvalente pour optimiser l'exécution des scripts PowerShell.
 
-Explorez davantage sur Invoke-Parallel et débloquez de nouvelles possibilités pour améliorer votre flux de travail PowerShell.
-
 C'était tout pour ce tour ! Restez connecté pour plus d'aventures PowerShell !
 
 À bientôt sur la ligne de commande ! 😉
