@@ -33,19 +33,19 @@ Vous pouvez spécifier la chaîne à rechercher ainsi que l'emplacement à parti
     Find-StringInGpo -String "Audit"
 ```
 
-    Recherche la chaîne "Audit" dans tous les GPOs du domaine actuel.
+Recherche la chaîne "Audit" dans tous les GPOs du domaine actuel.
 
 ```powershell
     Find-StringInGpo -String "PasswordPolicy" -SearchBase "OU=Security Policies,DC=contoso,DC=com"
 ```
 
-    Recherche la chaîne "PasswordPolicy" dans les GPOs situés dans l'unité d'organisation "Security Policies" de domaine contoso.com.
+Recherche la chaîne "PasswordPolicy" dans les GPOs situés dans l'unité d'organisation "Security Policies" de domaine contoso.com.
 
 ```powershell
     Find-StringInGpo -String "Audit" -All
 ```
 
-    Recherche la chaîne "Audit" dans tous les GPOs du domaine actuel.
+Recherche la chaîne "Audit" dans tous les GPOs du domaine actuel.
 
 Ca, c'est cadeau, à plus !
 
