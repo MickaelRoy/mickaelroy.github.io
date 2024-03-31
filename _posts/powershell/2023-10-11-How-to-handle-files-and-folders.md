@@ -28,11 +28,11 @@ Quand je parcours les articles sur LinkedIn, je ne m'attends plus à grand-chose
 
 Ces individus sont facilement reconnaissables : ils amorcent leurs diatribes par un retentissant "Coup de gueule !", suivi de trois retours à la ligne (probablement pour créer un effet de suspense), puis entament un bref prologue pour justifier leur attitude (comprendre: cela n'arrive jamais, mais bon, quand c'est trop, c'est trop !). Ils continuent ensuite avec un monologue parsemé de quelques blocs de texte, chacun agrémenté d'un emoji, comme s'ils cherchaient à crédibiliser leur propos avec une touche artistique...
 
-D'un côté, leurs semblables se féliciteront plus tard d'avoir soutenu ou contredit l'auteur de façon si éloquente... Quant aux autres, ceux qui pourraient revendiquer un certain niveau de maturité, ils préfèrent feindre l'ignorance, n'ayant aucune envie de s'exposer sur un réseau social prétendument "professionnel" et risquer de compromettre leur carrière à la suite d'un commentaire potentiellement mal interprété.
+D'un côté, leurs semblables se féliciteront plus tard d'avoir soutenu ou contredit l'auteur de façon si éloquente... Quant aux autres, ceux qui pourraient (peut être)revendiquer un niveau de maturité certain, ils préfèreront feindre l'ignorance, n'ayant aucune envie de s'exposer sur un réseau social prétendument "professionnel" et risquer de compromettre leur carrière à la suite d'un commentaire potentiellement mal interprété.
 
-Personnellement quand j'ai du temps à tuer, et en quantité suffisante pour m'_attarder_ (au sens littéral du terme) sur un post LinkedIn, il y a articles qui retiennent mon attention. Ceux qui concernent PowerShell en font partis.
+Personnellement quand j'ai du temps à tuer, et en quantité suffisante pour m'attarder (au sens littéral du terme) sur un post LinkedIn, certains articles retiennent mon attention. Ceux qui concernent PowerShell en font partis.
 
-Dans __PowerShell Power User__, le terme __Power__ ususer prend tout son senser. Pas besoin d'être un expert en linguistique pour le comprendre. Alors, quand je m'attarde sur un post PowerShell j'attends un peu de __Power__ et ne souhaite pas juste devenir un peu plus '_attardé_, que je ne le suis déjà. (Ca y est t'as compris le jeu de mot ?)
+Dans __PowerShell Power User__, le terme __Power__ user prend tout son sens. Pas besoin d'être un expert en linguistique pour le comprendre. Alors, quand je m'_attarde_ sur un post PowerShell j'attends un peu de __Power__ et ne souhaite pas juste devenir un peu plus '_attardé_, que je ne le suis déjà. (Ca y est t'as compris le jeu de mot ?)
 
 ## Entrons dans le vif
 
@@ -42,7 +42,7 @@ Dans __PowerShell Power User__, le terme __Power__ ususer prend tout son senser.
 
 Revenons-en à nos moutons. Dans cette vidéo frustrante, on nous explique ce qui est écrit dans tous les manuels, y compris [celui-ci](https://learn.microsoft.com/en-us/powershell/scripting/samples/working-with-files-and-folders). (Un éditeur inconnu et incompris)
 
-Franchement, YouTube est une mine d'informations sans fin. J'ai hâte de découvrir les remparts de sa prochaine vidéo "how to eat your soup with _the help of_ a spoon" 😒
+Franchement, YouTube est une mine d'informations sans fin. J'ai hâte de découvrir les remparts de la prochaine vidéo de ce _créateur de contenu_: "how to eat your soup with _the help of_ a spoon" 😒
 
 Bon, vous n'apprendrez rien de nouveau ce soir avec mon blog, mais restons constructifs ! 😁
 
