@@ -12,7 +12,6 @@ tags:
   - Humour
 ---
 
-
 Honte à moi, chers lecteurs, mais je ne peux plus me taire ! En ce jour fatidique, alors que je languis dans mon lit d'hôpital, un vlog des plus insipides a retenu mon attention... Oh, la joie ! 🙄
 
 Initialement posté sur le saint Graal de la médiocrité intellectuelle, j'ai nommé LinkedIn, sur le canal "PowerShell Power User", je vous assure, rien que ça... Et me voici, tiré de ma torpeur hospitalière, pour vous livrer mes observations.
@@ -27,7 +26,7 @@ Mais laissez-moi vous exposer ma frustration (Ou passez ces quelques lignes si c
 
 Quand je parcours les articles sur LinkedIn, je ne m'attends plus à grand-chose. Ce réseau social semble parfois manquer cruellement de profondeur intellectuelle, évoquant plutôt l'ambiance d'une salle de classe de sixième. Les utilisateurs qui s'y expriment donnent souvent l'impression d'avoir atteint un niveau de maturité tel qu'ils se permettent de lancer des "coups de gueule" avec une désinvolture déconcertante. Ils semblent penser que leurs paroles seront absorbées par l'assemblée, comme si elles émanaient des plus grands sages.
 
-Ces individus sont facilement reconnaissables : ils amorcent leurs diatribes par un retentissant "Coup de gueule !", suivi de trois retours à la ligne (probablement pour créer un effet de suspense), puis entament un bref prologue pour justifier leur attitude (même si cela n'arrive jamais -askip-, mais bon, quand c'est trop, c'est trop !). Ils continuent ensuite avec un monologue parsemé de quelques blocs de texte, chacun agrémenté d'un emoji, comme s'ils cherchaient à crédibiliser leur propos avec une touche artistique... tout en n'oubliant pas de glisser un petit emoji, bien sûr.
+Ces individus sont facilement reconnaissables : ils amorcent leurs diatribes par un retentissant "Coup de gueule !", suivi de trois retours à la ligne (probablement pour créer un effet de suspense), puis entament un bref prologue pour justifier leur attitude (comprendre: cela n'arrive jamais, mais bon, quand c'est trop, c'est trop !). Ils continuent ensuite avec un monologue parsemé de quelques blocs de texte, chacun agrémenté d'un emoji, comme s'ils cherchaient à crédibiliser leur propos avec une touche artistique...
 
 D'un côté, leurs semblables se féliciteront plus tard d'avoir soutenu ou contredit l'auteur de façon si éloquente... Quant aux autres, ceux qui pourraient revendiquer un certain niveau de maturité, ils préfèrent feindre l'ignorance, n'ayant aucune envie de s'exposer sur un réseau social prétendument "professionnel" et risquer de compromettre leur carrière à la suite d'un commentaire potentiellement mal interprété.
 
