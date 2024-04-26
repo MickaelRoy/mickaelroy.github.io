@@ -10,6 +10,7 @@ tags:
   - PowerShell
   - Tips
   - GPO
+  - Cmdlet
 ---
 
 Vous avez des tâches à exécuter sur plusieurs machines et vous voulez gagner du temps ? Ne cherchez pas plus loin ! La fonction Invoke-Parallel est là pour vous.

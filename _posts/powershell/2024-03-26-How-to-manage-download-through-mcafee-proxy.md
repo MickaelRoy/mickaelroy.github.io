@@ -10,6 +10,7 @@ tags:
   - PowerShell
   - Tips
   - McAfee
+  - Cmdlet
 ---
 
 ## Préambule

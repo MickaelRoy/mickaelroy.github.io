@@ -14,6 +14,7 @@ tags:
   - PSGallery
   - PowershellGet
   - Téléchargement
+  - Cmdlet
 ---
 
 La fonction `Get-PSGalleryPackages` permet de télécharger des packages depuis PowerShell Gallery avec leurs dépendances.

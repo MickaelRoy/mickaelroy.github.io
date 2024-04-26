@@ -11,6 +11,7 @@ tags:
   - Winform
   - GUI
   - Tips
+  - Cmdlet
 header:
   teaser: /assets/images/Invoke-Inputbox.webp
   image_description: "Boite de dialogue en WInForm."

@@ -9,6 +9,7 @@ comments: true
 tags: 
   - PowerShell
   - Tips
+  - Cmdlet
 ---
 
 ## Préambule

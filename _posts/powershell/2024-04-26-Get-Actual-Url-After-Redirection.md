@@ -12,6 +12,7 @@ tags:
   - Tips
   - Web
   - Uri
+  - Cmdlet
 ---
 
 La fonction `Get-ActualUrl` permet de récupérer l'URL réelle d'un raccourci à partir de son URL courte, ou après une redirection web.

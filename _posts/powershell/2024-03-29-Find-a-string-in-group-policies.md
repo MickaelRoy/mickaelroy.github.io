@@ -10,6 +10,7 @@ tags:
   - PowerShell
   - Tips
   - GPO
+  - Cmdlet
 ---
 
 Imaginons que vous êtes un administrateur système dans une grande entreprise qui utilise Active Directory pour gérer les stratégies de groupe (GPO) afin de configurer les paramètres de sécurité, de réseau et d'autres paramètres sur les ordinateurs clients. Un jour, votre équipe de sécurité vous informe qu'ils ont identifié une vulnérabilité potentielle dans la configuration des GPO liés à la politique de mot de passe.
