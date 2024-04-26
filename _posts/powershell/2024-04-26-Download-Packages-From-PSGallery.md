@@ -68,6 +68,8 @@ Cette fonction prend en entrée le nom d'un package PowerShell Gallery et un emp
 
 Elle télécharge le package spécifié ainsi que toutes ses dépendances depuis PowerShell Gallery en utilisant l'API et BitsTransfer.
 
+Cette cmdlet est particulièrement utile lorsque l'on dispose d'un référentiel PowershellGet local. 
+
 Utilisez-la lorsque vous avez besoin de télécharger des packages et leurs dépendances à partir de PowerShell Gallery.
 
 Ca, c'est cadeau, à plus !
