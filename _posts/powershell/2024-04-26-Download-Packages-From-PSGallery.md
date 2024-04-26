@@ -33,7 +33,7 @@ Function Get-PSGalleryPackages {
     )
     Function Get-ActualUrl {
         param(
-            [Parameter(Mandatory=$true, ValueFromPipeline=$true,Position=0)]
+            [Parameter(Mandatory=$true, Position=0)]
             [ValidateNotNullOrEmpty()]
             [uri] $Uri
         )

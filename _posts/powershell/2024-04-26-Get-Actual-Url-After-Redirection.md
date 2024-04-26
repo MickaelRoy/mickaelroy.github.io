@@ -21,7 +21,7 @@ La fonction `Get-ActualUrl` permet de récupérer l'URL réelle d'un raccourci �
 ```powershell
 Function Get-ActualUrl {
     param(
-        [Parameter(Mandatory=$true, ValueFromPipeline=$true,Position=0)]
+        [Parameter(Mandatory=$true,Position=0)]
         [ValidateNotNullOrEmpty()]
         [uri] $Uri
     )
