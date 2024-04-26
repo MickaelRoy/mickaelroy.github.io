@@ -1,5 +1,5 @@
 ---
-title: "Obtenir l'URL réelle derrière une URL redirigée"
+title: "Obtenir l'URL réelle derrière une URL redirigée."
 description: "Une fonction PowerShell pour obtenir l'URL réelle d'un raccourci."
 excerpt: |
     Une fonction PowerShell qui permet de récupérer l'URL réelle d'un raccourci à partir de son URL courte.
