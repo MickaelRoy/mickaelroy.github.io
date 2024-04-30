@@ -26,7 +26,7 @@ Il se trouve que je suis un abonné Orange depuis de nombreuses années. Free of
 
 Bref, dans le cadre de la modification de mon contrat fibre, je me suis vu offrir la LiveBox 6 et son décodeur TV.
 
-### le numéro ONT
+### Le numéro ONT
 
 En principe je n'avais qu'à brancher la nouvelle box en lieu et place de l'ancienne...
 
